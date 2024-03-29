@@ -13,7 +13,7 @@ author_profile: true
       <img src='/images/Moments/IMG_3652.jpg' style="border-radius:20px;">
       </a>
     </td>
-    <td style="padding:8px;width:50%;vertical-align:middle;horizontal-align:middle;border:none;">
+    <td style="padding:8px;width:30%;vertical-align:middle;horizontal-align:middle;border:none;">
     <center>The Sky Tree 東京スカイツリー @Tokyo, Japan, 2023</center>
       <a href="/images/Moments/IMG_1063.jpg">
       <img src='/images/Moments/IMG_1063.jpg' style="border-radius:20px;">
