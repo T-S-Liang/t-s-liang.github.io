@@ -13,6 +13,8 @@ redirect_from:
 
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=blue)
 
+![____](https://img.shields.io/badge/____-___%20(2024--Present)-yellowgreen?style=flat-square&color=181717&labelColor=red)
+
 <!-------------------->
 
 I'm currently an undergraduate student at <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. My research interests fall into the field of Electrical Engineering, particularly in the field of **semiconductor devices**, **AI hardware acceleration (IC Design for AI hardware)** and **the implementation of AI algorithms (particularly those related to computer vision and AIGC, like the diffusion models)**. I would continue my graduate study in the field of **Microelectronics/Electrical Engineering** in the fall semester, 2024.
@@ -50,7 +52,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
     </td>
   </tr>
   
-    <tr>
+  <tr>
     <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
       <center><img src='images/zz7zlogo.png' width="300"></center>
     </td>
@@ -193,7 +195,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
 ## *Interesting facts about myself*
 
 * In Chinese context, my name has the same meaning of the word "cool", which refers to the pleasant weather of the season I was born. It's actually a girly name so that people often mistake me as a girl before they meet me.
-* I love country music and Chinese folk, despite can't play guitar well.
+* I love country music and Chinese folk, despite I can't play guitar well.
 * Big fan of Taylor Swift, Adele and Beyoncé.
 
 
