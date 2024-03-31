@@ -12,8 +12,7 @@ redirect_from:
 <!-- <style> h2 { border-bottom: none } </style> -->
 
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=blue)
-
-![xxx](https://img.shields.io/badge/xxx-xxx.%20(2023--Now)-yellowgreen?style=flat-square&color=181717&labelColor=red)
+![xxx](https://img.shields.io/badge/xxx-xxx.%20(2024--Now)-yellowgreen?style=flat-square&color=181717&labelColor=red)
 
 <!-------------------->
 
