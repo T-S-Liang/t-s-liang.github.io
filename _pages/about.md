@@ -13,8 +13,7 @@ redirect_from:
 
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=blue)
 
-
-![Graduate](https://img.shields.io/badge/____-___%20(2024--Present)-yellowgreen?style=flat-square&color=181717&labelColor=red)
+![xxx](https://img.shields.io/badge/xxx-xxx.%20(2023--Now)-yellowgreen?style=flat-square&color=181717&labelColor=red)
 
 <!-------------------->
 
