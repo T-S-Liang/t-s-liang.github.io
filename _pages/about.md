@@ -12,14 +12,13 @@ redirect_from:
 <!-- <style> h2 { border-bottom: none } </style> -->
 
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=blue)
-![xxx](https://img.shields.io/badge/xxx-xxx.%20(2024--Now)-yellowgreen?style=flat-square&color=181717&labelColor=red)
+![M.S.](https://img.shields.io/badge/xxx-xxx.%20(2024--Now)-yellowgreen?style=flat-square&color=181717&labelColor=purple)
 
 <!-------------------->
 
-I'm currently an undergraduate student at <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. My research interests fall into the field of Electrical Engineering, particularly in the field of **semiconductor devices**, **AI hardware acceleration (IC Design for AI hardware)** and **the implementation of AI algorithms (particularly those related to computer vision and AIGC, like the diffusion models)**. I would continue my graduate study in the field of **Microelectronics/Electrical Engineering** in the fall semester, 2024.
+I'm currently an undergraduate student at <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. My research interests fall into the field of Electrical Engineering, particularly in the field of **computer vision, automation, sensing and perception**. I would continue my graduate study in the field of **Electrical Engineering** in the fall semester, 2024.
 
-During my undergraduate studies, I engaged in several research projects spanning condensed matter physics, photonics, and computational physics. These experiences allowed me to build a robust foundation in the fundamental physical principles governing semiconductor materials. My ultimate ambition is to become a **full-stack engineer** with a comprehensive understanding of the entire Electrical and Computer Engineering (ECE) industry. This encompasses knowledge from the fundamental level of Schrödinger's equation, through semiconductor device physics, up to integrated circuit (IC) design, and culminating in the implementation of algorithms.
-
+I'm looking for research opportunities in the field of computer vision and automation, please don't hesitate to contact me if you're recruting graduate students.
 ## Please contact me via:
 
 <i class="fa fa-fw fa-envelope"></i> Email: <a href="mailto:liangshuang@whu.edu.cn">liangshuang@whu.edu.cn</a> or <a href="mailto:tsliang2001@gmail.com">tsliang2001@gmail.com</a>
@@ -35,7 +34,18 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
 ## Education
 <!-- <h2><b>Experience</b></h2> -->
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
-
+  <tr>
+    <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
+      <center><img src='images/graduateschool.png' width="200"></center>
+    </td>
+    <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
+      <b><a href="http://physics.whu.edu.cn/">_______</a>, University of _____.</b>
+      <br>
+      M.S. in _____
+      <br>
+      (Sept. 2024 - Now)
+    </td>
+  </tr>
   <tr>
     <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
       <center><img src='images/WHU.png' width="200"></center>
@@ -45,7 +55,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
       <br>
       B.S. in Physics
       <br>
-      (Sept. 2020 - Now)
+      (Sept. 2020 - Jun. 2024)
     </td>
   </tr>
   
