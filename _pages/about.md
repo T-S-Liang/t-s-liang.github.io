@@ -18,7 +18,7 @@ redirect_from:
 
 I'm currently an undergraduate student at <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. My research interests fall into the field of Electrical Engineering, particularly in the field of **computer vision, automation, sensing and perception**. I would continue my graduate study in the field of **Electrical Engineering** in the fall semester, 2024.
 
-I'm looking for research opportunities in the field of computer vision and automation, please don't hesitate to contact me if you're recruting graduate students.
+I'm looking for research opportunities in the field of computer vision and automation. Please don't hesitate to contact me if you're recruting graduate students.
 ## Please contact me via:
 
 <i class="fa fa-fw fa-envelope"></i> Email: <a href="mailto:liangshuang@whu.edu.cn">liangshuang@whu.edu.cn</a> or <a href="mailto:tsliang2001@gmail.com">tsliang2001@gmail.com</a>
