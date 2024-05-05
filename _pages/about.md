@@ -68,7 +68,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
       <br>
       High School
       <br>
-      (Sept. 2016 - June 2019)
+      (Sept. 2016 - Jun. 2019)
     </td>
   </tr>
 </table>
