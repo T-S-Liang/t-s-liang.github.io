@@ -32,18 +32,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
 ## Education
 <!-- <h2><b>Experience</b></h2> -->
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
-  <tr>
-    <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
-      <center><img src='images/graduateschool.png' width="200"></center>
-    </td>
-    <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
-      <b><a href="http://physics.whu.edu.cn/">_______</a>, University of _____.</b>
-      <br>
-      M.S. in _____
-      <br>
-      (Sept. 2024 - Now)
-    </td>
-  </tr>
+
   <tr>
     <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
       <center><img src='images/WHU.png' width="200"></center>
