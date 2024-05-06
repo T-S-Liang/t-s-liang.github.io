@@ -12,13 +12,11 @@ redirect_from:
 <!-- <style> h2 { border-bottom: none } </style> -->
 
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
-![M.S.](https://img.shields.io/badge/M.S.-xxx%20(2024--Now)-yellowgreen?style=flat-square&color=181717&labelColor=990000)
-
 <!-------------------->
 
-I'm currently an undergraduate student at <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. My research interests fall into the field of Electrical Engineering, particularly in the field of **computer vision, automation, sensing and perception**. I would continue my graduate study in the field of **Electrical Engineering** in the fall semester, 2024.
+I'm currently an undergraduate student at <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. My research interests fall into the field of Electrical Engineering and Computer Science, particularly in the field of **computer vision, automation, sensing and perception**. I would continue my graduate study in the field of **Electrical Engineering and Computer Science** in the fall semester, 2024.
 
-I'm looking for research opportunities in the field of computer vision and automation. Please don't hesitate to contact me if you're recruting graduate students.
+I'm looking for research opportunities in the field of computer vision. Please don't hesitate to contact me if you're recruiting graduate students.
 ## Please contact me via:
 
 <i class="fa fa-fw fa-envelope"></i> Email: <a href="mailto:liangshuang@whu.edu.cn">liangshuang@whu.edu.cn</a> or <a href="mailto:tsliang2001@gmail.com">tsliang2001@gmail.com</a>
