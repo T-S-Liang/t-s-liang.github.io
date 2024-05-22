@@ -124,7 +124,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
   <tr>
     <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Publicity Ambassador (Henan Province)</b>, Admission Office, Undergraduate College, Wuhan University
     </td>
-    <td style="padding:8px;width:30%;vertical-align:right;border:none;"> Sept. 2021 - Present
+    <td style="padding:8px;width:30%;vertical-align:right;border:none;"> Sept. 2021 - Jun. 2024
     </td>
   </tr>
   
@@ -145,7 +145,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
    <tr>
     <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Membership</b>, iOS Club (with Apple Inc.), Wuhan University
     </td>
-  <td style="padding:8px;width:30%;vertical-align:right;border:none;">Sept. 2020 - Present
+  <td style="padding:8px;width:30%;vertical-align:right;border:none;">Sept. 2020 - Jun. 2024
     </td>
   </tr>
   
