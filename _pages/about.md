@@ -14,7 +14,7 @@ redirect_from:
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
 <!-------------------->
 
-I'm currently an undergraduate student at <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. My research interests fall into the field of Electrical Engineering and Computer Science, particularly in the field of **computer vision, automation, sensing and perception**. I would continue my graduate study in the field of **Electrical Engineering and Computer Science** in the fall semester, 2024.
+I'm currently an undergraduate student at <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. My research interests fall into the field of Electrical Engineering and Computer Science, particularly in the field of **computer vision, automation, sensing and perception**. I would continue my graduate study in the field of **Electrical and Computer Engineering** in the fall semester, 2024.
 
 I'm seeking research opportunities in the field of computer vision and world models. I'm particularly interested in integrating methods for solving partial differential equations (PDEs) into AI algorithms. I believe that this approach could provide innovative insights into how artificial intelligence can understand the physical world more intrinsically.
 ## Please contact me via:
@@ -25,7 +25,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
 
 ## What's new:
 **[May. 12nd, 2024]** I passed my undergraduate thesis defense and will graduate from WHU with a B.S. in Physics in June.<br>
-**[Feb. 2nd, 2024]** I'll be an MLE research intern at Beijing Rama Alpaca Co. Ltd. in the spring semester under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a>.<br>
+**[Feb. 2nd, 2024]** I'll be an MLE research intern at Beijing Rama Alpaca Co. Ltd. in the spring semester under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a>, collaborating with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href = "https://yyuanad.github.io">Yuan Yuan</a>.<br>
 **[Feb. 9th, 2023]** I've joined Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a>'s group at Wuhan University as a research assistant this semester!<br>
 **[Feb. 14th, 2022]** I've just joined Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>'s group at Wuhan University for undergraduate research!<br>
 
