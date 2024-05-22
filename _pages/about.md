@@ -24,7 +24,7 @@ I'm seeking research opportunities in the field of computer vision and world mod
 You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a place for me to update some pieces of my daily life and share some of my ideas. (Articles from my WeChat Official Account are Chinese only.)
 
 ## What's new:
-**[May. 12nd, 2024]** I passed my undergraduate thesis defense and will graduate from WHU with a B.S. in Physics in June.
+**[May. 12nd, 2024]** I passed my undergraduate thesis defense and will graduate from WHU with a B.S. in Physics in June.<br>
 **[Feb. 2nd, 2024]** I'll be an MLE research intern at Beijing Rama Alpaca Co. Ltd. in the spring semester under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a>.<br>
 **[Feb. 9th, 2023]** I've joined Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a>'s group at Wuhan University as a research assistant this semester!<br>
 **[Feb. 14th, 2022]** I've just joined Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>'s group at Wuhan University for undergraduate research!<br>
