@@ -16,7 +16,7 @@ redirect_from:
 
 I'm currently an undergraduate student at <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. My research interests fall into the field of Electrical Engineering and Computer Science, particularly in the field of **computer vision, automation, sensing and perception**. I would continue my graduate study in the field of **Electrical and Computer Engineering** in the fall semester, 2024.
 
-I'm seeking research opportunities in the field of computer vision and world models. I'm particularly interested in integrating methods for solving partial differential equations (PDEs) into AI algorithms. I believe that this approach could provide innovative insights into how artificial intelligence can understand the physical world more intrinsically.
+I'm seeking research opportunities in the field of computer vision. Please don't hesitate to contact me if you're interested in recruiting graduate student!
 ## Please contact me via:
 
 <i class="fa fa-fw fa-envelope"></i> Email: <a href="mailto:tsliang2001@gmail.com">tsliang2001@gmail.com</a> or <a href="mailto:liangshuang@whu.edu.cn">liangshuang@whu.edu.cn</a>
@@ -46,18 +46,6 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
     </td>
   </tr>
   
-  <tr>
-    <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
-      <center><img src='images/zz7zlogo.png' width="300"></center>
-    </td>
-    <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
-      <b><a href="https://zz7z.zzedu.net.cn">Zhengzhou No.7 Middle School</a></b>
-      <br>
-      High School
-      <br>
-      (Sept. 2016 - Jun. 2019)
-    </td>
-  </tr>
 </table>
 
 ## Publications
