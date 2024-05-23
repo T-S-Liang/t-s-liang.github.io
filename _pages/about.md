@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "Greetings! This is Tim S. Liang | 梁爽"
+title: "Greetings! This is Shuang Liang (Tim) | 梁爽"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
