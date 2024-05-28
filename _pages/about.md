@@ -68,30 +68,6 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
   </tr>
 </table>
 
-
-## Open-source Projects
-
-<table style="font-size:0.95em;">
-  <tr>
-    <td align="center">
-      <img src="/images/TBG.jpg" width="400px" alt=""/><br>
-      <a href="https://github.com/T-S-Liang/TBG_Strain/stargazers">
-      <img alt="GitHub stars" src="https://img.shields.io/github/stars/T-S-Liang/TBG_Strain?style=social">
-      </a>
-      <a href="https://github.com/T-S-Liang/TBG_Strain/network/members">
-      <img alt="GitHub forks" src="https://img.shields.io/github/forks/T-S-Liang/TBG_Strain?style=social">
-      </a>
-    </td>
-    <td align="center">
-      <strong>
-        <a href="https://github.com/T-S-Liang/TBG_Strain">
-        Modeling Strain Tensor Field in TBG.
-        </a> [Commputational CMT] <br> 
-      </strong>
-        [<a href="https://github.com/T-S-Liang/TBG_Strain">GitHub</a>]
-    </td>
-  </tr>
-  </table>
   
 ## Github Stats
 
