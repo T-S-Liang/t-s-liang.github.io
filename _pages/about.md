@@ -123,6 +123,8 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
     </td>
     <td style="border:none;text-align:center;">2024
     </td>
+  </tr>
+
   <tr>
     <td style="border:none;"><i>First Class Scholarship</i> (Top 5%, for academic excellence, ¥3,000 CNY) by Wuhan University.
     </td>
