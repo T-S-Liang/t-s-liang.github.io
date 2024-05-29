@@ -119,7 +119,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
 <!-- <h2><b>Selected Honors</b></h2> -->
 <table style="border:none;font-size:0.95em;">
   <tr>
-    <td style="border:none;"><i>Outstanding Bachelor's Thesis at Wuhan University</i> (Top 5%, in the School of Physics an Technology).
+    <td style="border:none;"><i>Outstanding Bachelor's Thesis at Wuhan University</i> (Top 5%, in the School of Physics and Technology).
     </td>
     <td style="border:none;text-align:center;">2024
     </td>
