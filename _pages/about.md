@@ -53,11 +53,11 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
 <table style="width:100%;border:None;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <b>1. "Saturable Absorption of Few-layer $\mathrm{WSe_{2}}$ and $\mathrm{WS_{2}}$ at Exciton Resonance"</b>, 
+      <b>1. "Saturable Absorption of Few-layer $\mathrm{WS_{2}}$ and $\mathrm{WSe_{2}}$ at Exciton Resonance"</b>, 
       <br>
       <u>Shuang Liang</u>, Yuze Lu, Haimu Liu, Xiaohe Shang, Jiamin Ji, Rongguang Du, Yiling Yu and Shunping Zhang*.
       <br>
-      <i>Under submission to $Applied/ Physics/ Letters$.</i>
+      <i>Under submission to $Applied\ Physics\ Letters$.</i>
       <br>
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
