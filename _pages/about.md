@@ -160,8 +160,8 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
 ## *Interesting facts about myself*
 
 * In Chinese context, my name has the same meaning of the word "cool", which refers to the pleasant weather of the season I was born. It's actually a girly name so that people often mistake me as a girl before they meet me.
-* I love country music and Chinese folk, despite I can't play guitar well.
-* I also love EDM music, I'm a big fan of Kygo, Martin Garrix, the Chainsmokers and Avicii.
+* Music fills my spare time in daily life. I love country music and Chinese folk, despite I can't play guitar well.
+* I also love EDM music, I'm a big fan of Kygo, Martin Garrix, The Chainsmokers and Avicii.
 * Big fan of Taylor Swift, Adele and Beyoncé.
 
 
