@@ -14,7 +14,7 @@ redirect_from:
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
 <!-------------------->
 
-I'm currently an undergraduate student at <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. My research interests fall into the field of Electrical Engineering and Computer Science, particularly in the field of **computer vision, automation, sensing and perception**. I would continue my graduate study in the field of **Electrical and Computer Engineering** in the fall semester, 2024.
+I'm currently an undergraduate student at <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. My research interests fall into the field of Computer Science, particularly in the field of **computer vision, generative AI, and multi-modal learning**.
 
 I'm seeking research opportunities in the field of computer vision. Please don't hesitate to contact me if you're interested in recruiting graduate student!
 ## Please contact me via:
