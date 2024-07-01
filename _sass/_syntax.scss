@@ -21,7 +21,8 @@ div.highlighter-rouge, figure.highlight {
     #content: "";
     // content: "\f121";
     // font-family: "fontawesome" !important;
-    font-size: $type-size-6;
+    // font-size: $type-size-6;
+    font-size: $type-size-4;
     line-height: 1;
     text-transform: none;
     speak: none;
@@ -30,7 +31,8 @@ div.highlighter-rouge, figure.highlight {
   .highlight {
     margin: 0;
     font-family: $monospace;
-    font-size: $type-size-7;
+    // font-size: $type-size-7;
+    font-size: $type-size-5;
     line-height: 1.8;
   }
 }
