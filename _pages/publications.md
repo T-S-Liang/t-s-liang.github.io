@@ -22,7 +22,7 @@ author_profile: true
       <br>
       <u>Shuang Liang</u>, Yuze Lu, Haimu Liu, Xiaohe Shang, Jiamin Ji, Rongguang Du Yiling Yu and Shunping Zhang*.
       <br>
-      <i>Under submission to $Applied\ Physics\ Letters$.</i>
+      <i>Under submission. Coming soon.</i>
       <br>
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
