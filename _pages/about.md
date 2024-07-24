@@ -99,20 +99,6 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
     </td>
   </tr>
   
-  <tr>
-    <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Captain</b>, Debate Team of School of Physics and Technology, Wuhan University
-    </td>
-    <td style="padding:8px;width:30%;vertical-align:right;border:none;">June 2021 - July 2022
-    </td>
-  </tr>
-  
-   <tr>
-    <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Membership</b>, iOS Club (with Apple Inc.), Wuhan University
-    </td>
-  <td style="padding:8px;width:30%;vertical-align:right;border:none;">Sept. 2020 - Jun. 2024
-    </td>
-  </tr>
-  
   </table>
   
 ## Selected Honors
@@ -131,24 +117,6 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
     <td style="border:none;text-align:center;">2021
     </td>
   </tr>
-  <tr>
-    <td style="border:none;"><i>Hubei Provincial Physics Experiment Innovation Design Competition</i>, First Prize.
-    </td>
-    <td style="border:none;text-align:center;">2021
-    </td>
-  </tr>
-  <tr>
-    <td style="border:none;"><i>Hubei Provincial Physics Experiment Innovation Competition</i>, Second Prize.
-    </td>
-    <td style="border:none;text-align:center;">2022
-    </td>
-  </tr>
-    <tr>
-    <td style="border:none;"><i>National College Students Physics Experiment Competition</i>, National Excellence Award.
-    </td>
-    <td style="border:none;text-align:center;">2021
-    </td>
-  </tr>
 </table>
 
 ## Review
@@ -160,9 +128,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
 ## *Interesting facts about myself*
 
 * In Chinese context, my name has the same meaning of the word "cool", which refers to the pleasant weather of the season I was born. It's actually a girly name so that people often mistake me as a girl before they meet me.
-* Music fills my spare time in daily life. I love country music and Chinese folk, despite I can't play guitar well.
-* I also love EDM music, I'm a big fan of Kygo, Martin Garrix, The Chainsmokers and Avicii.
-* Big fan of Taylor Swift, Adele and Beyoncé.
+* Music fills my spare time in daily life. I love country music and Chinese folk, despite I can't play guitar well. I also love EDM music, I'm a big fan of Kygo, Martin Garrix, The Chainsmokers and Avicii. I'm a big fan of Taylor Swift, Adele and Beyoncé.
 
 
 --------
