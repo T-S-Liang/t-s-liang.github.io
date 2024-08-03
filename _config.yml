@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shuang Liang（梁爽）"
+title                    : "Tim Liang（梁爽）"
 title_separator          : "-"
-name                     : &name "Shuang Liang"
+name                     : &name "Tim Liang"
 description              : &description "This is my homepage, welcome!"
 url                      : https://tsliang.top/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
