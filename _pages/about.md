@@ -12,7 +12,7 @@ redirect_from:
 <!-- <style> h2 { border-bottom: none } </style> -->
 
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
-![Master's.](https://img.shields.io/badge/Master's-__U%20(2024--Present)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
+![M.Eng.](https://img.shields.io/badge/M.Eng.-__U%20(2024--Present)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
 <!-------------------->
 
 I'm currently a Machine Learning Engineer intern at Beijing Rama Alpaca Technology Company. Before that, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. My research interests fall into the field of Computer Science, particularly in the field of **computer vision, generative AI, and multi-modal learning**.
