@@ -129,9 +129,9 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
 
 ## *Interesting facts about myself*
 
-* In Chinese context, my name has the same meaning of the word "cool", which refers to the pleasant weather of the season I was born. It's actually a girly name so that people often mistake me as a girl before they meet me.
+* In Chinese context, my name has the same meaning of the word "cool", which refers to the pleasant weather of the season I was born. It's actually a girly name so that people often mistake me as a girl before they meet me. My preferred name is Tim, which is my English name but not part of my legal name.
 * Music fills my spare time in daily life. I love country music and Chinese folk, despite I can't play guitar well. I also love EDM and am a big fan of Kygo, Martin Garrix, The Chainsmokers, and Avicii. I'm also a fan of Taylor Swift, Adele, Billie Eilish, and Beyoncé. You can always find interesting topics with me regarding music from various genres.
-* My MBTI personality is INFP, but I am pretty outgoing once we get to know each other. Please forgive me if I seem shy and introverted at first. I become more of an extrovert once we are familiar with each other.
+* My MBTI personality is INFP, so please forgive me if I seem shy and introverted at first. I become pretty outgoing once we get to know each other. 
 
 --------
 
