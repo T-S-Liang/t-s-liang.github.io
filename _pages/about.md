@@ -12,11 +12,10 @@ redirect_from:
 <!-- <style> h2 { border-bottom: none } </style> -->
 
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
+![](https://img.shields.io/badge/___-___%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
 <!-------------------->
 
-I'm currently a Machine Learning Engineer intern at Beijing Rama Alpaca Technology Company. Before that, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. My research interests fall into the field of Computer Science, particularly in the field of **computer vision, generative AI, perception algorithms, and multi-modal learning**.
-
-I'm seeking research opportunities in the field of computer vision and machine learning. Please don't hesitate to contact me if you're interested in recruiting graduate student!
+I'm currently a first year graduate student at the University of ______. Before that, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. I also spent a wonderful time as an Machine Learning Engineer intern at Beijing Rama Alpaca Technology Company.
 
 ## Please contact me via:
 
@@ -25,6 +24,7 @@ I'm seeking research opportunities in the field of computer vision and machine l
 You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a place for me to update some pieces of my daily life and share some of my ideas. (Articles from my WeChat Official Account are Chinese only.)
 
 ## What's new:
+**[Aug 28th, 2024]** 🧑‍🎓**New Journey@___** I would start my new academic journey at the University of _____ in collaboration with Professor _____.
 **[June 22nd, 2024]** 🎓**Graduation@WHU:** Received my Bachelor of Science degree in Physics from Wuhan University. I am more than grateful to have received guidance and enlightenment in computational physics and AI4Sci from Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a>, and guidance in experimental optoelectronics from Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a> in my undergraduate studies.<br>
 **[Feb. 2nd, 2024]** 🧑‍💻**Internship@Rama Alpaca:** I just started to be an MLE research intern at Beijing Rama Alpaca Co. Ltd. in the spring semester under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> from MIT, collaborating with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a>@HKUST and Prof. <a href = "https://yyuanad.github.io">Yuan Yuan</a>@Boston College.<br>
 **[Feb. 9th, 2023]** 🧑‍💻**Research@CPCS-WHU:** I've joined Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a>'s group at Wuhan University as a research assistant this semester!<br>
