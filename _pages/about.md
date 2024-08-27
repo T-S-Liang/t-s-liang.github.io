@@ -12,7 +12,7 @@ redirect_from:
 <!-- <style> h2 { border-bottom: none } </style> -->
 
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
-![](https://img.shields.io/badge/___-___%20(2024--Present)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
+![](https://img.shields.io/badge/__-__%20(2024--Present)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
 <!-------------------->
 
 I'm currently a first year graduate student at the University of ______. Before that, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. I also spent a wonderful time as an Machine Learning Engineer intern at Beijing Rama Alpaca Technology Company.
