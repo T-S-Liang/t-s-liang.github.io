@@ -24,7 +24,7 @@ I'm currently a first year graduate student at the University of ______. Before 
 You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a place for me to update some pieces of my daily life and share some of my ideas. (Articles from my WeChat Official Account are Chinese only.)
 
 ## What's new:
-**[Aug 28th, 2024]** 🧑‍🎓**New Journey@___:** I would start my new academic journey at the University of _____ in collaboration with Professor _____.<br>
+**[Aug 28th, 2024]** ✈️**New Journey@:** I would start my new academic journey at the University of _____ in collaboration with Professor _____.<br>
 **[June 22nd, 2024]** 🎓**Graduation@WHU:** Received my Bachelor of Science degree in Physics from Wuhan University. I am more than grateful to have received guidance and enlightenment in computational physics and AI4Sci from Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a>, and guidance in experimental optoelectronics from Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a> in my undergraduate studies.<br>
 **[Feb. 2nd, 2024]** 🧑‍💻**Internship@Rama Alpaca:** I just started to be an MLE research intern at Beijing Rama Alpaca Co. Ltd. in the spring semester under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> from MIT, collaborating with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a>@HKUST and Prof. <a href = "https://yyuanad.github.io">Yuan Yuan</a>@Boston College.<br>
 **[Feb. 9th, 2023]** 🧑‍💻**Research@CPCS-WHU:** I've joined Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a>'s group at Wuhan University as a research assistant this semester!<br>
