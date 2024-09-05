@@ -17,6 +17,8 @@ redirect_from:
 
 I'm currently a first year Ph.D. student in Electrical and Electronics Engineering at the University of advised by Professor . Previously, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as an Machine Learning Engineer intern at Beijing Rama Alpaca Technology Company in the last semester of my undergraduate study.
 
+My research interests lie in the field of **in-memory computing, emerging memory devices, and hardware-software co-design for novel AI accelerators**. Currently, I am exploring the circuit implementation of deep learning reinforcement algorithms based on emerging memory crossbar arrays, aiming at low-energy consumption applications.
+
 ## Please contact me via:
 
 <i class="fa fa-fw fa-envelope"></i> Email: <a href="mailto:tsliang2001@gmail.com">tsliang2001@gmail.com</a> or <a href="mailto:liangshuang@whu.edu.cn">liangshuang@whu.edu.cn</a>
