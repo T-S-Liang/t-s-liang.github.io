@@ -44,6 +44,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
       <b><a href="http://physics.whu.edu.cn/">School of Physics and Technology</a>, Wuhan University.</b>
       <br>
       B.S. in Physics
+      <br>
       Dissertation: Constructing Tight-binding Model Based on Deep Learning
       <br>
       (Sept. 2020 - Jun. 2024)
