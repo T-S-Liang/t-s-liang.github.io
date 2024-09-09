@@ -12,12 +12,9 @@ redirect_from:
 <!-- <style> h2 { border-bottom: none } </style> -->
 
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
-![Ph.D.](https://img.shields.io/badge/Ph.D.-__%20(2024--Present)-yellowgreen?style=flat-square&color=181717&labelColor=e05430)
 <!-------------------->
 
 I'm currently a first year Ph.D. student in Electrical and Electronics Engineering at the University of advised by Professor . Previously, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as an Machine Learning Engineer intern at Beijing Rama Alpaca Technology Company in the last semester of my undergraduate study.
-
-My research interests lie in the field of **in-memory computing, emerging memory devices, and hardware-software co-design for novel AI accelerators**. Currently, I am exploring the circuit implementation of deep learning reinforcement algorithms based on emerging memory crossbar arrays, aiming at low-energy consumption applications.
 
 ## Please contact me via:
 
@@ -26,7 +23,6 @@ My research interests lie in the field of **in-memory computing, emerging memory
 You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a place for me to update some pieces of my daily life and share some of my ideas. (Articles from my WeChat Official Account are Chinese only.)
 
 ## What's new:
-**[Sept. 5th, 2024]** ✈️ **New Journey@:** I would start my new academic journey at the University of  in collaboration with Professor .<br>
 **[June 22nd, 2024]** 🎓**Graduation@WHU:** Received my Bachelor of Science degree in Physics from Wuhan University. I am more than grateful to have received guidance and enlightenment in computational physics and AI4Sci from Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a>, and guidance in experimental optoelectronics from Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a> in my undergraduate studies.<br>
 **[Feb. 2nd, 2024]** 🧑‍💻**Internship@Rama Alpaca:** I just started to be an MLE research intern at Beijing Rama Alpaca Co. Ltd. in the spring semester under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> from MIT, collaborating with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a>@HKUST and Prof. <a href = "https://yyuanad.github.io">Yuan Yuan</a>@Boston College.<br>
 **[Feb. 9th, 2023]** 🧑‍💻**Research@CPCS-WHU:** I've joined Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a>'s group at Wuhan University as a research assistant this semester!<br>
