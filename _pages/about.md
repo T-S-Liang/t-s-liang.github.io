@@ -14,7 +14,7 @@ redirect_from:
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
 <!-------------------->
 
-I'm currently a first year Ph.D. student in Electrical and Electronics Engineering at the University of advised by Professor . Previously, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as an Machine Learning Engineer intern at Beijing Rama Alpaca Technology Company in the last semester of my undergraduate study.
+I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as an Machine Learning Engineer intern at Beijing Rama Alpaca Technology Company in the last semester of my undergraduate study.
 
 ## Please contact me via:
 
