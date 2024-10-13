@@ -75,6 +75,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
   <tr>
     <td align="center">
       <img src='/images/SA.png' width="300">
+      <br>
       <a href="https://github.com/t-s-liang/TBG_Strain/stargazers">
       <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/TBG_Strain?style=social">
       </a>
@@ -91,7 +92,8 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
         [<a href="https://arxiv.org/pdf/">PDF</a>]
     </td>
   </tr>
-  
+</table>
+
 ## Github Stats
 
 <table style="font-size:0.92em;">
