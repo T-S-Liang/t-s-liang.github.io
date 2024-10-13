@@ -69,7 +69,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
   </tr>
 </table>
 
-## 🎓 Featured Research Items ([GoogleScholar](https://scholar.google.com/citations?user=))
+## Featured Research Items ([GoogleScholar](https://scholar.google.com/citations?user=))
 
 <table style="width:100%;border:None;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
   <tr>
@@ -88,7 +88,8 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
       [<a href="https://github.com/t-s-liang/BAT">Github</a>]
     </td>
   </tr>
-  
+</table>
+
 ## Github Stats
 
 <table style="font-size:0.92em;">
