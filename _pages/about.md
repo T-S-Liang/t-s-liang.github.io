@@ -74,7 +74,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
 <table style="font-size:0.95em;">
   <tr>
     <td align="center">
-      <img src='/images/SA.png' width="300">
+      <img src='/images/SDP.png' width="300">
       <br>
       <a href="https://github.com/t-s-liang/TBG_Strain/stargazers">
       <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/TBG_Strain?style=social">
