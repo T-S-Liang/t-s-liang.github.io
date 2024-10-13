@@ -69,6 +69,25 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
   </tr>
 </table>
 
+## 🎓 Featured Research Items ([GoogleScholar](https://scholar.google.com/citations?user=))
+
+<table style="width:100%;border:None;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+  <tr>
+    <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
+      <a href="images/cv25.png">
+      <img src='images/cv25.png' width="300">
+      </a>
+    </td>
+    <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
+      <b>"Coming Soon."</b>
+      <br>
+      <u>Coming Soon</u>, et al. <i>In '25</i>. 
+      <br>
+      [<a href="https://arxiv.org/pdf/">PDF</a>]
+      [<a href="https://arxiv.org/abs/">arXiv</a>]
+      [<a href="https://github.com/t-s-liang/BAT">Github</a>]
+    </td>
+  </tr>
   
 ## Github Stats
 
