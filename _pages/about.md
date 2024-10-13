@@ -69,27 +69,29 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
   </tr>
 </table>
 
-## Featured Research Items ([GoogleScholar](https://scholar.google.com/citations?user=))
+## Featured Open-source Projects ([Github](https://github.com/t-s-liang))
 
-<table style="width:100%;border:None;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+<table style="font-size:0.95em;">
   <tr>
-    <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
-      <a href="images/cv25.png">
-      <img src='images/cv25.png' width="300">
+    <td align="center">
+      <img src='/images/SA.png' width="300">
+      <a href="https://github.com/t-s-liang/TBG_Strain/stargazers">
+      <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/TBG_Strain?style=social">
+      </a>
+      <a href="https://github.com/t-s-liang/TBG_Strain/network/members">
+      <img alt="GitHub forks" src="https://img.shields.io/github/forks/t-s-liang/TBG_Strain?style=social">
       </a>
     </td>
-    <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
-      <b>"Coming Soon."</b>
-      <br>
-      <u>Coming Soon</u>, et al. <i>In '25</i>. 
-      <br>
-      [<a href="https://arxiv.org/pdf/">PDF</a>]
-      [<a href="https://arxiv.org/abs/">arXiv</a>]
-      [<a href="https://github.com/t-s-liang/BAT">Github</a>]
+    <td align="center">
+      <strong>
+        <a href="https://github.com/t-s-liang/TBG_Strain">
+        Coming Soon.
+        </a> [Python Library] <br> 
+      </strong>
+        [<a href="https://arxiv.org/pdf/">PDF</a>]
     </td>
   </tr>
-</table>
-
+  
 ## Github Stats
 
 <table style="font-size:0.92em;">
