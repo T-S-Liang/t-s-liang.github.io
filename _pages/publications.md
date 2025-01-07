@@ -22,7 +22,7 @@ author_profile: true
       <br>
       <u>Shuang Liang</u>, Yuze Lu, Haimu Liu, Xiaohe Shang, Jiamin Ji, Rongguang Du Yiling Yu and Shunping Zhang*.
       <br>
-      <i>Under review at $Optica\ Optics\ Express$ (JCR Q1).</i>
+      <i>$Optica\ Optics\ Express$ (JCR Q1, CAS Q2).</i>
       <br>
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
