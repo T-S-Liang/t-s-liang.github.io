@@ -14,7 +14,9 @@ redirect_from:
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
 <!-------------------->
 
-I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as a Machine Learning Engineer intern at Beijing Rama Alpaca Technology Company in the last semester of my undergraduate study.
+Currently, I'm a research post graduate student at the Department of Electrical and Electronic Engineering at The University of Hong Kong. Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as a Machine Learning Engineer intern at Beijing Rama Alpaca Technology Company in the last semester of my undergraduate study.
+
+I am dedicated to becoming a full-stack engineer in the field of Electronic and Computer Engineering (ECE), as I have bottom-up experiences from machine learning algorithms, computer architecture, integrated-circuit design, and device physics. My research interests fall into the field of in-memory computing systems based on emerging memory devices, focusing on the co-design of efficient architectures, circuits, and algorithms to enhance system performance and energy efficiency, while also exploring model compression and deep learning algorithm development for resource-constrained environments.
 
 ## Please contact me via:
 
@@ -23,7 +25,7 @@ I obtained my Bachelor of Science degree in Physics from <a href = "https://phys
 You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a place for me to update some pieces of my daily life and share some of my ideas. (Articles from my WeChat Official Account are Chinese only.)
 
 ## What's new:
-**[Jan. 9th, 2024]** **🍻Optica Optics Express '25** One paper for my undergraduate research accepted by Optics Express! Thank Professor Zhang for his valuable guidance.
+**[Jan. 9th, 2024]** **🍻Optica Optics Express '25:** One paper for my undergraduate research accepted by Optics Express! Thank Professor Zhang for his valuable guidance.<br>
 **[June 22nd, 2024]** 🎓**Graduation@WHU:** Received my Bachelor of Science degree in Physics from Wuhan University. I am more than grateful to have received guidance and enlightenment in computational physics and AI4Sci from Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a>, and guidance in experimental optoelectronics from Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a> in my undergraduate studies.<br>
 **[Feb. 2nd, 2024]** 🧑‍💻**Internship@Rama Alpaca:** I just started to be an MLE research intern at Beijing Rama Alpaca Co. Ltd. in the spring semester under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> from MIT, collaborating with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a>@HKUST and Prof. <a href = "https://yyuanad.github.io">Yuan Yuan</a>@Boston College.<br>
 **[Feb. 9th, 2023]** 🧑‍💻**Research@CPCS-WHU:** I've joined Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a>'s group at Wuhan University as a research assistant this semester!<br>
