@@ -16,11 +16,11 @@ redirect_from:
 
 Currently, I'm a research post graduate student at the Department of Electrical and Electronic Engineering at The University of Hong Kong, working with the very nice Prof. <a href = "https://hanwang6.github.io/team/">Han Wang</a>. Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as a Machine Learning Engineer intern at Beijing Rama Alpaca Technology Company in the last semester of my undergraduate study.
 
-I am dedicated to becoming a full-stack engineer in the field of Electronic and Computer Engineering (ECE), as I have bottom-up experiences from machine learning algorithms, computer architecture, integrated-circuit design, and device physics. My research interests fall into the field of **in-memory computing systems based on emerging memory devices, focusing on the co-design of efficient architectures, circuits, and algorithms to enhance system performance and energy efficiency**, while also exploring model compression and deep learning algorithm development for resource-constrained environments.
+I am dedicated to becoming a **full-stack engineer** in the field of Electronic and Computer Engineering (ECE), as I have bottom-up experiences from machine learning algorithms, computer architecture, integrated-circuit design, and device physics. My research interests fall into the field of **in-memory computing systems based on emerging memory devices, focusing on the co-design of efficient architectures, circuits, and algorithms to enhance system performance and energy efficiency**, while also exploring model compression and deep learning algorithm development for resource-constrained environments.
 
 ## Please contact me via:
 
-<i class="fa fa-fw fa-envelope"></i> Email: <a href="mailto:tsliang2001@gmail.com">tsliang2001@gmail.com</a> | <a href="mailto:sliang57@connect.hku.hk">sliang57@connect.hku.hk</a> | <a href="mailto:liangshuang@whu.edu.cn">liangshuang@whu.edu.cn</a>
+<i class="fa fa-fw fa-envelope"></i> Email: | <a href="mailto:tsliang2001@gmail.com">tsliang2001@gmail.com</a> | <a href="mailto:sliang57@connect.hku.hk">sliang57@connect.hku.hk</a> | <a href="mailto:liangshuang@whu.edu.cn">liangshuang@whu.edu.cn</a>
 
 You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a place for me to update some pieces of my daily life and share some of my ideas. (Articles from my WeChat Official Account are Chinese only.)
 
