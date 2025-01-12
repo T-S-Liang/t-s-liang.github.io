@@ -12,7 +12,7 @@ redirect_from:
 <!-- <style> h2 { border-bottom: none } </style> -->
 
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
-![Ph.D.](https://img.shields.io/badge/Ph.D./MPhil-__%20(2024--Present)-yellowgreen?style=flat-square&color=181717&labelColor=e05430)
+![Ph.D.](https://img.shields.io/badge/Ph.D./MPhil-HKU%20(2024--Present)-yellowgreen?style=flat-square&color=181717&labelColor=e05430)
 <!-------------------->
 
 Currently, I'm a research post graduate student at the Department of Electrical and Electronic Engineering at The University of Hong Kong, working with the very nice Prof. <a href = "https://hanwang6.github.io/team/">Han Wang</a>. Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as a Machine Learning Engineer intern at Beijing Rama Alpaca Technology Company in the last semester of my undergraduate study.
