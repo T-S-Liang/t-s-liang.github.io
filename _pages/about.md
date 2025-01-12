@@ -60,7 +60,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
       <br>
       <i>Accepted by $Optica\ Optics\ Express$ (JCR Q1, CAS Q2).</i>
       <br>
-      [<a href="/t-s-liang.github.io/files/Saturable Absorption of Few-layer WS2 and WSe2 at Exciton Resonance (Optics Express 2025).pdf">Paper</a>]
+      [<a href="/t-s-liang.github.io/files/OE25.pdf">Paper</a>]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <a href="/images/SA.png">
