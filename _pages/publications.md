@@ -24,7 +24,7 @@ author_profile: true
       <br>
       <i>$Optica\ Optics\ Express$ (JCR Q1, CAS Q2).</i>
       <br>
-      [<a href="https://www.jsjkx.com/CN/10.11896/jsjkx.211100266">Paper</a>]
+      [<a href="/files/OE25.pdf">Paper</a>]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <a href="/images/SA.png">
