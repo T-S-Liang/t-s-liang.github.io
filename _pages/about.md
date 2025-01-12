@@ -108,25 +108,6 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
   </tr>
 </table>
 
-
-## Selected Outreach and Service (Undergraduate)
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
-  <tr>
-    <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Publicity Ambassador (Henan Province)</b>, Admission Office, Undergraduate College, Wuhan University
-    </td>
-    <td style="padding:8px;width:30%;vertical-align:right;border:none;"> Sept. 2021 - Jun. 2024
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Minister</b>, Department of Press and Publicity, School of Physics and Technology, Wuhan University
-    </td>
-    <td style="padding:8px;width:30%;vertical-align:right;border:none;">July 2021 - July 2022
-    </td>
-  </tr>
-  
-  </table>
-  
 ## Selected Honors
 <!-- <h2><b>Selected Honors</b></h2> -->
 <table style="border:none;font-size:0.95em;">
@@ -144,6 +125,34 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
     </td>
   </tr>
 </table>
+
+## Teaching and Review Services
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+  <tr>
+    <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Teaching Assistant</b>, ENGG1330 Computer Programming I, HKU
+    </td>
+    <td style="padding:8px;width:30%;vertical-align:right;border:none;"> Jan. 2025 - May 2025
+    </td>
+  </tr>  
+  </table>
+  
+## Selected Outreach and Service (Undergraduate)
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+  <tr>
+    <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Publicity Ambassador (Henan Province)</b>, Admission Office, Undergraduate College, Wuhan University
+    </td>
+    <td style="padding:8px;width:30%;vertical-align:right;border:none;"> Sept. 2021 - Jun. 2024
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Minister</b>, Department of Press and Publicity, School of Physics and Technology, Wuhan University
+    </td>
+    <td style="padding:8px;width:30%;vertical-align:right;border:none;">July 2021 - July 2022
+    </td>
+  </tr>
+  
+  </table>
 
 ## Review
 <center><div style="width: 60%; margin-left: 0; position: relative; z-index: 1000;">
