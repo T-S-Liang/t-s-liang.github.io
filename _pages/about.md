@@ -55,6 +55,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
 
 ## Publications
 <!-- <h2><b>Publications</b></h2> -->
+*The boldface and underlined names stand for the first-author or co-first author works.*
 <table style="width:100%;border:None;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
