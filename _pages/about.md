@@ -65,7 +65,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
       <br>
       <i>Accepted by $Optica\ Optics\ Express$ (JCR Q1, CAS Q2).</i>
       <br>
-      [<a href="/files/OE25.pdf">Paper</a>]
+      [<a href="/files/OE25.pdf">PDF</a>][<a href="https://doi.org/10.1364/OE.539834">Optica Online</a>]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <a href="/images/SA.png">
