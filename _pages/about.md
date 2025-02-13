@@ -63,7 +63,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
       <br>
       <u>Shuang Liang</u>, Yuze Lu, Haimu Liu, Xiaohe Shang, Jiamin Ji, Rongguang Du, Yiling Yu and Shunping Zhang*.
       <br>
-      <i>Accepted by $Optica\ Optics\ Express$ (JCR Q1, CAS Q2).</i>
+      <i>$Optica\ Optics\ Express$ (JCR Q1, CAS Q2).</i>
       <br>
       [<a href="/files/OE25.pdf">PDF</a>][<a href="https://doi.org/10.1364/OE.539834">Optica Online</a>]
     </td>
