@@ -53,7 +53,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
   
 </table>
 
-## Publications
+## Featured Publications
 <!-- <h2><b>Publications</b></h2> -->
 *The boldface and underlined names stand for the first-author or co-first author works.*
 <table style="width:100%;border:None;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
