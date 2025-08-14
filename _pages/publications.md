@@ -16,6 +16,22 @@ author_profile: true
 {% endfor %} -->
 
 <table style="width:100%;border:None;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+
+  <tr>
+    <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <b>Coming Soon</b><br>
+      <i>Conference submissions:</i><br>
+      • IEDM — under review<br>
+      • ICLR — under submission<br>
+      [<a href="#" style="pointer-events:none;color:#aaa;text-decoration:none;">Paper (TBA)</a>]
+    </td>
+    <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <div style="width:300px;height:180px;display:flex;align-items:center;justify-content:center;background:#f5f5f7;border:1px dashed #ccc;color:#888;font-style:italic;">
+        Coming Soon
+      </div>
+    </td>
+  </tr>
+
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
       <b>1. "Saturable Absorption of Few-layer $\mathrm{WS_{2}}$ and $\mathrm{WSe_{2}}$ at Exciton Resonance"</b>, 
