@@ -63,6 +63,7 @@ You may also follow my WeChat Official Account **@Pandas Secret Garden**, it's a
       <b>Coming Soon</b><br>
       <i>Conference submissions:</i><br>
       • IEDM — under review<br>
+      • IEDM — under review<br>
       • ICLR — under submission<br>
       [<a href="#" style="pointer-events:none;color:#aaa;text-decoration:none;">Paper (TBA)</a>]
     </td>
