@@ -38,6 +38,21 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
   <tr>
     <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
+      <center><img src='images/hkulogo.png' width="200"></center>
+    </td>
+    <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
+      <b><a href="https://www.eee.hku.hk">Department of Electrical and Electronic Engineering</a>, The University of Hong Kong.</b>
+      <br>
+      Ph.D./MPhil in Electrical and Electronic Engineering
+      <br>
+      Research: AI accelerator and in-memory computing systems
+      <br>
+      (Sept. 2024 - Present)
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
       <center><img src='images/WHU.png' width="200"></center>
     </td>
     <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
