@@ -38,7 +38,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
   <tr>
     <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
-      <center><img src='images/hkulogo.png' width="118"></center>
+      <center><img src='images/hkulogo.png' width="300"></center>
     </td>
     <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
       <b><a href="https://www.eee.hku.hk">Department of Electrical and Electronic Engineering</a>, The University of Hong Kong.</b>
@@ -168,7 +168,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
   <tr>
     <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Teaching Assistant</b>, ENGG1330 Computer Programming I, HKU
     </td>
-    <td style="padding:8px;width:30%;vertical-align:right;border:none;"> Jan. 2025 - May 2025
+    <td style="padding:8px;width:30%;vertical-align:right;border:none;"> 2025 Spring, 2025 Fall
     </td>
   </tr>  
   </table>
