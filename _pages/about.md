@@ -26,6 +26,7 @@ I am dedicated to becoming a **full-stack engineer** in the field of Electronic 
 You may also follow my WeChat Official Account **@Teemo.log**, it's a place for me to update some pieces of my daily life and share some of my ideas. (Articles from my WeChat Official Account are Chinese only.)
 
 ## What's new:
+**[Sep. 1st, 2025]** **🍻IEDM '25:** One paper Accepted by IEDM 2025! Thank Professor Han Wang, Professor Aoyang Zhang, and Professor Zhongrui Wang for their invaluable guidance! Thank Songqi and Jichang for the smooth collaboration. <br>
 **[Jan. 9th, 2025]** **🍻Optica Optics Express '25:** One paper for my undergraduate research accepted by Optics Express! Thank Professor Zhang for his invaluable guidance!<br>
 **[June 22nd, 2024]** 🎓**Graduation@WHU:** Received my Bachelor of Science degree in Physics from Wuhan University. I am more than grateful to have received guidance and enlightenment in computational physics and AI4Sci from Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a>, and guidance in experimental optoelectronics from Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a> in my undergraduate studies.<br>
 **[Feb. 2nd, 2024]** 🧑‍💻**Internship@Rama Alpaca:** I just started to be an MLE research intern at Beijing Rama Alpaca Co. Ltd. in the spring semester under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> from MIT, collaborating with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a>@HKUST and Prof. <a href = "https://yyuanad.github.io">Yuan Yuan</a>@Boston College.<br>
@@ -77,8 +78,6 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
       <b>Coming Soon</b><br>
       <i>Conference submissions:</i><br>
-      • IEDM — under review<br>
-      • IEDM — under review<br>
       • ICLR — under submission<br>
       [<a href="#" style="pointer-events:none;color:#aaa;text-decoration:none;">Paper (TBA)</a>]
     </td>
@@ -86,6 +85,23 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       <div style="width:300px;height:180px;display:flex;align-items:center;justify-content:center;background:#f5f5f7;border:1px dashed #ccc;color:#888;font-style:italic;">
         Coming Soon
       </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <b>2. "A Monolithic Reconfigurable RRAM CIM Array Integrating PUF, TRNG, and a Lightweight Block Cipher for Secure Edge AI"</b>, 
+      <br>
+      Songqi Wang†, <u>Shuang Liang†</u>, Shaonan Wu†, Zhiqi Yang, Jichang Yang, Xinyuan Zhang, Yi Li, Yuhao Zhang*, Zhongrui Wang*, Aoyang Zhang* and Han Wang*.
+      <br>
+      <i>$International Electron Devices Meeting (IEDM) 2025$.</i>
+      <br>
+      [<a href="#" style="pointer-events:none;color:#aaa;text-decoration:none;">Paper (TBA)</a>]
+    </td>
+    <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <a href="/images/RRAM.png">
+      <img src='/images/RRAM.png' width="300">
+      </a>
     </td>
   </tr>
   
