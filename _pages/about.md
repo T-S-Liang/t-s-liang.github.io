@@ -184,9 +184,17 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
   <tr>
     <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Teaching Assistant</b>, ENGG1330 Computer Programming I, HKU
     </td>
-    <td style="padding:8px;width:30%;vertical-align:right;border:none;"> 2025 Spring, 2025 Fall
+    <td style="padding:8px;width:30%;vertical-align:right;border:none;"> 2025 Spring
     </td>
   </tr>  
+  
+  <tr>
+    <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Teaching Assistant</b>, ELEC3644 Advanced Mobile Apps Development, HKU
+    </td>
+    <td style="padding:8px;width:30%;vertical-align:right;border:none;"> 2025 Fall
+    </td>
+  </tr>  
+  
   </table>
   
 ## Selected Outreach and Service (Undergraduate)
