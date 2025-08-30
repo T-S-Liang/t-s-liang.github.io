@@ -94,7 +94,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       <br>
       Songqi Wang†, <u>Shuang Liang†</u>, Shaonan Wu†, Zhiqi Yang, Jichang Yang, Xinyuan Zhang, Yi Li, Yuhao Zhang*, Zhongrui Wang*, Aoyang Zhang* and Han Wang*.
       <br>
-      <i>$International Electron Devices Meeting (IEDM) 2025$.</i>
+      <i>$International\ Electron\ Devices\ Meeting\ (IEDM)\ 2025$.</i>
       <br>
       [<a href="#" style="pointer-events:none;color:#aaa;text-decoration:none;">Paper (TBA)</a>]
     </td>
