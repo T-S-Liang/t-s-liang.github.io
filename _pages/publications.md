@@ -32,7 +32,7 @@ author_profile: true
     
   </tr>
 
-    <tr>
+  <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
       <b>2. "A Monolithic Reconfigurable RRAM CIM Array Integrating PUF, TRNG, and a Lightweight Block Cipher for Secure Edge AI"</b>, 
       <br>
