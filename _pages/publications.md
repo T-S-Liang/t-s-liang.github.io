@@ -21,7 +21,6 @@ author_profile: true
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
       <b>Coming Soon</b><br>
       <i>Conference submissions:</i><br>
-      • IEDM — under review<br>
       • ICLR — under submission<br>
       [<a href="#" style="pointer-events:none;color:#aaa;text-decoration:none;">Paper (TBA)</a>]
     </td>
@@ -29,6 +28,23 @@ author_profile: true
       <div style="width:300px;height:180px;display:flex;align-items:center;justify-content:center;background:#f5f5f7;border:1px dashed #ccc;color:#888;font-style:italic;">
         Coming Soon
       </div>
+    </td>
+  </tr>
+
+    <tr>
+    <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <b>2. "A Monolithic Reconfigurable RRAM CIM Array Integrating PUF, TRNG, and a Lightweight Block Cipher for Secure Edge AI"</b>, 
+      <br>
+      Songqi Wang†, <u>Shuang Liang†</u>, Shaonan Wu†, Zhiqi Yang, Jichang Yang, Xinyuan Zhang, Yi Li, Yuhao Zhang*, Zhongrui Wang*, Aoyang Zhang* and Han Wang*.
+      <br>
+      <i>$International\ Electron\ Devices\ Meeting\ (IEDM)\ 2025$.</i>
+      <br>
+      [<a href="#" style="pointer-events:none;color:#aaa;text-decoration:none;">Paper (TBA)</a>]
+    </td>
+    <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <a href="/images/RRAM.png">
+      <img src='/images/RRAM.png' width="300">
+      </a>
     </td>
   </tr>
 
