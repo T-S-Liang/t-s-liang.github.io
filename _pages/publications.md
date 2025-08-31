@@ -29,6 +29,7 @@ author_profile: true
         Coming Soon
       </div>
     </td>
+    
   </tr>
 
     <tr>
