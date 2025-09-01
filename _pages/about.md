@@ -99,8 +99,8 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       [<a href="#" style="pointer-events:none;color:#aaa;text-decoration:none;">Paper (TBA)</a>]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <a href="/images/RRAM.png">
-      <img src='/images/RRAM.png' width="300">
+      <a href="/images/IEDM_SCIM.jpg">
+      <img src='/images/IEDM_SCIM.jpg' width="300">
       </a>
     </td>
   </tr>
