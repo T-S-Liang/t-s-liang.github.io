@@ -77,8 +77,9 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
       <b>Coming Soon</b><br>
-      <i>Conference submissions:</i><br>
+      <i>Conference/Journal submissions:</i><br>
       • ICLR — under submission<br>
+      • Nature Electronics — under submission<br>
       [<a href="#" style="pointer-events:none;color:#aaa;text-decoration:none;">Paper (TBA)</a>]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
