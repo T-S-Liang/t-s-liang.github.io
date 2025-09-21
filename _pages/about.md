@@ -112,7 +112,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       <br>
       <u>Shuang Liang</u>, Yuze Lu, Haimu Liu, Xiaohe Shang, Jiamin Ji, Rongguang Du, Yiling Yu and Shunping Zhang*.
       <br>
-      <i>$Optica\ Optics\ Express$, 2025.</i>
+      <i>$Optica\ Optics\ Express, 2025$.</i>
       <br>
       [<a href="/files/OE25.pdf">PDF</a>][<a href="https://doi.org/10.1364/OE.539834">Optica Online</a>]
     </td>
