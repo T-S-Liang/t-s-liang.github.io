@@ -26,7 +26,7 @@ I am dedicated to becoming a **full-stack engineer** in the field of Electronic 
 You may also follow my WeChat Official Account **@Teemo.log**, it's a place for me to update some pieces of my daily life and share some of my ideas. (Articles from my WeChat Official Account are Chinese only.)
 
 ## What's new:
-**[Sep. 24th, 2025]** 🧑‍💻 **Open-source Project:** Check our new work on ___! I'm sooooo excited to release this work. (Coming in two days.)
+**[Sep. 24th, 2025]** 🧑‍💻 **Open-source Project:** Check our new work on ___! I'm sooooo excited to release this work. (Coming in two days.)<br>
 **[Sep. 1st, 2025]** 🍻 **IEDM '25:** One paper Accepted by IEDM 2025! Thank Professor Han Wang, Professor Aoyang Zhang, and Professor Zhongrui Wang for their invaluable guidance! Thank Songqi and Jichang for the smooth collaboration. <br>
 **[Jan. 9th, 2025]** 🍻 **Optica Optics Express '25:** One paper for my undergraduate research accepted by Optics Express! Thank Professor Zhang for his invaluable guidance! Thank Yuze and Haimu for their collaboration and support!<br>
 **[Oct. 2nd, 2024]** ✈️ **Enrollment@HKU:** New journey started! I began my research post graduate study at the Department of Electrical and Electronic Engineering at the University of Hong Kong!
