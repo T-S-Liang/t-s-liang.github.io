@@ -18,20 +18,22 @@ author_profile: false
 †These authors contributed equally. *Corresponding author.
 
 <table style="width:100%;border:None;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
-
+  
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <b>Coming Soon</b><br>
-      <i>Conference submissions:</i><br>
-      • ICLR — under submission<br>
-      [<a href="#" style="pointer-events:none;color:#aaa;text-decoration:none;">Paper (TBA)</a>]
+      <b>3. "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"</b>, 
+      <br>
+      <u>Shuang Liang</u>, Jing He, Chuanmeizhi Wang, Lejun Liao, Guo Zhang, Yingcong Chen and Yuan Yuan*.
+      <br>
+      <i>$Preprint$.</i>
+      <br>
+      [<a href="/files/SDPose.pdf">PDF</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <div style="width:300px;height:180px;display:flex;align-items:center;justify-content:center;background:#f5f5f7;border:1px dashed #ccc;color:#888;font-style:italic;">
-        Coming Soon
-      </div>
+      <a href="/images/SDPose.jpg">
+      <img src='/images/SDPose.jpg' width="300">
+      </a>
     </td>
-    
   </tr>
 
   <tr>
