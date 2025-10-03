@@ -151,7 +151,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       <a href="https://github.com/T-S-Liang/SDPoseOOD" target="_blank">
         https://github.com/T-S-Liang/SDPoseOOD
       </a>
-      <br><br>
+      <br>
       <a href="https://github.com/t-s-liang/SDPoseOOD/stargazers" target="_blank">
         <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/SDPoseOOD?style=social">
       </a>
