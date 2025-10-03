@@ -90,14 +90,13 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
     </td>
   </tr>
 
-    <tr>
+  <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
       <b>3. "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"</b>, 
       <br>
       <u>Shuang Liang</u>, Jing He, Chuanmeizhi Wang, Lejun Liao, Guo Zhang, Yingcong Chen and Yuan Yuan*.
       <br>
       <i>$Preprint$.</i>
-      <br>
       <br>
       [<a href="/files/SDPose.pdf">PDF</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>]
     </td>
