@@ -26,7 +26,7 @@ I am dedicated to becoming a **full-stack engineer** in the field of Electronic 
 You may also follow my WeChat Official Account **@Teemo.log**, it's a place for me to update some pieces of my daily life and share some of my ideas. (Articles from my WeChat Official Account are Chinese only.)
 
 ## What's new:
-**[Sep. 24th, 2025]** 🧑‍💻 **Open-source Project:** Check our new work on ___! I'm sooooo excited to release this work. (Coming in two days.)<br>
+**[Sep. 24th, 2025]** 🧑‍💻 **New paper release:** Check our new work **SDPose** on Exploiting the diffusion priors for OOD and robust pose estimation! I'm sooooo excited to share with you with this work! Thank Dr. Guo Zhang, Professor Yingcong Chen, and Professor Yuan Yuan for their invaluable guidance!<br>
 **[Sep. 1st, 2025]** 🍻 **IEDM '25:** One paper Accepted by IEDM 2025! Thank Professor Han Wang, Professor Aoyang Zhang, and Professor Zhongrui Wang for their invaluable guidance! Thank Songqi and Jichang for the smooth collaboration. <br>
 **[Jan. 9th, 2025]** 🍻 **Optica Optics Express '25:** One paper for my undergraduate research accepted by Optics Express! Thank Professor Zhang for his invaluable guidance! Thank Yuze and Haimu for their collaboration and support!<br>
 **[Oct. 2nd, 2024]** ✈️ **Enrollment@HKU:** New journey started! I began my research post graduate study at the Department of Electrical and Electronic Engineering at the University of Hong Kong!<br>
@@ -80,7 +80,6 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
       <b>Coming Soon</b><br>
       <i>Conference/Journal submissions:</i><br>
-      • ICLR — under submission<br>
       • Nature Electronics — under submission<br>
       [<a href="#" style="pointer-events:none;color:#aaa;text-decoration:none;">Paper (TBA)</a>]
     </td>
@@ -88,6 +87,24 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       <div style="width:300px;height:180px;display:flex;align-items:center;justify-content:center;background:#f5f5f7;border:1px dashed #ccc;color:#888;font-style:italic;">
         Coming Soon
       </div>
+    </td>
+  </tr>
+
+    <tr>
+    <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <b>3. "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"</b>, 
+      <br>
+      <u>Shuang Liang</u>, Jing He, Chuanmeizhi Wang, Lejun Liao, Guo Zhang, Yingcong Chen and Yuan Yuan*.
+      <br>
+      <i>$Preprint$.</i>
+      <br>
+      <br>
+      [<a href="/files/SDPose.pdf">PDF</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>]
+    </td>
+    <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <a href="/images/SDPose.jpg">
+      <img src='/images/SDPose.jpg' width="300">
+      </a>
     </td>
   </tr>
 
