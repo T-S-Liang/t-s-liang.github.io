@@ -144,26 +144,31 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
 ## Featured Open-source Projects ([Github](https://github.com/t-s-liang))
 
-<table style="font-size:0.95em;">
+<table style="font-size:0.95em; width:100%; border-collapse: collapse;">
   <tr>
-    <td align="center">
-      <img src='/images/SDPose_logo.png' width="300">
-      https://github.com/T-S-Liang/SDPoseOOD
-      <br>
-      <a href="https://github.com/t-s-liang/SDPoseOOD/stargazers">
-      <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/SDPoseOOD?style=social">
+    <td align="center" style="width:50%; vertical-align:middle;">
+      <img src="/images/SDPose_logo.png" alt="SDPose Logo" width="300"><br>
+      <a href="https://github.com/T-S-Liang/SDPoseOOD" target="_blank">
+        https://github.com/T-S-Liang/SDPoseOOD
       </a>
-      <a href="https://github.com/t-s-liang/SDPoseOOD/network/members">
-      <img alt="GitHub forks" src="https://img.shields.io/github/forks/t-s-liang/SDPoseOOD?style=social">
+      <br><br>
+      <a href="https://github.com/t-s-liang/SDPoseOOD/stargazers" target="_blank">
+        <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/SDPoseOOD?style=social">
+      </a>
+      <a href="https://github.com/t-s-liang/SDPoseOOD/network/members" target="_blank">
+        <img alt="GitHub forks" src="https://img.shields.io/github/forks/t-s-liang/SDPoseOOD?style=social">
       </a>
     </td>
-    <td align="center">
+    
+    <td align="center" style="width:50%; vertical-align:middle;">
       <strong>
-        <a href="https://github.com/t-s-liang/SDPoseOOD">
-        Coming Soon.
-        </a> [Python Library] <br> 
+        <a href="https://github.com/t-s-liang/SDPoseOOD" target="_blank">
+          Coming Soon.
+        </a>
       </strong>
-        [<a href="/files/SDPose.pdf">PDF</a>]
+      <br>
+      [Python Library]<br><br>
+      [<a href="/files/SDPose.pdf" target="_blank">PDF</a>]
     </td>
   </tr>
 </table>
