@@ -144,14 +144,14 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
 ## Featured Open-source Projects ([Github](https://github.com/t-s-liang))
 
-<table style="font-size:0.95em; width:100%; border-collapse: collapse;">
+<table>
   <tr>
-    <td align="center" style="width:50%; vertical-align:middle;">
-      <img src="/images/SDPose_logo.png" alt="SDPose Logo" width="300"><br>
+    <td align="center" width="50%">
+      <img src="images/SDPose_logo.png" alt="SDPose Logo" width="300"><br>
       <a href="https://github.com/T-S-Liang/SDPoseOOD" target="_blank">
         https://github.com/T-S-Liang/SDPoseOOD
       </a>
-      <br>
+      <br><br>
       <a href="https://github.com/t-s-liang/SDPoseOOD/stargazers" target="_blank">
         <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/SDPoseOOD?style=social">
       </a>
@@ -160,7 +160,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       </a>
     </td>
     
-    <td align="center" style="width:50%; vertical-align:middle;">
+    <td align="center" width="50%">
       <strong>
         <a href="https://github.com/t-s-liang/SDPoseOOD" target="_blank">
           Coming Soon.
@@ -168,10 +168,11 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       </strong>
       <br>
       [Python Library]<br><br>
-      [<a href="/files/SDPose.pdf" target="_blank">PDF</a>]
+      [<a href="files/SDPose.pdf" target="_blank">PDF</a>]
     </td>
   </tr>
 </table>
+
 
 ## Github Stats
 
