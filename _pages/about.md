@@ -147,22 +147,23 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 <table style="font-size:0.95em;">
   <tr>
     <td align="center">
-      <img src='/images/SDP.png' width="300">
+      <img src='/images/SDPose_logo.png' width="300">
+      https://github.com/T-S-Liang/SDPoseOOD
       <br>
-      <a href="https://github.com/t-s-liang/TBG_Strain/stargazers">
-      <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/TBG_Strain?style=social">
+      <a href="https://github.com/t-s-liang/SDPoseOOD/stargazers">
+      <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/SDPoseOOD?style=social">
       </a>
-      <a href="https://github.com/t-s-liang/TBG_Strain/network/members">
-      <img alt="GitHub forks" src="https://img.shields.io/github/forks/t-s-liang/TBG_Strain?style=social">
+      <a href="https://github.com/t-s-liang/SDPoseOOD/network/members">
+      <img alt="GitHub forks" src="https://img.shields.io/github/forks/t-s-liang/SDPoseOOD?style=social">
       </a>
     </td>
     <td align="center">
       <strong>
-        <a href="https://github.com/t-s-liang/TBG_Strain">
+        <a href="https://github.com/t-s-liang/SDPoseOOD">
         Coming Soon.
         </a> [Python Library] <br> 
       </strong>
-        [<a href="https://arxiv.org/pdf/">PDF</a>]
+        [<a href="/files/SDPose.pdf">PDF</a>]
     </td>
   </tr>
 </table>
