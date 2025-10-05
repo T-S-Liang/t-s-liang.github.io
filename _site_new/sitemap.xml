@@ -17,6 +17,9 @@
 <loc>http://localhost:4002/year-archive/</loc>
 </url>
 <url>
+<loc>http://localhost:4002/BUILD_INSTRUCTIONS/</loc>
+</url>
+<url>
 <loc>http://localhost:4002/markdown_generator/</loc>
 </url>
 <url>
