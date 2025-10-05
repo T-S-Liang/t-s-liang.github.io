@@ -40,6 +40,14 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+.page {
+  @include breakpoint($large) {
+    @include span(12 of 12);
+    @include prefix(0 of 12);
+    @include suffix(0 of 12);
+  }
+}
+
 /* 自定义样式 */
 .page__title {
   text-align: center;
