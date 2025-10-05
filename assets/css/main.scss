@@ -48,6 +48,25 @@
   }
 }
 
+.archive {
+  @include breakpoint($large) {
+    @include span(12 of 12);
+    @include prefix(0 of 12);
+  }
+}
+
+/* 修复navigation宽度 */
+.navigation ol {
+  @include breakpoint($large) {
+    @include span(12 of 12);
+  }
+  
+  @include breakpoint($x-large) {
+    @include prefix(0 of 12);
+  }
+}
+
+
 /* 自定义样式 */
 .page__title {
   text-align: center;
