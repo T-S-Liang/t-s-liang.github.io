@@ -235,6 +235,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 * Music fills my spare time in daily life. I love country music and Chinese folk, despite I can't play guitar well. I also love EDM and am a big fan of Kygo, Martin Garrix, The Chainsmokers, and Avicii. I'm also a fan of Taylor Swift, Adele, Billie Eilish, and Beyoncé. You can always find interesting topics with me regarding music from various genres.
 * My MBTI personality is INFP, so please forgive me if I seem shy and introverted at first. I become pretty outgoing once we get to know each other. 
 
+
 --------
 
 
