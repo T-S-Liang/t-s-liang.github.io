@@ -5,6 +5,38 @@ permalink: /publications/
 author_profile: false
 ---
 
+<style>
+/* 移除左侧栏预留空间 */
+.archive {
+  max-width: none;
+  margin: 0;
+  padding: 0 20px;
+  width: 100%;
+}
+
+/* 标题居中 */
+.page__title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* 移除侧边栏 */
+.sidebar {
+  display: none !important;
+}
+
+/* 主内容区域占满宽度 */
+.main {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* 表格居中 */
+table {
+  margin: 0 auto;
+}
+</style>
+
 <!-- {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
@@ -30,8 +62,8 @@ author_profile: false
       [<a href="/files/SDPose.pdf">PDF</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <a href="/images/SDPose.jpg">
-      <img src='/images/SDPose.jpg' width="300">
+      <a href="/images/SDPose.png">
+      <img src='/images/SDPose.png' width="300">
       </a>
     </td>
   </tr>

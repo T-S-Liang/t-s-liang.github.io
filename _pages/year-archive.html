@@ -7,6 +7,33 @@ redirect_from:
   - /wordpress/blog-posts/
 ---
 
+<style>
+/* 移除左侧栏预留空间 */
+.archive {
+  max-width: none;
+  margin: 0;
+  padding: 0 20px;
+  width: 100%;
+}
+
+/* 标题居中 */
+.page__title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* 移除侧边栏 */
+.sidebar {
+  display: none !important;
+}
+
+/* 主内容区域占满宽度 */
+.main {
+  width: 100% !important;
+  max-width: none !important;
+}
+</style>
+
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
