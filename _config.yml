@@ -288,5 +288,4 @@ compress_html:
   ignore:
     envs: development
 
-# theme: jekyll-theme-minimal  # 注释掉错误的主题配置
-# 使用Minimal Mistakes主题（通过_sass目录）
+theme: jekyll-theme-minimal
