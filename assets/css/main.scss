@@ -48,20 +48,17 @@
   }
 }
 
-.archive {
+.no-sidebar .page {
   @include breakpoint($large) {
     @include span(12 of 12);
     @include prefix(0 of 12);
+    @include suffix(0 of 12);
   }
 }
 
-/* 修复navigation宽度 */
-.navigation ol {
+.no-sidebar .archive {
   @include breakpoint($large) {
     @include span(12 of 12);
-  }
-  
-  @include breakpoint($x-large) {
     @include prefix(0 of 12);
   }
 }
