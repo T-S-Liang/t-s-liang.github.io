@@ -20,6 +20,12 @@
 <loc>http://localhost:4002/BUILD_INSTRUCTIONS/</loc>
 </url>
 <url>
+<loc>http://localhost:4002/LAYOUT_FIX/</loc>
+</url>
+<url>
+<loc>http://localhost:4002/LAYOUT_FIX_FINAL/</loc>
+</url>
+<url>
 <loc>http://localhost:4002/markdown_generator/</loc>
 </url>
 <url>

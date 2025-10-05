@@ -5,38 +5,6 @@ permalink: /publications/
 author_profile: false
 ---
 
-<style>
-/* 移除左侧栏预留空间 */
-.archive {
-  max-width: none;
-  margin: 0;
-  padding: 0 20px;
-  width: 100%;
-}
-
-/* 标题居中 */
-.page__title {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-/* 移除侧边栏 */
-.sidebar {
-  display: none !important;
-}
-
-/* 主内容区域占满宽度 */
-.main {
-  width: 100% !important;
-  max-width: none !important;
-}
-
-/* 表格居中 */
-table {
-  margin: 0 auto;
-}
-</style>
-
 <!-- {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
