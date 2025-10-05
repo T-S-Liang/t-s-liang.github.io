@@ -76,20 +76,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 †These authors contributed equally. *Corresponding author.
 
 <table style="width:100%;border:None;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
-  <tr>
-    <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <b>Coming Soon</b><br>
-      <i>Conference/Journal submissions:</i><br>
-      • Nature Electronics — under submission<br>
-      [<a href="#" style="pointer-events:none;color:#aaa;text-decoration:none;">Paper (TBA)</a>]
-    </td>
-    <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <div style="width:300px;height:180px;display:flex;align-items:center;justify-content:center;background:#f5f5f7;border:1px dashed #ccc;color:#888;font-style:italic;">
-        Coming Soon
-      </div>
-    </td>
-  </tr>
-
+  
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
       <b>3. "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"</b>, 
@@ -101,8 +88,8 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       [<a href="/files/SDPose.pdf">PDF</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <a href="/images/SDPose.jpg">
-      <img src='/images/SDPose.jpg' width="300">
+      <a href="/images/SDPose.png">
+      <img src='/images/SDPose.png' width="300">
       </a>
     </td>
   </tr>
@@ -144,31 +131,25 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
 ## Featured Open-source Projects ([Github](https://github.com/t-s-liang))
 
-<table>
+<table style="font-size:0.95em;">
   <tr>
-    <td align="center" width="50%">
-      <img src="images/SDPose_logo.png" alt="SDPose Logo" width="300"><br>
-      <a href="https://github.com/T-S-Liang/SDPoseOOD" target="_blank">
-        https://github.com/T-S-Liang/SDPoseOOD
+    <td align="center">
+      <img src='/images/SDPose_logo.png' width="300">
+      <br>
+      <a href="https://github.com/t-s-liang/SDPoseOOD/stargazers">
+      <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/SDPoseOOD?style=social">
       </a>
-      <br><br>
-      <a href="https://github.com/t-s-liang/SDPoseOOD/stargazers" target="_blank">
-        <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/SDPoseOOD?style=social">
-      </a>
-      <a href="https://github.com/t-s-liang/SDPoseOOD/network/members" target="_blank">
-        <img alt="GitHub forks" src="https://img.shields.io/github/forks/t-s-liang/SDPoseOOD?style=social">
+      <a href="https://github.com/t-s-liang/SDPoseOOD/network/members">
+      <img alt="GitHub forks" src="https://img.shields.io/github/forks/t-s-liang/SDPoseOOD?style=social">
       </a>
     </td>
-    
-    <td align="center" width="50%">
+    <td align="center">
       <strong>
-        <a href="https://github.com/t-s-liang/SDPoseOOD" target="_blank">
-          Coming Soon.
-        </a>
+        <a href="https://github.com/t-s-liang/SDPoseOOD">
+        SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation
+        </a> [Python Library] <br> 
       </strong>
-      <br>
-      [Python Library]<br><br>
-      [<a href="files/SDPose.pdf" target="_blank">PDF</a>]
+        [<a href="/files/SDPose.pdf">PDF</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
     </td>
   </tr>
 </table>
