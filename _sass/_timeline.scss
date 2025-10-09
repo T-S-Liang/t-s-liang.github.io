@@ -24,7 +24,10 @@
 
 .timeline-item {
   position: relative;
-  margin: 3rem 0;
+  margin: 4rem 0;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
   
   &:nth-child(odd) .timeline-content {
     left: 0;
@@ -57,6 +60,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  width: 45%;
 }
 
 .timeline-card {
@@ -125,11 +129,15 @@
   }
   
   .timeline-item {
+    min-height: 250px;
+    margin: 3rem 0;
+    
     &:nth-child(odd) .timeline-content,
     &:nth-child(even) .timeline-content {
       left: 60px;
       right: 0;
       text-align: left;
+      width: calc(100% - 80px);
     }
   }
   
@@ -149,6 +157,19 @@
   
   .timeline-item {
     margin: 2rem 0;
+    min-height: 200px;
+    
+    &:nth-child(odd) .timeline-content,
+    &:nth-child(even) .timeline-content {
+      left: 50px;
+      width: calc(100% - 70px);
+    }
+  }
+  
+  .timeline-marker {
+    left: 25px;
+    width: 16px;
+    height: 16px;
   }
   
   .timeline-text {
