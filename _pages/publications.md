@@ -44,7 +44,7 @@ author_profile: false
       <br>
       <i>$Preprint$.</i>
       <br>
-      [<a href="/files/SDPose.pdf">PDF</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
+      [<a href="/files/SDPose.pdf">PDF</a>][<a href="https://github.com/T-S-Liang/SDPose-OOD">Code</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <a href="/images/SDPose.png">
@@ -52,7 +52,7 @@ author_profile: false
       </a>
     </td>
   </tr>
-
+  
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
       <b>1. "Saturable Absorption of Few-layer $\mathrm{WS_{2}}$ and $\mathrm{WSe_{2}}$ at Exciton Resonance"</b>, 
