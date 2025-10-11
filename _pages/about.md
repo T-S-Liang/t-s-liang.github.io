@@ -137,10 +137,10 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       <img src='/images/SDPose_logo.png' width="300">
       <br>
       <a href="https://github.com/t-s-liang/SDPose-OOD/stargazers">
-      <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/SDPoseOOD?style=social">
+      <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/SDPose-OOD?style=social">
       </a>
       <a href="https://github.com/t-s-liang/SDPose-OOD/network/members">
-      <img alt="GitHub forks" src="https://img.shields.io/github/forks/t-s-liang/SDPoseOOD?style=social">
+      <img alt="GitHub forks" src="https://img.shields.io/github/forks/t-s-liang/SDPose-OOD?style=social">
       </a>
     </td>
     <td align="center">
