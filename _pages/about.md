@@ -136,10 +136,10 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
     <td align="center">
       <img src='/images/SDPose_logo.png' width="300">
       <br>
-      <a href="https://github.com/t-s-liang/SDPoseOOD/stargazers">
+      <a href="https://github.com/t-s-liang/SDPose-OOD/stargazers">
       <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/SDPoseOOD?style=social">
       </a>
-      <a href="https://github.com/t-s-liang/SDPoseOOD/network/members">
+      <a href="https://github.com/t-s-liang/SDPose-OOD/network/members">
       <img alt="GitHub forks" src="https://img.shields.io/github/forks/t-s-liang/SDPoseOOD?style=social">
       </a>
     </td>
@@ -147,9 +147,9 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       <strong>
         <a href="https://github.com/t-s-liang/SDPoseOOD">
         SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation
-        </a> [Python Library] <br> 
+        </a> <br> 
       </strong>
-        [<a href="/files/SDPose.pdf">PDF</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
+        [<a href="https://github.com/T-S-Liang/SDPose-OOD">Code</a>][<a href="/files/SDPose.pdf">PDF</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
     </td>
   </tr>
 </table>
