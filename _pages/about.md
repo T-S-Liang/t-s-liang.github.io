@@ -145,7 +145,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
     </td>
     <td align="center">
       <strong>
-        <a href="https://github.com/t-s-liang/SDPoseOOD">
+        <a href="https://github.com/t-s-liang/SDPose-OOD">
         SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation
         </a> <br> 
       </strong>
