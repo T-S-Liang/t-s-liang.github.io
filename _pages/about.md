@@ -102,7 +102,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       <br>
       <i>$Preprint$.</i>
       <br>
-      [<a href="/files/SDPose.pdf">PDF</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
+      [<a href="/files/SDPose.pdf">PDF</a>][<a href="https://github.com/T-S-Liang/SDPose-OOD">Code</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <a href="/images/SDPose.png">
