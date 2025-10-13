@@ -26,6 +26,9 @@ I am dedicated to becoming a **full-stack engineer** in the field of Electronic 
 You may also follow my WeChat Official Account **@Teemo.log**, it's a place for me to update some pieces of my daily life and share some of my ideas. (Articles from my WeChat Official Account are Chinese only.)
 
 ## What's new:
+
+**[Oct. 14th, 2025]** 🚀 **Open-source of SDPose**: Major code and model release now available:
+<a href="https://github.com/T-S-Liang/SDPose-OOD">GitHub Repository</a> | <a href="https://huggingface.co/teemosliang/SDPose-Body">HF Model (Body)</a> | <a href="https://huggingface.co/teemosliang/SDPose-Wholebody">HF Model (WholeBody)</a> <br>
 **[Sep. 24th, 2025]** 🧑‍💻 **New paper release:** Check out our new work **SDPose** on Exploiting the diffusion priors for OOD and robust pose estimation! I'm sooooo excited to share with you this work! Thank Dr. Guo Zhang, Professor Yingcong Chen, and Professor Yuan Yuan for their invaluable guidance!<br>
 **[Sep. 1st, 2025]** 🍻 **IEDM '25:** One paper Accepted by IEDM 2025! Thank Professor Han Wang, Professor Aoyang Zhang, and Professor Zhongrui Wang for their invaluable guidance! Thank Songqi and Jichang for the smooth collaboration. <br>
 **[Jan. 9th, 2025]** 🍻 **Optica Optics Express '25:** One paper for my undergraduate research accepted by Optics Express! Thank Professor Zhang for his invaluable guidance! Thank Yuze and Haimu for their collaboration and support!<br>
@@ -102,7 +105,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       <br>
       <i>$Preprint$.</i>
       <br>
-      [<a href="/files/SDPose.pdf">PDF</a>][<a href="https://github.com/T-S-Liang/SDPose-OOD">Code</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
+      [<a href="/files/SDPose.pdf">PDF</a>][<a href="https://github.com/T-S-Liang/SDPose-OOD">Code</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>][<a href="https://huggingface.co/spaces/teemosliang/SDPose">HuggingFace Space Demo</a>]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <a href="/images/SDPose.png">
@@ -149,7 +152,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
         SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation
         </a> <br> 
       </strong>
-        [<a href="https://github.com/T-S-Liang/SDPose-OOD">Code</a>][<a href="/files/SDPose.pdf">PDF</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
+        [<a href="https://github.com/T-S-Liang/SDPose-OOD">Code</a>][<a href="/files/SDPose.pdf">PDF</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>][<a href="https://huggingface.co/spaces/teemosliang/SDPose">HuggingFace Space Demo</a>]
     </td>
   </tr>
 </table>
