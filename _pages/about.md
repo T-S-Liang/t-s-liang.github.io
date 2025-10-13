@@ -28,7 +28,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 ## What's new:
 
 **[Oct. 14th, 2025]** 🚀 **Open-source of SDPose**: Major code and model release now available:
-<a href="https://github.com/T-S-Liang/SDPose-OOD">GitHub Repository</a> | <a href="https://huggingface.co/teemosliang/SDPose-Body">HF Model (Body)</a> | <a href="https://huggingface.co/teemosliang/SDPose-Wholebody">HF Model (WholeBody)</a> <br>.
+<a href="https://github.com/T-S-Liang/SDPose-OOD">GitHub Repository</a> | <a href="https://huggingface.co/teemosliang/SDPose-Body">HF Model (Body)</a> | <a href="https://huggingface.co/teemosliang/SDPose-Wholebody">HF Model (WholeBody)</a>. <br>
 **[Sep. 24th, 2025]** 🧑‍💻 **New paper release:** Check out our new work **SDPose** on Exploiting the diffusion priors for OOD and robust pose estimation! I'm sooooo excited to share with you this work! Thank Dr. Guo Zhang, Professor Yingcong Chen, and Professor Yuan Yuan for their invaluable guidance!<br>
 **[Sep. 1st, 2025]** 🍻 **IEDM '25:** One paper Accepted by IEDM 2025! Thank Professor Han Wang, Professor Aoyang Zhang, and Professor Zhongrui Wang for their invaluable guidance! Thank Songqi and Jichang for the smooth collaboration. <br>
 **[Jan. 9th, 2025]** 🍻 **Optica Optics Express '25:** One paper for my undergraduate research accepted by Optics Express! Thank Professor Zhang for his invaluable guidance! Thank Yuze and Haimu for their collaboration and support!<br>
