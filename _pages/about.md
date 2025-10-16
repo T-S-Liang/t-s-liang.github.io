@@ -40,11 +40,30 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
 ## Education
 <!-- <h2><b>Experience</b></h2> -->
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+<style>
+@media (max-width: 768px) {
+  .education-table tr {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .education-table td {
+    display: block;
+    width: 100% !important;
+    padding: 10px 0 !important;
+    text-align: center !important;
+  }
+  .education-table img {
+    max-width: 80% !important;
+    height: auto !important;
+  }
+}
+</style>
+
+<table class="education-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
 
   <tr>
     <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
-      <center><img src='images/hkulogo.png' width="300"></center>
+      <center><img src='images/hkulogo.png' style="max-width:100%;height:auto;width:300px;"></center>
     </td>
     <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
       <b><a href="https://www.eee.hku.hk">Department of Electrical and Electronic Engineering</a>, The University of Hong Kong.</b>
@@ -59,7 +78,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
   <tr>
     <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
-      <center><img src='images/WHU.png' width="200"></center>
+      <center><img src='images/WHU.png' style="max-width:100%;height:auto;width:200px;"></center>
     </td>
     <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
       <b><a href="http://physics.whu.edu.cn/">School of Physics and Technology</a>, Wuhan University.</b>
@@ -78,7 +97,25 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 <!-- <h2><b>Publications</b></h2> -->
 †These authors contributed equally. *Corresponding author.
 
-<table style="width:100%;border:None;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+<style>
+@media (max-width: 768px) {
+  .publication-table tr {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .publication-table td {
+    display: block;
+    width: 100% !important;
+    padding: 10px 0 !important;
+  }
+  .publication-table img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
+</style>
+
+<table class="publication-table" style="width:100%;border:None;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
 
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
@@ -92,7 +129,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <a href="/images/IEDM_SCIM.jpg">
-      <img src='/images/IEDM_SCIM.jpg' width="300">
+      <img src='/images/IEDM_SCIM.jpg' style="max-width:100%;height:auto;width:300px;">
       </a>
     </td>
   </tr>
@@ -150,7 +187,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <a href="/images/SA.png">
-      <img src='/images/SA.png' width="300">
+      <img src='/images/SA.png' style="max-width:100%;height:auto;width:300px;">
       </a>
     </td>
   </tr>
@@ -158,10 +195,27 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
 ## Featured Open-source Projects ([Github](https://github.com/t-s-liang))
 
-<table style="font-size:0.95em;">
+<style>
+@media (max-width: 768px) {
+  .projects-table tr, .stats-table tr {
+    display: block;
+  }
+  .projects-table td, .stats-table td {
+    display: block;
+    width: 100% !important;
+    padding: 15px 0 !important;
+  }
+  .projects-table img, .stats-table img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
+</style>
+
+<table class="projects-table" style="font-size:0.95em;">
   <tr>
     <td align="center">
-      <img src='/images/SDPose_logo.png' width="300">
+      <img src='/images/SDPose_logo.png' style="max-width:100%;height:auto;width:300px;">
       <br>
       <a href="https://github.com/t-s-liang/SDPose-OOD/stargazers">
       <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/SDPose-OOD?style=social">
@@ -184,20 +238,41 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
 ## Github Stats
 
-<table style="font-size:0.92em;">
+<table class="stats-table" style="font-size:0.92em;">
   <tr>
     <td align="center">
- <img src="https://raw.githubusercontent.com/T-S-Liang/github-stats/master/generated/overview.svg">
+ <img src="https://raw.githubusercontent.com/T-S-Liang/github-stats/master/generated/overview.svg" style="max-width:100%;height:auto;">
     </td>
     <td align="center">
-  <img src="https://raw.githubusercontent.com/T-S-Liang/github-stats/master/generated/languages.svg">
+  <img src="https://raw.githubusercontent.com/T-S-Liang/github-stats/master/generated/languages.svg" style="max-width:100%;height:auto;">
     </td>
   </tr>
 </table>
 
 ## Selected Honors
 <!-- <h2><b>Selected Honors</b></h2> -->
-<table style="border:none;font-size:0.95em;">
+<style>
+@media (max-width: 768px) {
+  .text-table tr {
+    display: block;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+  }
+  .text-table td {
+    display: block;
+    width: 100% !important;
+    text-align: left !important;
+    padding: 5px 0 !important;
+  }
+  .text-table td:last-child {
+    font-weight: bold;
+    color: #666;
+  }
+}
+</style>
+
+<table class="text-table" style="border:none;font-size:0.95em;">
   <tr>
     <td style="border:none;"><i>Outstanding Bachelor's Thesis at Wuhan University</i> (Top 5%, in the School of Physics and Technology).
     </td>
@@ -214,7 +289,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 </table>
 
 ## Teaching and Review Services
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+<table class="text-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
   <tr>
     <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Teaching Assistant</b>, ENGG1330 Computer Programming I, HKU
     </td>
@@ -232,7 +307,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
   </table>
   
 ## Selected Outreach and Service (Undergraduate)
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+<table class="text-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
   <tr>
     <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Publicity Ambassador (Henan Province)</b>, Admission Office, Undergraduate College, Wuhan University
     </td>
@@ -250,7 +325,15 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
   </table>
 
 ## Review
-<center><div style="width: 60%; margin-left: 0; position: relative; z-index: 1000;">
+<style>
+@media (max-width: 768px) {
+  .review-container {
+    width: 95% !important;
+    max-width: 100% !important;
+  }
+}
+</style>
+<center><div class="review-container" style="width: 60%; margin-left: 0; position: relative; z-index: 1000;">
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=tt&d=k7gt1qlb_lyshkDh7qppLdft9pS_Vjj_fgeQYAUGSBs&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
 </div>
 </center>
