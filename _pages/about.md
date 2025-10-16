@@ -110,7 +110,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       [<a href="https://github.com/T-S-Liang/SDPose-OOD">Code</a>]
       [<a href="https://arxiv.org/abs/2509.24980">arXiv</a>]
       [<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
-      [<a href="https://huggingface.co/spaces/teemosliang/SDPose">HuggingFace Space Demo</a>]、
+      [<a href="https://huggingface.co/spaces/teemosliang/SDPose">HuggingFace Space Demo</a>]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <div style="display:flex;flex-wrap:wrap;gap:6px;width:100%;box-sizing:border-box;">
