@@ -12,18 +12,41 @@ redirect_from:
 <!-- <style> h2 { border-bottom: none } </style> -->
 
 <style>
-/* 全局移动端优化 - 让表格自适应 */
+/* 全局移动端优化 - 防止任何元素溢出 */
 @media (max-width: 768px) {
+  /* 表格基础样式 */
   table {
     width: 100% !important;
     max-width: 100% !important;
     display: block !important;
     box-sizing: border-box !important;
+    overflow-x: visible !important;
   }
+  
+  table tbody {
+    display: block !important;
+    width: 100% !important;
+  }
+  
+  table tr {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  
   table td {
+    display: block !important;
+    width: 100% !important;
     word-wrap: break-word !important;
     word-break: break-word !important;
     box-sizing: border-box !important;
+  }
+  
+  /* 确保顶层图片和媒体自适应（不包括绝对定位的） */
+  table img:not([style*="position: absolute"]),
+  table img:not([style*="position:absolute"]) {
+    max-width: 100% !important;
+    height: auto !important;
   }
 }
 </style>
@@ -128,47 +151,70 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
 <style>
 @media (max-width: 768px) {
+  /* 强制表格完全适应容器 */
   .publication-table {
     width: 100% !important;
+    max-width: 100% !important;
     display: block !important;
     box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
   .publication-table tbody {
     display: block !important;
     width: 100% !important;
+    box-sizing: border-box !important;
   }
   .publication-table tr {
     display: block !important;
     margin-bottom: 25px !important;
     width: 100% !important;
+    max-width: 100% !important;
     box-sizing: border-box !important;
   }
   .publication-table td {
     display: block !important;
     width: 100% !important;
-    padding: 10px 0 !important;
+    max-width: 100% !important;
+    padding: 5px 0 !important;
+    margin: 0 !important;
     box-sizing: border-box !important;
   }
-  .publication-table img {
+  /* 直接子图片（非四宫格） */
+  .publication-table td > a > img {
     max-width: 100% !important;
+    width: 100% !important;
     height: auto !important;
     display: block !important;
   }
-  /* 修复 SDPose 四宫格 */
+  /* SDPose 四宫格容器 */
   .publication-table td > div {
     width: 100% !important;
+    max-width: 100% !important;
     box-sizing: border-box !important;
     display: flex !important;
     flex-wrap: wrap !important;
-    gap: 4px !important;
+    gap: 2px !important;
     padding: 0 !important;
     margin: 0 !important;
   }
+  /* 四宫格中的每个单元 */
   .publication-table td > div > a {
-    width: calc(50% - 2px) !important;
-    padding-top: calc(50% - 2px) !important;
+    width: calc(50% - 1px) !important;
+    padding-top: calc(50% - 1px) !important;
+    max-width: calc(50% - 1px) !important;
     box-sizing: border-box !important;
     flex-shrink: 0 !important;
+    margin: 0 !important;
+    position: relative !important;
+  }
+  /* 四宫格中的图片 */
+  .publication-table td > div > a > img {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
   }
 }
 </style>
@@ -208,24 +254,24 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       [<a href="https://huggingface.co/spaces/teemosliang/SDPose">HuggingFace Space Demo</a>]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <div style="display:flex;flex-wrap:wrap;gap:4px;width:100%;box-sizing:border-box;max-width:100%;">
+      <div style="display:flex;flex-wrap:wrap;gap:2px;width:100%;box-sizing:border-box;">
         <a href="/images/SDPose_1.gif"
-           style="position:relative;width:calc(50% - 2px);padding-top:calc(50% - 2px);display:block;overflow:hidden;border-radius:6px;box-sizing:border-box;">
+           style="position:relative;width:calc(50% - 1px);padding-top:calc(50% - 1px);display:block;overflow:hidden;border-radius:4px;box-sizing:border-box;">
           <img src="/images/SDPose_1.gif" alt="SDPose gif 1"
                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
         <a href="/images/SDPose_2.gif"
-           style="position:relative;width:calc(50% - 2px);padding-top:calc(50% - 2px);display:block;overflow:hidden;border-radius:6px;box-sizing:border-box;">
+           style="position:relative;width:calc(50% - 1px);padding-top:calc(50% - 1px);display:block;overflow:hidden;border-radius:4px;box-sizing:border-box;">
           <img src="/images/SDPose_2.gif" alt="SDPose gif 2"
                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
         <a href="/images/SDPose_3.gif"
-           style="position:relative;width:calc(50% - 2px);padding-top:calc(50% - 2px);display:block;overflow:hidden;border-radius:6px;box-sizing:border-box;">
+           style="position:relative;width:calc(50% - 1px);padding-top:calc(50% - 1px);display:block;overflow:hidden;border-radius:4px;box-sizing:border-box;">
           <img src="/images/SDPose_3.gif" alt="SDPose gif 3"
                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
         <a href="/images/SDPose_4.gif"
-           style="position:relative;width:calc(50% - 2px);padding-top:calc(50% - 2px);display:block;overflow:hidden;border-radius:6px;box-sizing:border-box;">
+           style="position:relative;width:calc(50% - 1px);padding-top:calc(50% - 1px);display:block;overflow:hidden;border-radius:4px;box-sizing:border-box;">
           <img src="/images/SDPose_4.gif" alt="SDPose gif 4"
                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
