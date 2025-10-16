@@ -12,19 +12,18 @@ redirect_from:
 <!-- <style> h2 { border-bottom: none } </style> -->
 
 <style>
-/* 全局移动端优化 - 防止表格溢出 */
+/* 全局移动端优化 - 让表格自适应 */
 @media (max-width: 768px) {
-  body {
-    overflow-x: hidden !important;
-  }
   table {
+    width: 100% !important;
     max-width: 100% !important;
-    overflow-x: auto !important;
     display: block !important;
+    box-sizing: border-box !important;
   }
   table td {
     word-wrap: break-word !important;
     word-break: break-word !important;
+    box-sizing: border-box !important;
   }
 }
 </style>
@@ -60,15 +59,27 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 <!-- <h2><b>Experience</b></h2> -->
 <style>
 @media (max-width: 768px) {
+  .education-table {
+    width: 100% !important;
+    display: block !important;
+    box-sizing: border-box !important;
+  }
+  .education-table tbody {
+    display: block !important;
+    width: 100% !important;
+  }
   .education-table tr {
-    display: block;
-    margin-bottom: 20px;
+    display: block !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
   .education-table td {
-    display: block;
+    display: block !important;
     width: 100% !important;
     padding: 10px 0 !important;
     text-align: center !important;
+    box-sizing: border-box !important;
   }
   .education-table img {
     max-width: 80% !important;
@@ -119,31 +130,37 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 @media (max-width: 768px) {
   .publication-table {
     width: 100% !important;
-    max-width: 100% !important;
-    overflow-x: hidden !important;
     display: block !important;
+    box-sizing: border-box !important;
+  }
+  .publication-table tbody {
+    display: block !important;
+    width: 100% !important;
   }
   .publication-table tr {
-    display: block;
-    margin-bottom: 20px;
-    width: 100%;
+    display: block !important;
+    margin-bottom: 25px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
   .publication-table td {
-    display: block;
+    display: block !important;
     width: 100% !important;
-    padding: 10px 5px !important;
+    padding: 10px 0 !important;
     box-sizing: border-box !important;
   }
   .publication-table img {
     max-width: 100% !important;
     height: auto !important;
+    display: block !important;
   }
-  /* 修复 SDPose 四宫格溢出问题 */
+  /* 修复 SDPose 四宫格 */
   .publication-table td > div {
     width: 100% !important;
-    max-width: 100% !important;
     box-sizing: border-box !important;
-    gap: 3px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 4px !important;
     padding: 0 !important;
     margin: 0 !important;
   }
@@ -151,6 +168,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
     width: calc(50% - 2px) !important;
     padding-top: calc(50% - 2px) !important;
     box-sizing: border-box !important;
+    flex-shrink: 0 !important;
   }
 }
 </style>
@@ -237,13 +255,25 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
 <style>
 @media (max-width: 768px) {
+  .projects-table, .stats-table {
+    width: 100% !important;
+    display: block !important;
+    box-sizing: border-box !important;
+  }
+  .projects-table tbody, .stats-table tbody {
+    display: block !important;
+    width: 100% !important;
+  }
   .projects-table tr, .stats-table tr {
-    display: block;
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
   .projects-table td, .stats-table td {
-    display: block;
+    display: block !important;
     width: 100% !important;
     padding: 15px 0 !important;
+    box-sizing: border-box !important;
   }
   .projects-table img, .stats-table img {
     max-width: 100% !important;
@@ -293,21 +323,33 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 <!-- <h2><b>Selected Honors</b></h2> -->
 <style>
 @media (max-width: 768px) {
+  .text-table {
+    width: 100% !important;
+    display: block !important;
+    box-sizing: border-box !important;
+  }
+  .text-table tbody {
+    display: block !important;
+    width: 100% !important;
+  }
   .text-table tr {
-    display: block;
-    margin-bottom: 15px;
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 10px;
+    display: block !important;
+    margin-bottom: 15px !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+    padding-bottom: 10px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
   .text-table td {
-    display: block;
+    display: block !important;
     width: 100% !important;
     text-align: left !important;
     padding: 5px 0 !important;
+    box-sizing: border-box !important;
   }
   .text-table td:last-child {
-    font-weight: bold;
-    color: #666;
+    font-weight: bold !important;
+    color: #666 !important;
   }
 }
 </style>
@@ -368,8 +410,10 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 <style>
 @media (max-width: 768px) {
   .review-container {
-    width: 95% !important;
+    width: 100% !important;
     max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 0 10px !important;
   }
 }
 </style>
