@@ -179,6 +179,17 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
     padding: 5px 0 !important;
     margin: 0 !important;
     box-sizing: border-box !important;
+    /* 强制文本换行 */
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    hyphens: auto !important;
+  }
+  /* 确保所有文本元素都能换行 */
+  .publication-table td * {
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
   }
   /* 直接子图片（非四宫格） */
   .publication-table td > a > img {
@@ -227,7 +238,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       <br>
       Songqi Wang†, <u>Shuang Liang†</u>, Shaonan Wu†, Zhiqi Yang, Jichang Yang, Xinyuan Zhang, Yi Li, Yuhao Zhang*, Zhongrui Wang*, Aoyang Zhang* and Han Wang*.
       <br>
-      <i>$International\ Electron\ Devices\ Meeting\ (IEDM)\ 2025$.</i>
+      <i>International Electron Devices Meeting (IEDM) 2025.</i>
       <br>
       [<a href="#" style="pointer-events:none;color:#aaa;text-decoration:none;">Paper (TBA)</a>]
     </td>
@@ -245,7 +256,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       <br>
       <u>Shuang Liang</u>, Jing He, Chuanmeizhi Wang, Lejun Liao, Guo Zhang, Yingcong Chen and Yuan Yuan*.
       <br>
-      <i>$Preprint$.</i>
+      <i>Preprint.</i>
       <br>
       [<a href="/files/SDPose.pdf">PDF</a>]
       [<a href="https://github.com/T-S-Liang/SDPose-OOD">Code</a>]
@@ -285,7 +296,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       <br>
       <u>Shuang Liang</u>, Yuze Lu, Haimu Liu, Xiaohe Shang, Jiamin Ji, Rongguang Du, Yiling Yu and Shunping Zhang*.
       <br>
-      <i>$Optica\ Optics\ Express, 2025$.</i>
+      <i>Optica Optics Express, 2025.</i>
       <br>
       [<a href="/files/OE25.pdf">PDF</a>][<a href="https://doi.org/10.1364/OE.539834">Optica Online</a>]
     </td>
