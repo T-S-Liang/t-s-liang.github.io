@@ -112,8 +112,6 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       [<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
       [<a href="https://huggingface.co/spaces/teemosliang/SDPose">HuggingFace Space Demo</a>]
     </td>
-
-  <tr>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <div style="display:grid;
         grid-template-columns:repeat(2,1fr);
