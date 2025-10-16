@@ -110,24 +110,29 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       [<a href="https://github.com/T-S-Liang/SDPose-OOD">Code</a>]
       [<a href="https://arxiv.org/abs/2509.24980">arXiv</a>]
       [<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
-      [<a href="https://huggingface.co/spaces/teemosliang/SDPose">HuggingFace Space Demo</a>]
+      [<a href="https://huggingface.co/spaces/teemosliang/SDPose">HuggingFace Space Demo</a>]、
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <div style="display:grid;
-        grid-template-columns:repeat(2,1fr);
-        gap:6px;
-        width:100%;">
-        <a href="/images/SDPose_1.gif" style="display:block;aspect-ratio:1/1;overflow:hidden;border-radius:6px;">
-          <img src="/images/SDPose_1.gif" alt="SDPose gif 1" style="width:100%;height:100%;object-fit:cover;display:block;">
+      <div style="display:flex;flex-wrap:wrap;gap:6px;width:100%;box-sizing:border-box;">
+        <a href="/images/SDPose_1.gif"
+           style="position:relative;width:calc(50% - 3px);padding-top:50%;display:block;overflow:hidden;border-radius:6px;">
+          <img src="/images/SDPose_1.gif" alt="SDPose gif 1"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
-        <a href="/images/SDPose_2.gif" style="display:block;aspect-ratio:1/1;overflow:hidden;border-radius:6px;">
-          <img src="/images/SDPose_2.gif" alt="SDPose gif 2" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <a href="/images/SDPose_2.gif"
+           style="position:relative;width:calc(50% - 3px);padding-top:50%;display:block;overflow:hidden;border-radius:6px;">
+          <img src="/images/SDPose_2.gif" alt="SDPose gif 2"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
-        <a href="/images/SDPose_3.gif" style="display:block;aspect-ratio:1/1;overflow:hidden;border-radius:6px;">
-          <img src="/images/SDPose_3.gif" alt="SDPose gif 3" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <a href="/images/SDPose_3.gif"
+           style="position:relative;width:calc(50% - 3px);padding-top:50%;display:block;overflow:hidden;border-radius:6px;">
+          <img src="/images/SDPose_3.gif" alt="SDPose gif 3"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
-        <a href="/images/SDPose_4.gif" style="display:block;aspect-ratio:1/1;overflow:hidden;border-radius:6px;">
-          <img src="/images/SDPose_4.gif" alt="SDPose gif 4" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <a href="/images/SDPose_4.gif"
+           style="position:relative;width:calc(50% - 3px);padding-top:50%;display:block;overflow:hidden;border-radius:6px;">
+          <img src="/images/SDPose_4.gif" alt="SDPose gif 4"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
       </div>
     </td>
