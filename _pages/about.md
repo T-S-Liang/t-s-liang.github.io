@@ -11,6 +11,24 @@ redirect_from:
 
 <!-- <style> h2 { border-bottom: none } </style> -->
 
+<style>
+/* 全局移动端优化 - 防止表格溢出 */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  table {
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    display: block !important;
+  }
+  table td {
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+  }
+}
+</style>
+
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
 ![Ph.D.](https://img.shields.io/badge/Ph.D./MPhil-HKU%20(2024--Present)-yellowgreen?style=flat-square&color=181717&labelColor=e05430)
 <!-------------------->
@@ -99,18 +117,40 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
 <style>
 @media (max-width: 768px) {
+  .publication-table {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    display: block !important;
+  }
   .publication-table tr {
     display: block;
     margin-bottom: 20px;
+    width: 100%;
   }
   .publication-table td {
     display: block;
     width: 100% !important;
-    padding: 10px 0 !important;
+    padding: 10px 5px !important;
+    box-sizing: border-box !important;
   }
   .publication-table img {
     max-width: 100% !important;
     height: auto !important;
+  }
+  /* 修复 SDPose 四宫格溢出问题 */
+  .publication-table td > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    gap: 3px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .publication-table td > div > a {
+    width: calc(50% - 2px) !important;
+    padding-top: calc(50% - 2px) !important;
+    box-sizing: border-box !important;
   }
 }
 </style>
@@ -150,24 +190,24 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       [<a href="https://huggingface.co/spaces/teemosliang/SDPose">HuggingFace Space Demo</a>]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <div style="display:flex;flex-wrap:wrap;gap:6px;width:100%;box-sizing:border-box;">
+      <div style="display:flex;flex-wrap:wrap;gap:4px;width:100%;box-sizing:border-box;max-width:100%;">
         <a href="/images/SDPose_1.gif"
-           style="position:relative;width:calc(50% - 3px);padding-top:50%;display:block;overflow:hidden;border-radius:6px;">
+           style="position:relative;width:calc(50% - 2px);padding-top:calc(50% - 2px);display:block;overflow:hidden;border-radius:6px;box-sizing:border-box;">
           <img src="/images/SDPose_1.gif" alt="SDPose gif 1"
                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
         <a href="/images/SDPose_2.gif"
-           style="position:relative;width:calc(50% - 3px);padding-top:50%;display:block;overflow:hidden;border-radius:6px;">
+           style="position:relative;width:calc(50% - 2px);padding-top:calc(50% - 2px);display:block;overflow:hidden;border-radius:6px;box-sizing:border-box;">
           <img src="/images/SDPose_2.gif" alt="SDPose gif 2"
                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
         <a href="/images/SDPose_3.gif"
-           style="position:relative;width:calc(50% - 3px);padding-top:50%;display:block;overflow:hidden;border-radius:6px;">
+           style="position:relative;width:calc(50% - 2px);padding-top:calc(50% - 2px);display:block;overflow:hidden;border-radius:6px;box-sizing:border-box;">
           <img src="/images/SDPose_3.gif" alt="SDPose gif 3"
                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
         <a href="/images/SDPose_4.gif"
-           style="position:relative;width:calc(50% - 3px);padding-top:50%;display:block;overflow:hidden;border-radius:6px;">
+           style="position:relative;width:calc(50% - 2px);padding-top:calc(50% - 2px);display:block;overflow:hidden;border-radius:6px;box-sizing:border-box;">
           <img src="/images/SDPose_4.gif" alt="SDPose gif 4"
                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
