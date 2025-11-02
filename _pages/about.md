@@ -12,9 +12,9 @@ redirect_from:
 <!-- <style> h2 { border-bottom: none } </style> -->
 
 <style>
-/* 全局移动端优化 - 防止任何元素溢出 */
+
 @media (max-width: 768px) {
-  /* 表格基础样式 */
+  
   table {
     width: 100% !important;
     max-width: 100% !important;
@@ -42,7 +42,6 @@ redirect_from:
     box-sizing: border-box !important;
   }
   
-  /* 确保顶层图片和媒体自适应（不包括绝对定位的） */
   table img:not([style*="position: absolute"]),
   table img:not([style*="position:absolute"]) {
     max-width: 100% !important;
@@ -57,7 +56,7 @@ redirect_from:
 
 Currently, I'm a second year research post graduate student at the <a href = "https://www.eee.hku.hk">Department of Electrical and Electronic Engineering, The University of Hong Kong</a>, working with the very nice Prof. <a href = "https://hanwang6.github.io/team/">Han Wang</a>. Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as a Machine Learning Engineer intern at Beijing Rama Alpaca Technology Company under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and in collaboration with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href  = "https://yyuanad.github.io">Yuan Yuan</a> in the last semester of my undergraduate study.
 
-I am dedicated to becoming a **full-stack engineer** in the field of Electronic and Computer Engineering (ECE), as I have bottom-up experiences from AI perception algorithms, electronic system architecture, and device physics. My research spans **co-design of AI chip architectures** with **efficient vision algorithms** and **multimodal foundation models for real-world deployment**.
+My research focuses on **AI model deployment on resource-constrained devices**, **computer vision and multimodal AI algorithms**, and the **hardware-aware co-design of algorithms and accelerator architectures**.
 
 ## Please contact me via:
 
