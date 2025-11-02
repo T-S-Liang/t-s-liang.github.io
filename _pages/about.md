@@ -66,6 +66,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
 ## What's new:
 
+**[Oct. 30th, 2025]** 🎉 **Our work SDPose-OOD is getting noticed!**: A big shout-out to the community developers who made a ComfyUI node for SDPose-OOD — making it even easier to integrate into creative workflows. 🙌 Try it out here: <a href="https://github.com/judian17/ComfyUI-SDPose-OOD">ComfyUI Node SDPose-OOD</a>. <br>
 **[Oct. 14th, 2025]** 🚀 **Open-source of SDPose**: Major code and model release now available:
 <a href="https://github.com/T-S-Liang/SDPose-OOD">GitHub Repository</a> | <a href="https://huggingface.co/teemosliang/SDPose-Body">HF Model (Body)</a> | <a href="https://huggingface.co/teemosliang/SDPose-Wholebody">HF Model (WholeBody)</a>. <br>
 **[Sep. 24th, 2025]** 🧑‍💻 **New paper release:** Check out our new work **SDPose** on Exploiting the diffusion priors for OOD and robust pose estimation! I'm sooooo excited to share with you this work! Thank Dr. Guo Zhang, Professor Yingcong Chen, and Professor Yuan Yuan for their invaluable guidance!<br>
