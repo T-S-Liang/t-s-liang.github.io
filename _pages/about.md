@@ -147,7 +147,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
 ## Featured Publications
 <!-- <h2><b>Publications</b></h2> -->
-First author and co-first author works exhibited. To see the full list, please refer to the <a href = "/publications">Pubulication</a> section or my <a href = "https://scholar.google.com.hk/citations?hl=zh-CN&user=L236mPUAAAAJ">Google Scholar</a>.
+First-author and co-first-author works are highlighted below. For the full list, please refer to the <a href="/publications">Publication</a> section or my <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=L236mPUAAAAJ">Google Scholar</a>. <br>
 †These authors contributed equally. *Corresponding author.
 
 <style>
