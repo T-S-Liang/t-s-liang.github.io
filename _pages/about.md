@@ -56,7 +56,7 @@ redirect_from:
 
 Currently, I'm a second year research post graduate student at the <a href = "https://www.eee.hku.hk">Department of Electrical and Electronic Engineering, The University of Hong Kong</a>, working with the very nice Prof. <a href = "https://hanwang6.github.io/team/">Han Wang</a>. Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as a Machine Learning Engineer intern at Beijing Rama Alpaca Technology Company under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and in collaboration with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href  = "https://yyuanad.github.io">Yuan Yuan</a> in the last semester of my undergraduate study.
 
-My research focuses on **AI model deployment on resource-constrained devices**, **computer vision and multimodal AI algorithms**, and the **hardware-aware co-design of algorithms and accelerator architectures**.
+My research lies at the intersection of **hardware-efficient AI** and **representation learning**, with a focus on computer vision and multimodal models.
 
 ## Please contact me via:
 
