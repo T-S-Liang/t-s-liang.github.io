@@ -485,7 +485,7 @@ First-author and co-first-author works are highlighted below. For the full list,
 * In Chinese context, my name has the same meaning of the word "cool", which refers to the pleasant weather of the season I was born. It's actually a girly name so that people often mistake me as a girl before they meet me. My preferred name is Tim, which is my English name but not part of my legal name.
 * I spent my childhood and adolescence along the majestic Yellow River, where the waters whispered tales of ancient civilizations. My college years unfolded beside the mighty Yangtze River, a flowing testament to China’s enduring spirit and progress. Now, I find myself working beside the vibrant Pearl River, where the currents echo the pulse of modernity and innovation.
 * Music takes up most of my free time. I listen to a wide range of styles, including country, J-rock, and Chinese folk, almost anything centered on guitar. I also enjoy pop, hip-hop, and EDM. Big fan of Taylor Swift, Adele, Billie Eilish, and Beyoncé, and I am always happy to talk about music across different genres.
-
+* During my undergraduate years at WHU, I also cultivated a deep passion for Chinese debate. I served as the captain of the School of Physics debate team (Class of 2020) and took the lead in organizing the "Xunli Debate" (寻理杯) competition during my time on campus.
 --------
 
 
