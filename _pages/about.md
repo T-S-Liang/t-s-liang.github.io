@@ -126,7 +126,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       <br>
       Ph.D. Student in Electrical and Electronic Engineering
       <br>
-      Research: Hardware-efficient AI, Computer Vision, CIM-based computing systems.
+      Research: Hardware-efficient AI, Computer Vision, Compute-in-memory Accelerator.
       <br>
       (Oct. 2024 - Present)
     </td>
@@ -139,6 +139,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
     <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
       <b><a href="http://physics.whu.edu.cn/">School of Physics and Technology</a>, Wuhan University.</b>
       <br>
+      Research: Condensed Matter Physics Experiment, AI for Computational Physics.
       B.S. in Physics
       <br>
       Dissertation: Constructing Tight-binding Model Based on Deep Learning
