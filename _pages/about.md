@@ -139,8 +139,9 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
     <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
       <b><a href="http://physics.whu.edu.cn/">School of Physics and Technology</a>, Wuhan University.</b>
       <br>
-      Research: Condensed Matter Physics Experiment, AI for Computational Physics.
       B.S. in Physics
+      <br>
+      Research: Condensed Matter Physics Experiment, AI for Computational Physics.
       <br>
       Dissertation: Constructing Tight-binding Model Based on Deep Learning
       <br>
