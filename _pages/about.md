@@ -124,9 +124,9 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
     <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
       <b><a href="https://www.eee.hku.hk">Department of Electrical and Electronic Engineering</a>, The University of Hong Kong.</b>
       <br>
-      Ph.D./MPhil in Electrical and Electronic Engineering
+      Ph.D. Student in Electrical and Electronic Engineering
       <br>
-      Research: AI accelerator and in-memory computing systems
+      Research: Hardware-efficient AI, Computer Vision, CIM-based computing systems.
       <br>
       (Oct. 2024 - Present)
     </td>
