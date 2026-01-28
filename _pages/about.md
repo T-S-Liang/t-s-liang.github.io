@@ -421,7 +421,7 @@ First-author and co-first-author works are highlighted below. For the full list,
   </tr>
 
   <tr>
-    <td style="border:none;"><i>First Class Scholarship</i> (Top 5%, for academic excellence, ¥3,000 CNY) by Wuhan University.
+    <td style="border:none;"><i>First Class Scholarship</i> (Top 5%, for academic excellence) by Wuhan University.
     </td>
     <td style="border:none;text-align:center;">2021
     </td>
