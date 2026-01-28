@@ -51,7 +51,7 @@ redirect_from:
 </style>
 
 ![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
-![Ph.D.](https://img.shields.io/badge/Ph.D./MPhil-HKU%20(2024--Present)-yellowgreen?style=flat-square&color=181717&labelColor=e05430)
+![Ph.D.](https://img.shields.io/badge/Ph.D.-HKU%20(2024--Present)-yellowgreen?style=flat-square&color=181717&labelColor=e05430)
 <!-------------------->
 
 Currently, I'm a second year research post graduate student at the <a href = "https://www.eee.hku.hk">Department of Electrical and Electronic Engineering, The University of Hong Kong</a>, working with the very nice Prof. <a href = "https://hanwang6.github.io/team/">Han Wang</a>.
