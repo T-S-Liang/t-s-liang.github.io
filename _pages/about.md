@@ -60,7 +60,7 @@ Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "
 
 I also spent a wonderful time as a research intern at Rama Alpaca Technology Company under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and in collaboration with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href  = "https://yyuanad.github.io">Yuan Yuan</a> in the last semester of my undergraduate study.
 
-I focus on **vision-centric algorithms**, **multimodal learning**, and **hardware-efficient AI systems**.
+My research focuses on **vision-centric algorithms**, **multimodal learning**, and **hardware-efficient AI systems**.
 
 This direction covers, but is not limited to, the following topics:
 
