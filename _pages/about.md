@@ -60,7 +60,15 @@ Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "
 
 I also spent a wonderful time as a research intern at Rama Alpaca Technology Company under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and in collaboration with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href  = "https://yyuanad.github.io">Yuan Yuan</a> in the last semester of my undergraduate study.
 
-My research lies at the intersection of **hardware-efficient AI** and **representation learning**, with a focus on computer vision and multimodal models.
+I focus on generative-based perception & robust multimodal reasoning, with a commitment to model compression and brain-mimic computing.
+
+This direction covers, but is not limited to, the following topics:
+
+🔥 **Generative Backbones for Robust Perception & Reasoning**: Repurposing large-scale generative models (e.g., LDM, VLM) as foundational backbones for generalized downstream tasks.
+
+🚀 **Efficient Compression**: Hardware efficient optimization of LLMs, VLMs, and Diffusion models (ultra low-bit quantization, pruning, and sparsity), with a specific emphasis on Linear Attention for long-sequence efficiency.
+
+🧠 **Brain-mimic Computing**: Neuromorphic computing to provide the underlying support for next-generation, high-efficiency compute-in-memory systems.
 
 ## Please contact me via:
 
