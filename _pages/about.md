@@ -56,18 +56,14 @@ redirect_from:
 
 I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Department of Electrical and Electronic Engineering, The University of Hong Kong</a>. I am fortunate to be advised by Prof. <a href = "https://www.eee.hku.hk/people/h-wang">Han Wang</a>, focusing on compute-in-memory AI accelerators.
 
-Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>.
-
-I also spent a wonderful time as a research intern at Rama Alpaca Technology Company under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and in collaboration with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href  = "https://yyuanad.github.io">Yuan Yuan</a> in the last semester of my undergraduate study.
+Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as a research intern at Rama Alpaca Technology Company under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and in collaboration with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href  = "https://yyuanad.github.io">Yuan Yuan</a> in the last semester of my undergraduate study.
 
 My research focuses on **vision-centric algorithms**, **multimodal learning**, and **hardware-efficient AI systems**.
 
 This direction covers, but is not limited to, the following topics:
 
-🔥 **Generative Backbones for Robust Perception & Reasoning**: Repurposing large-scale generative models (e.g., LDM, VLM) as foundational backbones for generalized downstream tasks.
-
-🚀 **Efficient Compression**: Hardware efficient optimization of LLMs, VLMs, and Diffusion models (ultra low-bit quantization, pruning, and sparsity), with a specific emphasis on Linear Attention for long-sequence efficiency.
-
+🔥 **Generative Backbones for Robust Perception & Reasoning**: Repurposing large-scale generative models (e.g., LDM, VLM) as foundational backbones for generalized downstream tasks.<br>
+🚀 **Efficient Compression**: Hardware efficient optimization of LLMs, VLMs, and Diffusion models (ultra low-bit quantization, pruning, and sparsity), with a specific emphasis on Linear Attention for long-sequence efficiency.<br>
 🧠 **Neuromorphic Computing**: Neuromorphic computing to provide the underlying support for next-generation, high-efficiency compute-in-memory systems.
 
 ## Please contact me via:
