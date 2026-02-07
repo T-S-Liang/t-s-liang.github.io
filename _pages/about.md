@@ -251,7 +251,7 @@ First-author and co-first-author works are highlighted below. For the full list,
       <br>
       <i>International Electron Devices Meeting (IEDM) 2025.</i>
       <br>
-      [<a href="https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=L236mPUAAAAJ&citation_for_view=L236mPUAAAAJ:9yKSN-GCB0IC" style="pointer-events:none;color:#aaa;text-decoration:none;">Google Scholar</a>]
+      [[<a href="https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=L236mPUAAAAJ&citation_for_view=L236mPUAAAAJ:9yKSN-GCB0IC" target="_blank" style="color:#0066cc; text-decoration:none;">Google Scholar</a>]]
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <a href="/images/IEDM_SCIM.jpg">
