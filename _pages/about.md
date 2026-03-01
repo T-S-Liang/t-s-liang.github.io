@@ -126,7 +126,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
       <center><img src='images/hkulogo.png' style="max-width:100%;height:auto;width:300px;"></center>
     </td>
     <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
-      <b><a href="https://www.eee.hku.hk">Department of Electrical and Electronic Engineering</a>, The University of Hong Kong.</b>
+      <b><a href="https://www.eee.hku.hk">Department of Electrical and Computer Engineering</a>, The University of Hong Kong.</b>
       <br>
       Ph.D. Student in Electrical and Computer Engineering
       <br>
