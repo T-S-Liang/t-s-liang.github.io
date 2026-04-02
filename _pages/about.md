@@ -58,15 +58,18 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
 
 Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as a research intern at Rama Alpaca Technology Company under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and in collaboration with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href  = "https://yyuanad.github.io">Yuan Yuan</a> in the last semester of my undergraduate study.
 
-My research focuses on the intersection of vision-centric algorithms, multimodal representation learning, and hardware-efficient AI, driven by a deep interest in bridging theoretical algorithmic innovation with physical deployment constraints.
+My research lies at the intersection of **vision-centric algorithms, multimodal representation learning, and hardware-efficient AI**, with a focus on bridging **algorithmic innovation** and **deployment constraints**.
 
-This direction covers, but is not limited to, the following core topics:
+This direction centers on three core themes:
 
-🔥 Generative Priors for Robust Perception & Reasoning: Repurposing large-scale generative models (e.g., Diffusion models, VLMs) as foundational backbones for generalized downstream tasks. The core objective is extracting, reconstructing, and transferring deep visual priors from these generative frameworks to achieve robust performance in classical discriminative and perceptual tasks.
+🔥 **Generative Priors for Robust Perception and Reasoning**  
+Leveraging large-scale generative models (e.g., diffusion models, vision-language models) as **foundational backbones** for downstream tasks. The goal is to **extract and transfer rich visual priors** from generative frameworks to improve robustness and generalization in classical perception and reasoning tasks.
 
-🌌 Multimodal Representation Learning & Latent Spaces: Investigating the essence of feature extraction within unified latent spaces. By leveraging contrastive learning paradigms and deep generative architectures (e.g., VAEs, foundation vision models), this research aims to learn decoupled, robust, and highly generalizable multimodal representations, moving beyond merely optimizing task-specific metrics.
+🌌 **Multimodal Representation Learning and Latent Spaces**  
+Studying **unified latent spaces** for learning structured and transferable representations. This includes combining **contrastive learning** with **generative modeling** (e.g., VAEs, foundation models) to achieve **disentangled, robust, and modality-agnostic representations**, beyond task-specific optimization.
 
-🚀 Algorithm-Hardware Co-design: Extreme Compression for CIM Systems: Pushing the physical limits of AI deployment through ultra-low-bit quantization (e.g., INT8 and beyond), pruning, and linear attention mechanisms for long sequences. A critical emphasis of this work is evaluating the numerical stability of complex algorithms, tailoring model compression and efficient representations to natively serve and empower next-generation Neuromorphic and Compute-in-Memory (CIM) architectures.
+🚀 **Algorithm-Hardware Co-design for Efficient AI Systems**  
+Designing algorithms with hardware constraints in mind, focusing on **ultra-low-bit quantization**, pruning, and efficient attention mechanisms. This direction emphasizes **numerical stability and compression-aware modeling** to enable efficient deployment on emerging architectures such as **neuromorphic and compute-in-memory (CIM) systems**.
 
 ## Please contact me via:
 
