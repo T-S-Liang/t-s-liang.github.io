@@ -54,24 +54,19 @@ redirect_from:
 ![Ph.D.](https://img.shields.io/badge/Ph.D.-HKU%20(2024--Present)-yellowgreen?style=flat-square&color=181717&labelColor=e05430)
 <!-------------------->
 
-I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Department of Electrical and Computer Engineering, The University of Hong Kong</a>. I am fortunate to be advised by Prof. <a href = "https://www.eee.hku.hk/people/h-wang">Han Wang</a>.
-
-Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as a research intern at Rama Alpaca Technology Company under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and in collaboration with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href  = "https://yyuanad.github.io">Yuan Yuan</a> in the last semester of my undergraduate study.
+I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Department of Electrical and Computer Engineering, The University of Hong Kong</a>. I am fortunate to be advised by Prof. <a href = "https://www.eee.hku.hk/people/h-wang">Han Wang</a>. Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as a research intern at Rama Alpaca Technology Company under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and in collaboration with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href  = "https://yyuanad.github.io">Yuan Yuan</a> in the last semester of my undergraduate study. We have maintained a strong and frequent research collaboration ever since.
 
 My research focuses on **computer vision**, **multimodal representation learning**, and **hardware-efficient AI**.
 
 This direction covers, but is not limited to, the following topics:
 
 🚀 **Generative Priors for Robust Perception & Reasoning**
-
 Leveraging large-scale generative models as foundation priors to improve robustness and generalization in perception and reasoning.
 
 🌌 **Multimodal Representation Learning & Latent Spaces**
-
 Designing unified and transferable representations that are stable, scalable, and generalizable across modalities and tasks.
 
 🔥 **Algorithm–Hardware Co-design for Efficient AI Systems**
-
 Developing efficient models under low-bit, sparse, and hardware-constrained settings, aligned with emerging computing paradigms.
 
 ## Please contact me via:
