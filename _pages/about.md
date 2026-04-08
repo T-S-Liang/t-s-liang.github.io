@@ -60,13 +60,13 @@ My research focuses on **computer vision**, **multimodal representation learning
 
 This direction covers, but is not limited to, the following topics:
 
-🚀 **Generative Priors for Robust Perception & Reasoning**
+🚀 **Generative Priors for Robust Perception & Reasoning**: 
 Leveraging large-scale generative models as foundation priors to improve robustness and generalization in perception and reasoning.
 
-🌌 **Multimodal Representation Learning & Latent Spaces**
+🌌 **Multimodal Representation Learning & Latent Spaces**: 
 Designing unified and transferable representations that are stable, scalable, and generalizable across modalities and tasks.
 
-🔥 **Algorithm–Hardware Co-design for Efficient AI Systems**
+🔥 **Algorithm–Hardware Co-design for Efficient AI Systems**: 
 Developing efficient models under low-bit, sparse, and hardware-constrained settings, aligned with emerging computing paradigms.
 
 ## Please contact me via:
