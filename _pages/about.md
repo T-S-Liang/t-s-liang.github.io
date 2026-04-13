@@ -18,9 +18,8 @@ redirect_from:
   overflow-y: auto;
   padding: 1rem 1.2rem;
   border: 1px solid #d7dee6;
-  border-radius: 14px;
-  background: linear-gradient(180deg, #fcfdff 0%, #f5f8fb 100%);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+  background: #f8fbfd;
   scroll-behavior: smooth;
 }
 
@@ -66,36 +65,59 @@ redirect_from:
 }
 
 .research-grid {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   margin: 1.5rem 0 0;
+  align-items: stretch;
 }
 
 .research-card {
-  min-height: 100%;
-  padding: 1.2rem 1.1rem;
-  border: 1px solid #d7dee6;
-  border-radius: 16px;
-  background: linear-gradient(180deg, #ffffff 0%, #f6f9fc 100%);
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+  position: relative;
+  display: grid;
+  grid-template-rows: auto minmax(3.4rem, auto) minmax(3.2rem, auto) 1fr;
+  min-height: 15rem;
+  padding: 5.2rem 1.25rem 1.25rem;
+  border: none;
+  border-radius: 0;
+  background: linear-gradient(180deg, rgba(248, 251, 253, 0) 0%, #f8fbfd 22%, #f8fbfd 100%);
+  overflow: hidden;
+}
+
+.research-card:nth-child(1),
+.research-card:nth-child(3) {
+  margin-top: 0.8rem;
+  min-height: 14.5rem;
+}
+
+.research-card:nth-child(2) {
+  min-height: 15.8rem;
+  margin-top: 0.8rem;
+  background: linear-gradient(180deg, rgba(243, 248, 251, 0) 0%, #f3f8fb 24%, #f3f8fb 100%);
 }
 
 .research-card__icon {
+  position: absolute;
+  top: 0.2rem;
+  left: 50%;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.4rem;
-  height: 2.4rem;
-  margin-bottom: 0.8rem;
-  border-radius: 999px;
-  background: rgba(59, 179, 195, 0.12);
-  font-size: 1.2rem;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 0;
+  background: transparent;
+  font-size: 1.3rem;
+  transform: translateX(-50%);
 }
 
 .research-card h3 {
-  margin: 0 0 0.35rem;
+  max-width: 100%;
+  margin: 0 0 0.45rem;
   font-size: 1.08rem;
+  line-height: 1.35;
+  text-align: center;
 }
 
 .research-card__tag {
@@ -105,11 +127,14 @@ redirect_from:
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .research-card p {
   margin: 0;
   line-height: 1.75;
+  text-align: left;
+  text-wrap: pretty;
 }
 
 .page__content > h2 {
@@ -131,13 +156,78 @@ redirect_from:
   line-height: 1.75;
 }
 
+.resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.75rem;
+}
+
+.resource-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  padding: 0.28rem 0.62rem;
+  border: 1px solid #d7dee6;
+  border-radius: 999px;
+  background: #fbfdff;
+  color: #334a5b;
+  font-size: 0.84rem;
+  line-height: 1.2;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.resource-pill:hover {
+  background: #f4f8fb;
+  border-color: #bfd0de;
+}
+
+.resource-pill__mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.15rem;
+  height: 1.15rem;
+  color: #688093;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.resource-pill__mark img {
+  width: 0.92rem;
+  height: 0.92rem;
+  display: block;
+}
+
+.resource-pill__mark--wide {
+  min-width: 1.55rem;
+}
+
+.resource-pill__mark--wide img {
+  width: 1.4rem;
+  height: auto;
+}
+
+.resource-pill__mark--pdf {
+  min-width: 1.4rem;
+  height: 1rem;
+  padding: 0 0.18rem;
+  border-radius: 3px;
+  background: #e14b3b;
+  color: #ffffff;
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
 .contact-card,
 .review-card {
   padding: 1.1rem 1.2rem;
   border: 1px solid #d7dee6;
-  border-radius: 16px;
-  background: linear-gradient(180deg, #ffffff 0%, #f7fafc 100%);
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+  border-radius: 6px;
+  background: #fbfdff;
 }
 
 .contact-card p,
@@ -150,6 +240,21 @@ redirect_from:
   margin-top: 0.7rem;
 }
 
+.contact-inline-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  margin-right: 0.35rem;
+  color: #5f7687;
+}
+
+.contact-inline-icon img {
+  width: 0.95rem;
+  height: 0.95rem;
+  display: block;
+}
+
 .education-table,
 .publication-table,
 .projects-table,
@@ -160,52 +265,123 @@ redirect_from:
   border-collapse: separate !important;
 }
 
+.projects-table,
+.stats-table {
+  border: none !important;
+  background: transparent !important;
+}
+
+.projects-table tr,
+.projects-table tbody,
+.stats-table tr,
+.stats-table tbody {
+  border: none !important;
+  background: transparent !important;
+}
+
 .education-table td,
 .publication-table td,
-.projects-table td,
-.stats-table td,
 .text-table td {
   padding: 1.1rem 1.15rem !important;
   border-top: 1px solid #d7dee6 !important;
   border-bottom: 1px solid #d7dee6 !important;
-  background: linear-gradient(180deg, #ffffff 0%, #f7fafc 100%);
+  background: #fbfdff;
   vertical-align: middle;
 }
 
 .education-table td:first-child,
 .publication-table td:first-child,
-.projects-table td:first-child,
-.stats-table td:first-child,
 .text-table td:first-child {
   border-left: 1px solid #d7dee6 !important;
-  border-radius: 16px 0 0 16px;
+  border-radius: 6px 0 0 6px;
 }
 
 .education-table td:last-child,
 .publication-table td:last-child,
-.projects-table td:last-child,
-.stats-table td:last-child,
 .text-table td:last-child {
   border-right: 1px solid #d7dee6 !important;
-  border-radius: 0 16px 16px 0;
+  border-radius: 0 6px 6px 0;
 }
 
 .publication-table td > a > img,
-.projects-table img,
-.stats-table img,
 .education-table img {
-  border-radius: 14px;
+  border-radius: 4px;
   display: block;
+}
+
+.projects-table,
+.stats-table {
+  border-spacing: 0 0.75rem !important;
+}
+
+.stats-table {
+  table-layout: fixed;
+  width: auto !important;
+  margin: 0 auto;
 }
 
 .projects-table td,
 .stats-table td {
+  padding: 0.4rem 0.6rem !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
   text-align: center;
+}
+
+.projects-table td {
+  padding: 1rem 1.1rem !important;
+  border-top: 1px solid #d7dee6 !important;
+  border-bottom: 1px solid #d7dee6 !important;
+  background: #fbfdff !important;
+}
+
+.projects-table td:first-child {
+  border-left: 1px solid #d7dee6 !important;
+  border-right: 1px solid #d7dee6 !important;
+  border-radius: 6px 0 0 6px !important;
+}
+
+.projects-table td:last-child {
+  border-right: 1px solid #d7dee6 !important;
+  border-radius: 0 6px 6px 0 !important;
+}
+
+.projects-table img,
+.stats-table img {
+  border-radius: 4px;
+  display: block;
+}
+
+.stats-table td {
+  width: 430px;
+  padding: 0.2rem 0.35rem !important;
+  vertical-align: top;
+}
+
+.stats-table img {
+  width: 100%;
+  max-width: 430px;
+  margin: 0 auto;
+}
+
+.projects-table a img[src*="img.shields.io"],
+.stats-table a img[src*="img.shields.io"],
+.projects-table img[src*="img.shields.io"],
+.stats-table img[src*="img.shields.io"] {
+  display: inline-block !important;
+  vertical-align: middle;
+  border-radius: 0;
 }
 
 .review-card {
   width: min(100%, 760px);
   margin: 0 auto;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
 }
 
 .facts-list {
@@ -215,13 +391,15 @@ redirect_from:
 }
 
 .facts-list li {
-  margin: 0 0 0.9rem;
-  padding: 1rem 1.1rem;
-  border: 1px solid #d7dee6;
-  border-radius: 14px;
-  background: linear-gradient(180deg, #ffffff 0%, #f7fafc 100%);
-  line-height: 1.75;
-  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+  margin: 0 0 0.8rem;
+  padding: 0.1rem 0 0.1rem 0.9rem;
+  border: none;
+  border-left: 2px solid #d7dee6;
+  border-radius: 0;
+  background: transparent;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: #596d7d;
 }
 
 hr.section-divider {
@@ -230,11 +408,56 @@ hr.section-divider {
   border-top: 1px solid #e1e7ee;
 }
 
+.degree-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.32rem;
+  margin: 0 0 0.8rem;
+}
+
+.degree-badge {
+  display: inline-flex;
+  align-items: stretch;
+  border: 1px solid #d7dee6;
+  background: #fbfdff;
+  color: #2f4658;
+  font-size: 0.7rem;
+  line-height: 1;
+  overflow: hidden;
+}
+
+.degree-badge__label {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.26rem 0.38rem;
+  background: #edf4f8;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.degree-badge__value {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.26rem 0.42rem;
+  color: #5d7282;
+  font-weight: 500;
+}
+
+.degree-badge--whu .degree-badge__label {
+  background: #3bb3c3;
+  color: #ffffff;
+}
+
+.degree-badge--hku .degree-badge__label {
+  background: #e05430;
+  color: #ffffff;
+}
+
 @media (max-width: 768px) {
   .news-window {
     max-height: 18rem;
     padding: 0.9rem 1rem;
-    border-radius: 12px;
+    border-radius: 6px;
   }
 
   .research-intro {
@@ -247,8 +470,35 @@ hr.section-divider {
   }
 
   .research-card {
-    padding: 1rem;
-    border-radius: 14px;
+    min-height: auto;
+    margin-top: 0 !important;
+    grid-template-rows: auto auto auto 1fr;
+    padding: 0.85rem 1rem 0.85rem 3.4rem;
+    border-radius: 6px;
+    background: #f8fbfd;
+  }
+
+  .research-card:nth-child(2) {
+    min-height: auto;
+  }
+
+  .research-card__icon {
+    top: 0.45rem;
+    left: 1.1rem;
+    width: 2.6rem;
+    height: 2.6rem;
+    font-size: 1.25rem;
+    transform: translateX(-50%);
+  }
+
+  .research-card h3 {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .research-card__tag,
+  .research-card p {
+    text-align: left;
   }
 
   .page__content > h2 {
@@ -259,8 +509,43 @@ hr.section-divider {
   .contact-card,
   .review-card {
     padding: 1rem;
-    border-radius: 14px;
+    border-radius: 6px;
   }
+
+  .review-card {
+    padding: 0;
+    border: none;
+    background: transparent;
+  }
+
+  .resource-links {
+    gap: 0.38rem;
+  }
+
+  .resource-pill {
+    padding: 0.26rem 0.56rem;
+    font-size: 0.8rem;
+  }
+
+  .facts-list li {
+    padding-left: 0.9rem;
+    font-size: 0.9rem;
+  }
+
+  .degree-badges {
+    gap: 0.28rem;
+  }
+
+  .degree-badge {
+    font-size: 0.68rem;
+  }
+
+  .degree-badge__label,
+  .degree-badge__value {
+    padding-top: 0.24rem;
+    padding-bottom: 0.24rem;
+  }
+
 
   .education-table,
   .publication-table,
@@ -276,9 +561,26 @@ hr.section-divider {
   .stats-table td,
   .text-table td {
     border: 1px solid #d7dee6 !important;
-    border-radius: 14px !important;
+    border-radius: 6px !important;
     padding: 0.95rem !important;
-    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+  }
+
+  .projects-table td,
+  .stats-table td {
+    border: none !important;
+    padding: 0.8rem 0 !important;
+  }
+
+  .projects-table td {
+    border: 1px solid #d7dee6 !important;
+    border-radius: 6px !important;
+    padding: 0.95rem !important;
+    background: #fbfdff !important;
+  }
+
+  .stats-table td {
+    width: 100%;
+    padding: 0.35rem 0 !important;
   }
   
   table {
@@ -316,8 +618,16 @@ hr.section-divider {
 }
 </style>
 
-![B.S.](https://img.shields.io/badge/B.S.-WHU%20(2020--2024)-yellowgreen?style=flat-square&color=181717&labelColor=3bb3c3)
-![Ph.D.](https://img.shields.io/badge/Ph.D.-HKU%20(2024--Present)-yellowgreen?style=flat-square&color=181717&labelColor=e05430)
+<div class="degree-badges" aria-label="Degrees">
+  <span class="degree-badge degree-badge--whu">
+    <span class="degree-badge__label">B.S.</span>
+    <span class="degree-badge__value">WHU (2020–2024)</span>
+  </span>
+  <span class="degree-badge degree-badge--hku">
+    <span class="degree-badge__label">Ph.D.</span>
+    <span class="degree-badge__value">HKU (2024–Present)</span>
+  </span>
+</div>
 <!-------------------->
 
 I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Department of Electrical and Computer Engineering, The University of Hong Kong</a>. I am fortunate to be advised by Prof. <a href = "https://www.eee.hku.hk/people/h-wang">Han Wang</a>. Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as a research intern at Rama Alpaca Technology Company under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and in collaboration with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href  = "https://yyuanad.github.io">Yuan Yuan</a> in the last semester of my undergraduate study. We have maintained a strong and frequent research collaboration ever since.
@@ -328,7 +638,7 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
 
 <div class="research-grid" aria-label="Research directions">
   <section class="research-card">
-    <div class="research-card__icon" aria-hidden="true">🚀</div>
+    <div class="research-card__icon" aria-hidden="true">🔥</div>
     <h3>Generative Priors for Robust Perception</h3>
     <p class="research-card__tag">Robust Perception and Reasoning</p>
     <p>Leveraging large-scale generative models as foundation priors to improve robustness, generalization, and reasoning under challenging real-world conditions.</p>
@@ -340,8 +650,8 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
     <p>Designing stable, scalable, and transferable representations that generalize across modalities, downstream tasks, and data regimes.</p>
   </section>
   <section class="research-card">
-    <div class="research-card__icon" aria-hidden="true">🔥</div>
-    <h3>Efficient AI System Design</h3>
+    <div class="research-card__icon" aria-hidden="true">🚀</div>
+    <h3>Hardware Acceleration</h3>
     <p class="research-card__tag">Algorithm-Hardware Co-design</p>
     <p>Developing efficient models under low-bit, sparse, and hardware-constrained settings, aligned with emerging computing paradigms and practical deployment needs.</p>
   </section>
@@ -351,7 +661,7 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
 
 <div class="contact-card">
   <p><i class="fa fa-fw fa-envelope"></i> Email: <a href="mailto:tsliang2001@gmail.com">tsliang2001@gmail.com</a> or <a href="mailto:sliang57@connect.hku.hk">sliang57@connect.hku.hk</a> or <a href="mailto:liangshuang@whu.edu.cn">liangshuang@whu.edu.cn</a></p>
-  <p>You may also follow my WeChat Official Account <strong>@Teemo.log</strong>. It is a place where I share daily updates and personal thoughts. Articles from my WeChat Official Account are Chinese only.</p>
+  <p><span class="contact-inline-icon"><img src="/images/wechat.svg" alt="WeChat logo"></span>You may also follow my WeChat Official Account <strong>@Teemo.log</strong>. It is a place where I share daily updates and personal thoughts. Articles from my WeChat Official Account are Chinese only.</p>
 </div>
 
 ## What's new:
@@ -435,7 +745,7 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
       <br>
       Ph.D. Student in Electrical and Computer Engineering
       <br>
-      Research: Hardware-efficient AI, Computer Vision, Compute-in-memory Accelerator.
+      Research: Computer Vision, Representation Learning, Hardware Acceleration.
       <br>
       (Oct. 2024 - Present)
     </td>
@@ -554,8 +864,12 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
       Songqi Wang†, <u>Shuang Liang†</u>, Shaonan Wu†, Zhiqi Yang, Jichang Yang, Xinyuan Zhang, Yi Li, Yuhao Zhang*, Zhongrui Wang*, Aoyang Zhang* and Han Wang*.
       <br>
       <i>International Electron Devices Meeting (IEDM) 2025.</i>
-      <br>
-      [<a href="https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=L236mPUAAAAJ&citation_for_view=L236mPUAAAAJ:9yKSN-GCB0IC" target="_blank" style="color:#0066cc; text-decoration:none;">Google Scholar</a>]
+      <div class="resource-links">
+        <a class="resource-pill" href="https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=L236mPUAAAAJ&citation_for_view=L236mPUAAAAJ:9yKSN-GCB0IC" target="_blank">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/googlescholar" alt="Google Scholar logo"></span>
+          <span>Google Scholar</span>
+        </a>
+      </div>
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <a href="/images/IEDM_SCIM.jpg">
@@ -572,12 +886,28 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
       <u>Shuang Liang</u>, Jing He, Chuanmeizhi Wang, Lejun Liao, Guo Zhang, Yingcong Chen and Yuan Yuan*.
       <br>
       <i>Preprint.</i>
-      <br>
-      [<a href="/files/SDPose.pdf">PDF</a>]
-      [<a href="https://github.com/T-S-Liang/SDPose-OOD">Code</a>]
-      [<a href="https://arxiv.org/abs/2509.24980">arXiv</a>]
-      [<a href="https://t-s-liang.github.io/SDPose">Project Page</a>]
-      [<a href="https://huggingface.co/spaces/teemosliang/SDPose">HuggingFace Space Demo</a>]
+      <div class="resource-links">
+        <a class="resource-pill" href="/files/SDPose.pdf">
+          <span class="resource-pill__mark resource-pill__mark--pdf">PDF</span>
+          <span>PDF</span>
+        </a>
+        <a class="resource-pill" href="https://github.com/T-S-Liang/SDPose-OOD">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/github" alt="GitHub logo"></span>
+          <span>Code</span>
+        </a>
+        <a class="resource-pill" href="https://arxiv.org/abs/2509.24980">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/arxiv" alt="arXiv logo"></span>
+          <span>arXiv</span>
+        </a>
+        <a class="resource-pill" href="https://t-s-liang.github.io/SDPose">
+          <span class="resource-pill__mark"><i class="fa fa-window-maximize" aria-hidden="true"></i></span>
+          <span>Project Page</span>
+        </a>
+        <a class="resource-pill" href="https://huggingface.co/spaces/teemosliang/SDPose">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/huggingface" alt="Hugging Face logo"></span>
+          <span>Demo</span>
+        </a>
+      </div>
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <div style="display:flex;flex-wrap:wrap;gap:2px;width:100%;box-sizing:border-box;">
@@ -612,8 +942,16 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
       <u>Shuang Liang</u>, Yuze Lu, Haimu Liu, Xiaohe Shang, Jiamin Ji, Rongguang Du, Yiling Yu and Shunping Zhang*.
       <br>
       <i>Optica Optics Express, 2025.</i>
-      <br>
-      [<a href="/files/OE25.pdf">PDF</a>][<a href="https://doi.org/10.1364/OE.539834">Optica Online</a>]
+      <div class="resource-links">
+        <a class="resource-pill" href="/files/OE25.pdf">
+          <span class="resource-pill__mark resource-pill__mark--pdf">PDF</span>
+          <span>PDF</span>
+        </a>
+        <a class="resource-pill" href="https://doi.org/10.1364/OE.539834">
+          <span class="resource-pill__mark"><img src="/images/optica-symbol.svg" alt="Optica icon"></span>
+          <span>Optica</span>
+        </a>
+      </div>
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <a href="/images/SA.png">
@@ -672,7 +1010,28 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
         SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation
         </a> <br> 
       </strong>
-        [<a href="https://github.com/T-S-Liang/SDPose-OOD">Code</a>][<a href="/files/SDPose.pdf">PDF</a>][<a href="https://arxiv.org/abs/2509.24980">arXiv</a>][<a href="https://t-s-liang.github.io/SDPose">Project Page</a>][<a href="https://huggingface.co/spaces/teemosliang/SDPose">HuggingFace Space Demo</a>]
+      <div class="resource-links" style="justify-content:center;">
+        <a class="resource-pill" href="https://github.com/T-S-Liang/SDPose-OOD">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/github" alt="GitHub logo"></span>
+          <span>Code</span>
+        </a>
+        <a class="resource-pill" href="/files/SDPose.pdf">
+          <span class="resource-pill__mark resource-pill__mark--pdf">PDF</span>
+          <span>PDF</span>
+        </a>
+        <a class="resource-pill" href="https://arxiv.org/abs/2509.24980">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/arxiv" alt="arXiv logo"></span>
+          <span>arXiv</span>
+        </a>
+        <a class="resource-pill" href="https://t-s-liang.github.io/SDPose">
+          <span class="resource-pill__mark"><i class="fa fa-window-maximize" aria-hidden="true"></i></span>
+          <span>Project Page</span>
+        </a>
+        <a class="resource-pill" href="https://huggingface.co/spaces/teemosliang/SDPose">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/huggingface" alt="Hugging Face logo"></span>
+          <span>Demo</span>
+        </a>
+      </div>
     </td>
   </tr>
 </table>
