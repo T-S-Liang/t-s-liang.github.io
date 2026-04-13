@@ -112,6 +112,124 @@ redirect_from:
   line-height: 1.75;
 }
 
+.page__content > h2 {
+  margin-top: 2.8rem;
+  margin-bottom: 1rem;
+  font-size: 1.45rem;
+  letter-spacing: -0.02em;
+  border-bottom: none;
+}
+
+.page__content a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+.section-lead {
+  margin: 0 0 1.1rem;
+  color: #4c6476;
+  line-height: 1.75;
+}
+
+.contact-card,
+.review-card {
+  padding: 1.1rem 1.2rem;
+  border: 1px solid #d7dee6;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #ffffff 0%, #f7fafc 100%);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+}
+
+.contact-card p,
+.review-card p {
+  margin: 0;
+  line-height: 1.75;
+}
+
+.contact-card p + p {
+  margin-top: 0.7rem;
+}
+
+.education-table,
+.publication-table,
+.projects-table,
+.stats-table,
+.text-table {
+  width: 100% !important;
+  border-spacing: 0 0.95rem !important;
+  border-collapse: separate !important;
+}
+
+.education-table td,
+.publication-table td,
+.projects-table td,
+.stats-table td,
+.text-table td {
+  padding: 1.1rem 1.15rem !important;
+  border-top: 1px solid #d7dee6 !important;
+  border-bottom: 1px solid #d7dee6 !important;
+  background: linear-gradient(180deg, #ffffff 0%, #f7fafc 100%);
+  vertical-align: middle;
+}
+
+.education-table td:first-child,
+.publication-table td:first-child,
+.projects-table td:first-child,
+.stats-table td:first-child,
+.text-table td:first-child {
+  border-left: 1px solid #d7dee6 !important;
+  border-radius: 16px 0 0 16px;
+}
+
+.education-table td:last-child,
+.publication-table td:last-child,
+.projects-table td:last-child,
+.stats-table td:last-child,
+.text-table td:last-child {
+  border-right: 1px solid #d7dee6 !important;
+  border-radius: 0 16px 16px 0;
+}
+
+.publication-table td > a > img,
+.projects-table img,
+.stats-table img,
+.education-table img {
+  border-radius: 14px;
+  display: block;
+}
+
+.projects-table td,
+.stats-table td {
+  text-align: center;
+}
+
+.review-card {
+  width: min(100%, 760px);
+  margin: 0 auto;
+}
+
+.facts-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.facts-list li {
+  margin: 0 0 0.9rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid #d7dee6;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #ffffff 0%, #f7fafc 100%);
+  line-height: 1.75;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+}
+
+hr.section-divider {
+  margin: 2.4rem 0 0;
+  border: 0;
+  border-top: 1px solid #e1e7ee;
+}
+
 @media (max-width: 768px) {
   .news-window {
     max-height: 18rem;
@@ -131,6 +249,36 @@ redirect_from:
   .research-card {
     padding: 1rem;
     border-radius: 14px;
+  }
+
+  .page__content > h2 {
+    margin-top: 2.2rem;
+    font-size: 1.3rem;
+  }
+
+  .contact-card,
+  .review-card {
+    padding: 1rem;
+    border-radius: 14px;
+  }
+
+  .education-table,
+  .publication-table,
+  .projects-table,
+  .stats-table,
+  .text-table {
+    border-spacing: 0 0.8rem !important;
+  }
+
+  .education-table td,
+  .publication-table td,
+  .projects-table td,
+  .stats-table td,
+  .text-table td {
+    border: 1px solid #d7dee6 !important;
+    border-radius: 14px !important;
+    padding: 0.95rem !important;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
   }
   
   table {
@@ -201,9 +349,10 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
 
 ## Please contact me via:
 
-<i class="fa fa-fw fa-envelope"></i> Email: <a href="mailto:tsliang2001@gmail.com">tsliang2001@gmail.com</a> or <a href="mailto:sliang57@connect.hku.hk">sliang57@connect.hku.hk</a> or <a href="mailto:liangshuang@whu.edu.cn">liangshuang@whu.edu.cn</a>
-
-You may also follow my WeChat Official Account **@Teemo.log**, it's a place for me to update some pieces of my daily life and share some of my ideas. (Articles from my WeChat Official Account are Chinese only.)
+<div class="contact-card">
+  <p><i class="fa fa-fw fa-envelope"></i> Email: <a href="mailto:tsliang2001@gmail.com">tsliang2001@gmail.com</a> or <a href="mailto:sliang57@connect.hku.hk">sliang57@connect.hku.hk</a> or <a href="mailto:liangshuang@whu.edu.cn">liangshuang@whu.edu.cn</a></p>
+  <p>You may also follow my WeChat Official Account <strong>@Teemo.log</strong>. It is a place where I share daily updates and personal thoughts. Articles from my WeChat Official Account are Chinese only.</p>
+</div>
 
 ## What's new:
 
@@ -313,8 +462,7 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
 ## Featured Publications
 <!-- <h2><b>Publications</b></h2> -->
-First-author and co-first-author works are highlighted below. For the full list, please refer to the <a href="/publications">Publication</a> section or my <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=L236mPUAAAAJ">Google Scholar</a>. <br>
-†These authors contributed equally. *Corresponding author.
+<p class="section-lead">First-author and co-first-author works are highlighted below. For the full list, please refer to the <a href="/publications">Publication</a> section or my <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=L236mPUAAAAJ">Google Scholar</a>.<br>†These authors contributed equally. *Corresponding author.</p>
 
 <style>
 @media (max-width: 768px) {
@@ -641,16 +789,19 @@ First-author and co-first-author works are highlighted below. For the full list,
   }
 }
 </style>
-<center><div class="review-container" style="width: 60%; margin-left: 0; position: relative; z-index: 1000;">
+<div class="review-card">
+<div class="review-container" style="width: 60%; margin: 0 auto; position: relative; z-index: 1000;">
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=tt&d=k7gt1qlb_lyshkDh7qppLdft9pS_Vjj_fgeQYAUGSBs&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
 </div>
-</center>
+</div>
 
-## *Interesting facts about myself*
+## Interesting Facts About Myself
 
-* In Chinese context, my name has the same meaning of the word "cool", which refers to the pleasant weather of the season I was born. It's actually a girly name so that people often mistake me as a girl before they meet me. My preferred name is Tim, which is my English name but not part of my legal name.
-* I spent my childhood and adolescence along the majestic Yellow River, where the waters whispered tales of ancient civilizations. My college years unfolded beside the mighty Yangtze River, a flowing testament to China’s enduring spirit and progress. Now, I find myself working beside the vibrant Pearl River, where the currents echo the pulse of modernity and innovation.
-* Music takes up most of my free time. I listen to a wide range of styles, including country, J-rock, and Chinese folk, almost anything centered on guitar. I also enjoy pop, hip-hop, and EDM. Big fan of Taylor Swift, Adele, Billie Eilish, and Beyoncé, and I am always happy to talk about music across different genres.
-* During my undergraduate years at WHU, I also cultivated a deep passion for Chinese debate. I served as the captain of the School of Physics debate team (Class of 2020) and took the lead in organizing the "Xunli Debate" (寻理杯) competition during my time on campus.
+<ul class="facts-list">
+  <li>In Chinese context, my name has the same meaning as the word "cool", referring to the pleasant weather of the season I was born. It is also a somewhat girly name, so people often mistake me as a girl before meeting me. My preferred name is Tim, which is my English name but not part of my legal name.</li>
+  <li>I spent my childhood and adolescence along the majestic Yellow River, where the waters whispered tales of ancient civilizations. My college years unfolded beside the mighty Yangtze River, a flowing testament to China's enduring spirit and progress. Now, I find myself working beside the vibrant Pearl River, where the currents echo the pulse of modernity and innovation.</li>
+  <li>Music takes up most of my free time. I listen to a wide range of styles, including country, J-rock, and Chinese folk, almost anything centered on guitar. I also enjoy pop, hip-hop, and EDM. I am a big fan of Taylor Swift, Adele, Billie Eilish, and Beyonce, and I am always happy to talk about music across different genres.</li>
+  <li>During my undergraduate years at WHU, I also cultivated a deep passion for Chinese debate. I served as the captain of the School of Physics debate team (Class of 2020) and took the lead in organizing the "Xunli Debate" (寻理杯) competition during my time on campus.</li>
+</ul>
 
---------
+<hr class="section-divider">
