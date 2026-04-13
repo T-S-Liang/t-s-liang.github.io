@@ -59,11 +59,78 @@ redirect_from:
   background: transparent;
 }
 
+.research-intro {
+  margin: 0 0 1.25rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 0;
+}
+
+.research-card {
+  min-height: 100%;
+  padding: 1.2rem 1.1rem;
+  border: 1px solid #d7dee6;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #ffffff 0%, #f6f9fc 100%);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+}
+
+.research-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-bottom: 0.8rem;
+  border-radius: 999px;
+  background: rgba(59, 179, 195, 0.12);
+  font-size: 1.2rem;
+}
+
+.research-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.08rem;
+}
+
+.research-card__tag {
+  margin: 0 0 0.7rem;
+  color: #4c6476;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.research-card p {
+  margin: 0;
+  line-height: 1.75;
+}
+
 @media (max-width: 768px) {
   .news-window {
     max-height: 18rem;
     padding: 0.9rem 1rem;
     border-radius: 12px;
+  }
+
+  .research-intro {
+    font-size: 1rem;
+  }
+
+  .research-grid {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+
+  .research-card {
+    padding: 1rem;
+    border-radius: 14px;
   }
   
   table {
@@ -107,18 +174,30 @@ redirect_from:
 
 I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Department of Electrical and Computer Engineering, The University of Hong Kong</a>. I am fortunate to be advised by Prof. <a href = "https://www.eee.hku.hk/people/h-wang">Han Wang</a>. Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>. I also spent a wonderful time as a research intern at Rama Alpaca Technology Company under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and in collaboration with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href  = "https://yyuanad.github.io">Yuan Yuan</a> in the last semester of my undergraduate study. We have maintained a strong and frequent research collaboration ever since.
 
-My research focuses on **computer vision**, **multimodal representation learning**, and **hardware-efficient AI**.
+<div class="research-intro">
+  My research focuses on <strong>computer vision</strong>, <strong>multimodal representation learning</strong>, and <strong>hardware-efficient AI</strong>. I build robust, transferable, and efficient intelligent systems across perception, representation, and deployment.
+</div>
 
-This direction covers, but is not limited to, the following topics:
-
-🚀 **Generative Priors for Robust Perception & Reasoning**: 
-Leveraging large-scale generative models as foundation priors to improve robustness and generalization in perception and reasoning.
-
-🌌 **Multimodal Representation Learning & Latent Spaces**: 
-Designing unified and transferable representations that are stable, scalable, and generalizable across modalities and tasks.
-
-🔥 **Algorithm–Hardware Co-design for Efficient AI Systems**: 
-Developing efficient models under low-bit, sparse, and hardware-constrained settings, aligned with emerging computing paradigms.
+<div class="research-grid" aria-label="Research directions">
+  <section class="research-card">
+    <div class="research-card__icon" aria-hidden="true">🚀</div>
+    <h3>Generative Priors for Robust Perception</h3>
+    <p class="research-card__tag">Robust Perception and Reasoning</p>
+    <p>Leveraging large-scale generative models as foundation priors to improve robustness, generalization, and reasoning under challenging real-world conditions.</p>
+  </section>
+  <section class="research-card">
+    <div class="research-card__icon" aria-hidden="true">🌌</div>
+    <h3>Multimodal Representation Learning</h3>
+    <p class="research-card__tag">Unified and Transferable Latent Spaces</p>
+    <p>Designing stable, scalable, and transferable representations that generalize across modalities, downstream tasks, and data regimes.</p>
+  </section>
+  <section class="research-card">
+    <div class="research-card__icon" aria-hidden="true">🔥</div>
+    <h3>Efficient AI System Design</h3>
+    <p class="research-card__tag">Algorithm-Hardware Co-design</p>
+    <p>Developing efficient models under low-bit, sparse, and hardware-constrained settings, aligned with emerging computing paradigms and practical deployment needs.</p>
+  </section>
+</div>
 
 ## Please contact me via:
 
@@ -575,4 +654,3 @@ First-author and co-first-author works are highlighted below. For the full list,
 * During my undergraduate years at WHU, I also cultivated a deep passion for Chinese debate. I served as the captain of the School of Physics debate team (Class of 2020) and took the lead in organizing the "Xunli Debate" (寻理杯) competition during my time on campus.
 
 --------
-
