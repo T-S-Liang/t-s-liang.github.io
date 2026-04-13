@@ -13,7 +13,58 @@ redirect_from:
 
 <style>
 
+.news-window {
+  max-height: 22rem;
+  overflow-y: auto;
+  padding: 1rem 1.2rem;
+  border: 1px solid #d7dee6;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #fcfdff 0%, #f5f8fb 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  scroll-behavior: smooth;
+}
+
+.news-window ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.news-window li {
+  margin: 0;
+  padding: 0 0 1rem;
+}
+
+.news-window li + li {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e3e8ee;
+}
+
+.news-window p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.news-window::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news-window::-webkit-scrollbar-thumb {
+  background: #b8c4d1;
+  border-radius: 999px;
+}
+
+.news-window::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 @media (max-width: 768px) {
+  .news-window {
+    max-height: 18rem;
+    padding: 0.9rem 1rem;
+    border-radius: 12px;
+  }
   
   table {
     width: 100% !important;
@@ -77,17 +128,40 @@ You may also follow my WeChat Official Account **@Teemo.log**, it's a place for 
 
 ## What's new:
 
-**[Oct. 30th, 2025]** 🎉 **Our work SDPose-OOD is getting noticed!**: A big shout-out to the community developers who made a ComfyUI node for SDPose-OOD — making it even easier to integrate into creative workflows. 🙌 Try it out here: <a href="https://github.com/judian17/ComfyUI-SDPose-OOD">ComfyUI Node SDPose-OOD</a>. <br>
-**[Oct. 14th, 2025]** 🚀 **Open-source of SDPose**: Major code and model release now available:
-<a href="https://github.com/T-S-Liang/SDPose-OOD">GitHub Repository</a> | <a href="https://huggingface.co/teemosliang/SDPose-Body">HF Model (Body)</a> | <a href="https://huggingface.co/teemosliang/SDPose-Wholebody">HF Model (WholeBody)</a>. <br>
-**[Sep. 24th, 2025]** 🧑‍💻 **New paper release:** Check out our new work **SDPose** on Exploiting the diffusion priors for OOD and robust pose estimation! I'm sooooo excited to share with you this work! Thank Dr. Guo Zhang, Professor Yingcong Chen, and Professor Yuan Yuan for their invaluable guidance!<br>
-**[Sep. 1st, 2025]** 🍻 **IEDM '25:** One paper Accepted by IEDM 2025! Thank Professor Han Wang, Professor Aoyang Zhang, and Professor Zhongrui Wang for their invaluable guidance! Thank Songqi and Jichang for the smooth collaboration. <br>
-**[Jan. 9th, 2025]** 🍻 **Optica Optics Express '25:** One paper for my undergraduate research accepted by Optics Express! Thank Professor Zhang for his invaluable guidance! Thank Yuze and Haimu for their collaboration and support!<br>
-**[Oct. 2nd, 2024]** ✈️ **Enrollment@HKU:** New journey started! I began my research post graduate study at the Department of Electrical and Electronic Engineering at the University of Hong Kong!<br>
-**[June 22nd, 2024]** 🎓 **Graduation@WHU:** Received my Bachelor of Science degree in Physics from Wuhan University. I am more than grateful to have received guidance and enlightenment in computational physics and AI4Sci from Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a>, and guidance in experimental optoelectronics from Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a> in my undergraduate studies.<br>
-**[Feb. 2nd, 2024]** 🧑‍💻 **Internship@Rama Alpaca:** I just started to be an MLE research intern at Beijing Rama Alpaca Co. Ltd. in the spring semester under the supervision of Dr. <a href = "https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> from MIT, collaborating with Prof. <a href = "https://www.yingcong.me">Yingcong Chen</a>@HKUST and Prof. <a href = "https://yyuanad.github.io">Yuan Yuan</a>@Boston College.<br>
-**[Feb. 9th, 2023]** 🧑‍💻 **Research@CPCS-WHU:** I've joined Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a>'s group at Wuhan University as a research assistant this semester!<br>
-**[Feb. 14th, 2022]** 🔬 **Research@Xu Lab-WHU:** I've just joined Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>'s <a href = "https://np.whu.edu.cn">lab</a> at Wuhan University for undergraduate research!<br>
+<div class="news-window" aria-label="Latest updates">
+  <ul>
+    <li>
+      <p><strong>[Oct. 30th, 2025]</strong> 🎉 <strong>Our work SDPose-OOD is getting noticed!</strong>: A big shout-out to the community developers who made a ComfyUI node for SDPose-OOD, making it even easier to integrate into creative workflows. 🙌 Try it out here: <a href="https://github.com/judian17/ComfyUI-SDPose-OOD">ComfyUI Node SDPose-OOD</a>.</p>
+    </li>
+    <li>
+      <p><strong>[Oct. 14th, 2025]</strong> 🚀 <strong>Open-source of SDPose</strong>: Major code and model release now available: <a href="https://github.com/T-S-Liang/SDPose-OOD">GitHub Repository</a> | <a href="https://huggingface.co/teemosliang/SDPose-Body">HF Model (Body)</a> | <a href="https://huggingface.co/teemosliang/SDPose-Wholebody">HF Model (WholeBody)</a>.</p>
+    </li>
+    <li>
+      <p><strong>[Sep. 24th, 2025]</strong> 🧑‍💻 <strong>New paper release</strong>: Check out our new work <strong>SDPose</strong> on exploiting the diffusion priors for OOD and robust pose estimation. I'm sooooo excited to share this work. Thank Dr. Guo Zhang, Professor Yingcong Chen, and Professor Yuan Yuan for their invaluable guidance.</p>
+    </li>
+    <li>
+      <p><strong>[Sep. 1st, 2025]</strong> 🍻 <strong>IEDM '25</strong>: One paper accepted by IEDM 2025. Thank Professor Han Wang, Professor Aoyang Zhang, and Professor Zhongrui Wang for their invaluable guidance, and thank Songqi and Jichang for the smooth collaboration.</p>
+    </li>
+    <li>
+      <p><strong>[Jan. 9th, 2025]</strong> 🍻 <strong>Optica Optics Express '25</strong>: One paper for my undergraduate research was accepted by Optics Express. Thank Professor Zhang for his invaluable guidance, and thank Yuze and Haimu for their collaboration and support.</p>
+    </li>
+    <li>
+      <p><strong>[Oct. 2nd, 2024]</strong> ✈️ <strong>Enrollment@HKU</strong>: New journey started. I began my postgraduate research study at the Department of Electrical and Electronic Engineering at the University of Hong Kong.</p>
+    </li>
+    <li>
+      <p><strong>[June 22nd, 2024]</strong> 🎓 <strong>Graduation@WHU</strong>: Received my Bachelor of Science degree in Physics from Wuhan University. I am grateful to have received guidance and enlightenment in computational physics and AI4Sci from Prof. <a href="http://yuan.whu.edu.cn">Shengjun Yuan</a>, and guidance in experimental optoelectronics from Prof. <a href="http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a> during my undergraduate studies.</p>
+    </li>
+    <li>
+      <p><strong>[Feb. 2nd, 2024]</strong> 🧑‍💻 <strong>Internship@Rama Alpaca</strong>: I started as an MLE research intern at Beijing Rama Alpaca Co. Ltd. in the spring semester under the supervision of Dr. <a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> from MIT, collaborating with Prof. <a href="https://www.yingcong.me">Yingcong Chen</a> at HKUST and Prof. <a href="https://yyuanad.github.io">Yuan Yuan</a> at Boston College.</p>
+    </li>
+    <li>
+      <p><strong>[Feb. 9th, 2023]</strong> 🧑‍💻 <strong>Research@CPCS-WHU</strong>: I've joined Prof. <a href="http://yuan.whu.edu.cn">Shengjun Yuan</a>'s group at Wuhan University as a research assistant this semester.</p>
+    </li>
+    <li>
+      <p><strong>[Feb. 14th, 2022]</strong> 🔬 <strong>Research@Xu Lab-WHU</strong>: I've joined Prof. <a href="http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>'s <a href="https://np.whu.edu.cn">lab</a> at Wuhan University for undergraduate research.</p>
+    </li>
+  </ul>
+</div>
 
 ## Education
 <!-- <h2><b>Experience</b></h2> -->
@@ -501,5 +575,4 @@ First-author and co-first-author works are highlighted below. For the full list,
 * During my undergraduate years at WHU, I also cultivated a deep passion for Chinese debate. I served as the captain of the School of Physics debate team (Class of 2020) and took the lead in organizing the "Xunli Debate" (寻理杯) competition during my time on campus.
 
 --------
-
 
