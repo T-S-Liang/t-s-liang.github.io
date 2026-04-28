@@ -675,10 +675,10 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
       <p><strong>[Oct. 14th, 2025]</strong> 🚀 <strong>Open-source of SDPose</strong>: Major code and model release now available: <a href="https://github.com/T-S-Liang/SDPose-OOD">GitHub Repository</a> | <a href="https://huggingface.co/teemosliang/SDPose-Body">HF Model (Body)</a> | <a href="https://huggingface.co/teemosliang/SDPose-Wholebody">HF Model (WholeBody)</a>.</p>
     </li>
     <li>
-      <p><strong>[Sep. 24th, 2025]</strong> 🧑‍💻 <strong>New paper release</strong>: Check out our new work <strong>SDPose</strong> on exploiting the diffusion priors for OOD and robust pose estimation. I'm sooooo excited to share this work. Thank Dr. Guo Zhang, Professor Yingcong Chen, and Professor Yuan Yuan for their invaluable guidance.</p>
+      <p><strong>[Sep. 1st, 2025]</strong> 🍻 <strong>IEDM '25</strong>: One paper accepted by IEDM 2025. Thank Professor Han Wang, Professor Aoyang Zhang, and Professor Zhongrui Wang for their invaluable guidance, and thank Songqi and Jichang for the smooth collaboration.</p>
     </li>
     <li>
-      <p><strong>[Sep. 1st, 2025]</strong> 🍻 <strong>IEDM '25</strong>: One paper accepted by IEDM 2025. Thank Professor Han Wang, Professor Aoyang Zhang, and Professor Zhongrui Wang for their invaluable guidance, and thank Songqi and Jichang for the smooth collaboration.</p>
+      <p><strong>[Sep. 24th, 2025]</strong> 🧑‍💻 <strong>New paper release</strong>: Check out our new work <strong>SDPose</strong> on exploiting the diffusion priors for OOD and robust pose estimation. I'm sooooo excited to share this work. Thank Dr. Guo Zhang, Professor Yingcong Chen, and Professor Yuan Yuan for their invaluable guidance.</p>
     </li>
     <li>
       <p><strong>[Jan. 9th, 2025]</strong> 🍻 <strong>Optica Optics Express '25</strong>: One paper for my undergraduate research was accepted by Optics Express. Thank Professor Zhang for his invaluable guidance, and thank Yuze and Haimu for their collaboration and support.</p>
