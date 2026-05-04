@@ -636,27 +636,6 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
   My research focuses on <strong>computer vision</strong>, <strong>multimodal representation learning</strong>, and <strong>hardware-efficient AI</strong>. I build robust, transferable, and efficient intelligent systems across perception, representation, and deployment.
 </div>
 
-<div class="research-grid" aria-label="Research directions">
-  <section class="research-card">
-    <div class="research-card__icon" aria-hidden="true">🔥</div>
-    <h3>Generative Priors for Robust Perception</h3>
-    <p class="research-card__tag">Robust Perception and Reasoning</p>
-    <p>Leveraging large-scale generative models as foundation priors to improve robustness, generalization, and reasoning under challenging real-world conditions.</p>
-  </section>
-  <section class="research-card">
-    <div class="research-card__icon" aria-hidden="true">🌌</div>
-    <h3>Multimodal Representation Learning</h3>
-    <p class="research-card__tag">Unified and Transferable Latent Spaces</p>
-    <p>Designing stable, scalable, and transferable representations that generalize across modalities, downstream tasks, and data regimes.</p>
-  </section>
-  <section class="research-card">
-    <div class="research-card__icon" aria-hidden="true">🚀</div>
-    <h3>Hardware Acceleration</h3>
-    <p class="research-card__tag">Algorithm-Hardware Co-design</p>
-    <p>Developing efficient models under low-bit, sparse, and hardware-constrained settings, aligned with emerging computing paradigms and practical deployment needs.</p>
-  </section>
-</div>
-
 ## Please contact me via:
 
 <div class="contact-card">
