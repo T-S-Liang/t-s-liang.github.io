@@ -1068,7 +1068,7 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
   </tr>
   <tr>
     <td align="center">
-      <img src="https://tsliang.top/CAFE/static/images/more_cases.jpg" alt="Diverse CAFE test cases across SM, CC, and OC" style="max-width:100%;height:auto;width:300px;">
+      <img src="https://tsliang.top/CAFE/static/images/cafe_logo.png" alt="CAFE logo" style="max-width:100%;height:auto;width:300px;">
       <br>
       <a href="https://github.com/T-S-Liang/CAFE/stargazers">
       <img alt="GitHub stars" src="https://img.shields.io/github/stars/T-S-Liang/CAFE?style=social">
