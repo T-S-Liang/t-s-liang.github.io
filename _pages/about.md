@@ -183,6 +183,12 @@ redirect_from:
   border-color: #bfd0de;
 }
 
+.resource-pill--disabled {
+  opacity: 0.58;
+  cursor: help;
+  border-style: dashed;
+}
+
 .resource-pill__mark {
   display: inline-flex;
   align-items: center;
@@ -519,12 +525,26 @@ hr.section-divider {
   }
 
   .resource-links {
-    gap: 0.38rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem 0.45rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .resource-pill {
-    padding: 0.26rem 0.56rem;
+    padding: 0.32rem 0.5rem;
     font-size: 0.8rem;
+    white-space: normal;
+    justify-content: center;
+    text-align: center;
+    min-height: 2.35rem;
+    box-sizing: border-box;
+  }
+
+  .resource-pill__mark {
+    flex-shrink: 0;
   }
 
   .facts-list li {
@@ -838,6 +858,39 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
 
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <b>4. "From Pixels to Concepts: Do Segmentation Models Understand What They Segment?"</b>,
+      <br>
+      <u>Shuang Liang</u>†, Zeqing Wang†, Yuxian Li†, Xihui Liu and Han Wang*.
+      <br>
+      <i>Preprint.</i>
+      <div class="resource-links">
+        <a class="resource-pill" href="https://tsliang.top/CAFE/">
+          <span class="resource-pill__mark"><i class="fa fa-window-maximize" aria-hidden="true"></i></span>
+          <span>Project Page</span>
+        </a>
+        <a class="resource-pill" href="https://github.com/T-S-Liang/CAFE">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/github" alt="GitHub logo"></span>
+          <span>Code</span>
+        </a>
+        <a class="resource-pill" href="https://huggingface.co/datasets/teemosliang/CAFE">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/huggingface" alt="Hugging Face logo"></span>
+          <span>Dataset</span>
+        </a>
+        <span class="resource-pill resource-pill--disabled" title="To be announced" aria-label="arXiv link to be announced">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/arxiv" alt=""></span>
+          <span>arXiv (TBA)</span>
+        </span>
+      </div>
+    </td>
+    <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <a href="https://tsliang.top/CAFE/">
+      <img src="https://tsliang.top/CAFE/static/images/more_cases.jpg" alt="Diverse CAFE test cases across SM, CC, and OC" style="max-width:100%;height:auto;width:300px;">
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
       <b>3. "A Monolithic Reconfigurable RRAM CIM Array Integrating PUF, TRNG, and a Lightweight Block Cipher for Secure Edge AI"</b>, 
       <br>
       Songqi Wang†, <u>Shuang Liang†</u>, Shaonan Wu†, Zhiqi Yang, Jichang Yang, Xinyuan Zhang, Yi Li, Yuhao Zhang*, Zhongrui Wang*, Aoyang Zhang* and Han Wang*.
@@ -1010,6 +1063,43 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
           <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/huggingface" alt="Hugging Face logo"></span>
           <span>Demo</span>
         </a>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://tsliang.top/CAFE/static/images/more_cases.jpg" alt="Diverse CAFE test cases across SM, CC, and OC" style="max-width:100%;height:auto;width:300px;">
+      <br>
+      <a href="https://github.com/T-S-Liang/CAFE/stargazers">
+      <img alt="GitHub stars" src="https://img.shields.io/github/stars/T-S-Liang/CAFE?style=social">
+      </a>
+      <a href="https://github.com/T-S-Liang/CAFE/network/members">
+      <img alt="GitHub forks" src="https://img.shields.io/github/forks/T-S-Liang/CAFE?style=social">
+      </a>
+    </td>
+    <td align="center">
+      <strong>
+        <a href="https://github.com/T-S-Liang/CAFE">
+        CAFE: Counterfactual Attribute Factuality Evaluation
+        </a> <br>
+      </strong>
+      <div class="resource-links" style="justify-content:center;">
+        <a class="resource-pill" href="https://tsliang.top/CAFE/">
+          <span class="resource-pill__mark"><i class="fa fa-window-maximize" aria-hidden="true"></i></span>
+          <span>Project Page</span>
+        </a>
+        <a class="resource-pill" href="https://github.com/T-S-Liang/CAFE">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/github" alt="GitHub logo"></span>
+          <span>Code</span>
+        </a>
+        <a class="resource-pill" href="https://huggingface.co/datasets/teemosliang/CAFE">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/huggingface" alt="Hugging Face logo"></span>
+          <span>Dataset</span>
+        </a>
+        <span class="resource-pill resource-pill--disabled" title="To be announced" aria-label="arXiv link to be announced">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/arxiv" alt=""></span>
+          <span>arXiv (TBA)</span>
+        </span>
       </div>
     </td>
   </tr>

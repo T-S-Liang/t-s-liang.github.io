@@ -39,6 +39,12 @@ author_profile: false
   border-color: #bfd0de;
 }
 
+.resource-pill--disabled {
+  opacity: 0.58;
+  cursor: help;
+  border-style: dashed;
+}
+
 .resource-pill__mark {
   display: inline-flex;
   align-items: center;
@@ -100,12 +106,26 @@ author_profile: false
 
 @media (max-width: 768px) {
   .resource-links {
-    gap: 0.38rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem 0.45rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .resource-pill {
-    padding: 0.26rem 0.56rem;
+    padding: 0.32rem 0.5rem;
     font-size: 0.8rem;
+    white-space: normal;
+    justify-content: center;
+    text-align: center;
+    min-height: 2.35rem;
+    box-sizing: border-box;
+  }
+
+  .resource-pill__mark {
+    flex-shrink: 0;
   }
 
   .publication-table {
@@ -203,6 +223,39 @@ author_profile: false
 <p class="section-lead">†These authors contributed equally. *Corresponding author.</p>
 
 <table class="publication-table" style="width:100%;border:None;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+
+  <tr>
+    <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <b>4. "From Pixels to Concepts: Do Segmentation Models Understand What They Segment?"</b>,
+      <br>
+      <u>Shuang Liang</u>†, Zeqing Wang†, Yuxian Li†, Xihui Liu and Han Wang*.
+      <br>
+      <i>$Preprint$.</i>
+      <div class="resource-links">
+        <a class="resource-pill" href="https://tsliang.top/CAFE/">
+          <span class="resource-pill__mark"><i class="fa fa-window-maximize" aria-hidden="true"></i></span>
+          <span>Project Page</span>
+        </a>
+        <a class="resource-pill" href="https://github.com/T-S-Liang/CAFE">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/github" alt="GitHub logo"></span>
+          <span>Code</span>
+        </a>
+        <a class="resource-pill" href="https://huggingface.co/datasets/teemosliang/CAFE">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/huggingface" alt="Hugging Face logo"></span>
+          <span>Dataset</span>
+        </a>
+        <span class="resource-pill resource-pill--disabled" title="To be announced" aria-label="arXiv link to be announced">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/arxiv" alt=""></span>
+          <span>arXiv (TBA)</span>
+        </span>
+      </div>
+    </td>
+    <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <a href="https://tsliang.top/CAFE/">
+      <img src="https://tsliang.top/CAFE/static/images/more_cases.jpg" alt="Diverse CAFE test cases across SM, CC, and OC" width="300">
+      </a>
+    </td>
+  </tr>
 
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
