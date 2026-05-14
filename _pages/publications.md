@@ -232,6 +232,10 @@ author_profile: false
       <br>
       <i>$Preprint$.</i>
       <div class="resource-links">
+        <a class="resource-pill" href="/files/CAFE.pdf">
+          <span class="resource-pill__mark resource-pill__mark--pdf">PDF</span>
+          <span>PDF</span>
+        </a>
         <a class="resource-pill" href="https://tsliang.top/CAFE/">
           <span class="resource-pill__mark"><i class="fa fa-window-maximize" aria-hidden="true"></i></span>
           <span>Project Page</span>
@@ -244,10 +248,10 @@ author_profile: false
           <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/huggingface" alt="Hugging Face logo"></span>
           <span>Dataset</span>
         </a>
-        <span class="resource-pill resource-pill--disabled" title="To be announced" aria-label="arXiv link to be announced">
-          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/arxiv" alt=""></span>
-          <span>arXiv (TBA)</span>
-        </span>
+        <a class="resource-pill" href="https://arxiv.org/abs/2605.09591">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/arxiv" alt="arXiv logo"></span>
+          <span>arXiv</span>
+        </a>
       </div>
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
