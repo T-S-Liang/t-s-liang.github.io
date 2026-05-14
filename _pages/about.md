@@ -1074,7 +1074,7 @@ Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "
   </tr>
   <tr>
     <td align="center">
-      <img src="https://tsliang.top/CAFE/static/images/cafe_logo.png" alt="CAFE logo" style="max-width:100%;height:auto;width:300px;">
+      <img src="/images/cafe_logo_2.png" alt="CAFE logo" style="max-width:100%;height:auto;width:300px;">
       <br>
       <a href="https://github.com/T-S-Liang/CAFE/stargazers">
       <img alt="GitHub stars" src="https://img.shields.io/github/stars/T-S-Liang/CAFE?style=social">
