@@ -670,6 +670,9 @@ Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "
 <div class="news-window" aria-label="Latest updates">
   <ul>
     <li>
+      <p><strong>[May 9th, 2026]</strong> 🎉 <strong>New Work</strong>: Our new paper <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> is now on arXiv.</p>
+    </li>
+    <li>
       <p><strong>[Oct. 30th, 2025]</strong> 🎉 <strong>Our work SDPose-OOD is getting noticed!</strong>: A big shout-out to the community developers who made a ComfyUI node for SDPose-OOD, making it even easier to integrate into creative workflows. 🙌 Try it out here: <a href="https://github.com/judian17/ComfyUI-SDPose-OOD">ComfyUI Node SDPose-OOD</a>.</p>
     </li>
     <li>
