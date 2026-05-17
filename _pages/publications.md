@@ -179,7 +179,7 @@ author_profile: false
     display: block !important;
   }
 
-  .publication-table td > div {
+  .publication-table td > div:not(.resource-links) {
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
@@ -190,7 +190,7 @@ author_profile: false
     margin: 0 !important;
   }
 
-  .publication-table td > div > a {
+  .publication-table td > div:not(.resource-links) > a {
     width: calc(50% - 1px) !important;
     padding-top: calc(50% - 1px) !important;
     max-width: calc(50% - 1px) !important;
@@ -200,7 +200,7 @@ author_profile: false
     position: relative !important;
   }
 
-  .publication-table td > div > a > img {
+  .publication-table td > div:not(.resource-links) > a > img {
     position: absolute !important;
     inset: 0 !important;
     width: 100% !important;

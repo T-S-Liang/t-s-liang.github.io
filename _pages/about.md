@@ -358,6 +358,8 @@ redirect_from:
 .stats-table img {
   border-radius: 4px;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .stats-table td {
@@ -825,8 +827,8 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
     height: auto !important;
     display: block !important;
   }
-  /* SDPose 四宫格容器 */
-  .publication-table td > div {
+  /* SDPose 四宫格容器（排除按钮容器 .resource-links） */
+  .publication-table td > div:not(.resource-links) {
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
@@ -836,8 +838,8 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
     padding: 0 !important;
     margin: 0 !important;
   }
-  /* 四宫格中的每个单元 */
-  .publication-table td > div > a {
+  /* 四宫格中的每个单元（仅四宫格，不影响按钮 pill） */
+  .publication-table td > div:not(.resource-links) > a {
     width: calc(50% - 1px) !important;
     padding-top: calc(50% - 1px) !important;
     max-width: calc(50% - 1px) !important;
@@ -847,7 +849,7 @@ I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Depart
     position: relative !important;
   }
   /* 四宫格中的图片 */
-  .publication-table td > div > a > img {
+  .publication-table td > div:not(.resource-links) > a > img {
     position: absolute !important;
     inset: 0 !important;
     width: 100% !important;
