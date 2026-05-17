@@ -358,6 +358,8 @@ redirect_from:
 .stats-table img {
   border-radius: 4px;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .stats-table td {
@@ -827,8 +829,8 @@ Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "
     height: auto !important;
     display: block !important;
   }
-  /* SDPose 四宫格容器 */
-  .publication-table td > div {
+  /* SDPose 四宫格容器（排除按钮容器 .resource-links） */
+  .publication-table td > div:not(.resource-links) {
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
@@ -838,8 +840,8 @@ Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "
     padding: 0 !important;
     margin: 0 !important;
   }
-  /* 四宫格中的每个单元 */
-  .publication-table td > div > a {
+  /* 四宫格中的每个单元（仅四宫格，不影响按钮 pill） */
+  .publication-table td > div:not(.resource-links) > a {
     width: calc(50% - 1px) !important;
     padding-top: calc(50% - 1px) !important;
     max-width: calc(50% - 1px) !important;
@@ -849,7 +851,7 @@ Before HKU, I obtained my Bachelor of Science degree in Physics from <a href = "
     position: relative !important;
   }
   /* 四宫格中的图片 */
-  .publication-table td > div > a > img {
+  .publication-table td > div:not(.resource-links) > a > img {
     position: absolute !important;
     inset: 0 !important;
     width: 100% !important;
