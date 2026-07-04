@@ -778,6 +778,27 @@ I obtained my Bachelor of Science degree in Physics from <a href = "https://phys
   
 </table>
 
+## Industrial Experience
+
+<table class="education-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+
+  <tr>
+    <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
+      <center><img src='images/genra-logo.png' alt="Genra.ai logo" style="max-width:100%;height:auto;width:180px;"></center>
+    </td>
+    <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
+      <b>Rama Alpaca (<a href="https://genra.ai">Genra.ai</a>).</b>
+      <br>
+      MLE Research Intern in Multimodal Generation and Perception
+      <br>
+      Mentor: Dr. <a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a>. Advisors: Prof. <a href="https://yyuanad.github.io">Yuan Yuan</a> and Prof. <a href="https://www.yingcong.me">Yingcong Chen</a>.
+      <br>
+      (Feb. 2024 - Aug. 2024)
+    </td>
+  </tr>
+
+</table>
+
 ## Featured Publications
 <!-- <h2><b>Publications</b></h2> -->
 <p class="section-lead">First-author and co-first-author works are highlighted below. For the full list, please refer to the <a href="/publications">Publication</a> section or my <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=L236mPUAAAAJ">Google Scholar</a>.<br>†These authors contributed equally. *Corresponding author.</p>
