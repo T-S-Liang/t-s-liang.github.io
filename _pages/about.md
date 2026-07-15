@@ -976,6 +976,10 @@ I obtained my Bachelor of Science degree in Physics from <a href = "https://phys
           <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/huggingface" alt="Hugging Face logo"></span>
           <span>Demo</span>
         </a>
+        <a class="resource-pill" href="https://docs.comfy.org/tutorials/utility/pose-detection-sdpose">
+          <span class="resource-pill__mark"><img src="/images/comfy-symbol.svg" alt="ComfyUI icon"></span>
+          <span>ComfyUI</span>
+        </a>
       </div>
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
@@ -1099,6 +1103,10 @@ I obtained my Bachelor of Science degree in Physics from <a href = "https://phys
         <a class="resource-pill" href="https://huggingface.co/spaces/teemosliang/SDPose">
           <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/huggingface" alt="Hugging Face logo"></span>
           <span>Demo</span>
+        </a>
+        <a class="resource-pill" href="https://docs.comfy.org/tutorials/utility/pose-detection-sdpose">
+          <span class="resource-pill__mark"><img src="/images/comfy-symbol.svg" alt="ComfyUI icon"></span>
+          <span>ComfyUI</span>
         </a>
       </div>
     </td>
