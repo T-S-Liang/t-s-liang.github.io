@@ -677,6 +677,9 @@ I obtained my Bachelor of Science degree in Physics from <a href = "https://phys
       <p><strong>[May 9th, 2026]</strong> 🎉 <strong>New Work</strong>: Our new paper <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> is now on arXiv.</p>
     </li>
     <li>
+      <p><strong>[Apr. 1st, 2026]</strong> 🎉 <strong>SDPose is officially hosted by Comfy Org!</strong>: Our SDPose is now natively supported in ComfyUI. See the <a href="https://docs.comfy.org/tutorials/utility/pose-detection-sdpose">official tutorial</a>, the Comfy-Org <a href="https://huggingface.co/Comfy-Org/SDPose">HF Model</a>, and try the ready-to-run <a href="https://comfy.org/workflows/utility_sdpose_ood_image_to_pose-5489b3cf2ac1/">OOD Image-to-Pose workflow</a>.</p>
+    </li>
+    <li>
       <p><strong>[Oct. 30th, 2025]</strong> 🎉 <strong>Our work SDPose-OOD is getting noticed!</strong>: A big shout-out to the community developers who made a ComfyUI node for SDPose-OOD, making it even easier to integrate into creative workflows. 🙌 Try it out here: <a href="https://github.com/judian17/ComfyUI-SDPose-OOD">ComfyUI Node SDPose-OOD</a>.</p>
     </li>
     <li>
