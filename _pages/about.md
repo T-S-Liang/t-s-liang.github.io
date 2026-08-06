@@ -756,7 +756,7 @@ I obtained my Bachelor of Science degree in Physics from <a href = "https://phys
       <br>
       Ph.D. Student in Electrical and Computer Engineering
       <br>
-      Research: Computer Vision, Representation Learning, Hardware Acceleration.
+      Research: Computer Vision, Representation Learning, Generative Models.
       <br>
       (Oct. 2024 - Present)
     </td>
