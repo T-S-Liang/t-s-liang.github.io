@@ -659,7 +659,7 @@ Before joining HKU, I spent a wonderful time as a research intern at Rama Alpaca
 I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>.
 
 <div class="research-intro">
-  My research focuses on <strong>computer vision</strong>, <strong>multimodal representation learning</strong>, and <strong>hardware-efficient AI</strong>. I build robust, transferable, and efficient intelligent systems across perception, generation, representation, and deployment.
+  My research focuses on <strong>computer vision</strong>, <strong> representation learning</strong>, and <strong>generative models</strong>.
 </div>
 
 ## Please contact me via:
