@@ -654,9 +654,7 @@ hr.section-divider {
 
 I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Department of Electrical and Computer Engineering, The University of Hong Kong</a>. I am very fortunate to be advised by Prof. <a href = "https://www.eee.hku.hk/people/h-wang">Han Wang</a> and Prof. <a href = "https://xh-liu.github.io">Xihui Liu</a>.
 
-Before joining HKU, I spent a wonderful time as a research intern at Rama Alpaca, where I worked under the supervision of Dr. <a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and was advised by Prof. <a href="https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href="https://yyuanad.github.io">Yuan Yuan</a> during the last semester of my undergraduate study. We have maintained a strong and frequent research collaboration ever since.
-
-I obtained my Bachelor of Science degree in Physics from <a href = "https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>, advised by Prof. <a href = "http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href = "http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>.
+Before joining HKU, I obtained my undergraduate degree in Physics from <a href="https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. During my undergraduate years, I spent a wonderful time at <a href="https://genra.ai">Genra.ai</a>, under the supervision of Dr. <a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and the guidance of Prof. <a href="https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href="https://yyuanad.github.io">Yuan Yuan</a>; we have maintained a strong and frequent research collaboration ever since. I also worked on interesting topics in condensed matter physics and AI for science under the guidance of Prof. <a href="http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href="http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>.
 
 <div class="research-intro">
   My research focuses on <strong>computer vision</strong>, <strong> representation learning</strong>, and <strong>generative models</strong>.
@@ -787,12 +785,29 @@ I obtained my Bachelor of Science degree in Physics from <a href = "https://phys
 
   <tr>
     <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
+      <center><img src='images/tencent-games-logo.png' alt="Tencent Games logo" style="max-width:100%;height:auto;width:180px;"></center>
+    </td>
+    <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
+      <b><a href="https://visvise.com/">VISVISE</a> (<a href="https://www.tencentgames.com/">Tencent Games</a>).</b>
+      <br>
+      Student Research Intern
+      <br>
+      Topic: Motion Capture and Generation
+      <br>
+      (Aug. 2026 - Present)
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
       <center><img src='images/genra-logo.png' alt="Genra.ai logo" style="max-width:100%;height:auto;width:180px;"></center>
     </td>
     <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
       <b>Rama Alpaca (<a href="https://genra.ai">Genra.ai</a>).</b>
       <br>
-      MLE Research Intern in Multimodal Generation and Perception
+      Student Research Intern
+      <br>
+      Topic: Pose Estimation on Animate Characters
       <br>
       Mentor: Dr. <a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a>. Advisors: Prof. <a href="https://yyuanad.github.io">Yuan Yuan</a> and Prof. <a href="https://www.yingcong.me">Yingcong Chen</a>.
       <br>
