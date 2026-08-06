@@ -807,7 +807,7 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
       <br>
       Student Research Intern
       <br>
-      Topic: Pose Estimation on Animate Characters
+      Topic: Pose Estimation on Animated Characters
       <br>
       Mentor: Dr. <a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a>. Advisors: Prof. <a href="https://yyuanad.github.io">Yuan Yuan</a> and Prof. <a href="https://www.yingcong.me">Yingcong Chen</a>.
       <br>
