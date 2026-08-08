@@ -19,7 +19,7 @@
 
 
 
-<title>Download model from huggingface - Tim Liang（梁爽）</title>
+<title>Download model from huggingface - Shuang Liang</title>
 
 
 
@@ -28,7 +28,7 @@
 
 
 <meta property="og:locale" content="en-US">
-<meta property="og:site_name" content="Tim Liang（梁爽）">
+<meta property="og:site_name" content="Shuang Liang">
 <meta property="og:title" content="Download model from huggingface">
 
 
@@ -65,7 +65,7 @@
     {
       "@context" : "http://schema.org",
       "@type" : "Person",
-      "name" : "Tim Liang",
+      "name" : "Shuang Liang",
       "url" : "https://t-s-liang.github.io",
       "sameAs" : null
     }
@@ -79,7 +79,7 @@
 <!-- end SEO -->
 
 
-<link href="https://t-s-liang.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Tim Liang（梁爽） Feed">
+<link href="https://t-s-liang.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Shuang Liang Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -88,6 +88,17 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<script>
+  // Runs before first paint so a stored dark preference never flashes white.
+  (function () {
+    try {
+      if (localStorage.getItem('theme') === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    } catch (e) {}
+  })();
 </script>
 
 <!-- For all browsers -->
@@ -157,10 +168,9 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://t-s-liang.github.io/">Tim Liang（梁爽）</a></li>
           
             
-            <li class="masthead__menu-item"><a href="https://t-s-liang.github.io/about/">About Me</a></li>
+            <li class="masthead__menu-item"><a href="https://t-s-liang.github.io/">About Me</a></li>
           
             
             <li class="masthead__menu-item"><a href="https://t-s-liang.github.io/publications/">Publications</a></li>
@@ -174,9 +184,15 @@
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+    </div><div class="nav-actions">
+      <button type="button" class="nav-toggle" id="theme-toggle" title="Switch between light and dark">
+        <span class="nav-toggle__icon nav-toggle__icon--moon" aria-hidden="true">&#9789;</span>
+        <span class="nav-toggle__icon nav-toggle__icon--sun" aria-hidden="true">&#9788;</span>
+      </button>
     </div>
   </div>
 </div>
+
 
     
 
@@ -326,12 +342,41 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2026 Tim Liang. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2026 Shuang Liang. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     <script src="https://t-s-liang.github.io/assets/js/main.min.js"></script>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var button = document.getElementById('theme-toggle');
+    if (!button) return;
+
+    function label() {
+      var dark = root.getAttribute('data-theme') === 'dark';
+      button.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+      button.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    }
+
+    label();
+
+    button.addEventListener('click', function () {
+      var dark = root.getAttribute('data-theme') === 'dark';
+      if (dark) {
+        root.removeAttribute('data-theme');
+      } else {
+        root.setAttribute('data-theme', 'dark');
+      }
+      try {
+        localStorage.setItem('theme', dark ? 'light' : 'dark');
+      } catch (e) {}
+      label();
+    });
+  })();
+</script>
 
 
 

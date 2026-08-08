@@ -119,6 +119,14 @@
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
+  line-height: 1.35;
+}
+
+.author__name-alt {
+  display: inline-block;
+  color: var(--ink-muted);
+  font-size: 0.86em;
+  font-weight: 400;
 }
 
 .author__bio {

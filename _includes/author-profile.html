@@ -15,7 +15,7 @@
   </div>
 
   <div class="author__content">
-    <center><h3 class="author__name">{{ author.name }}</h3></center>
+    <center><h3 class="author__name">{{ author.name }}{% if author.name_alt %}<br><span class="author__name-alt">{{ author.name_alt }}</span>{% endif %}</h3></center>
     {% if author.bio %}<center><p class="author__bio">{{ author.bio }}</p></center>{% endif %}
   </div>
 

@@ -13,49 +13,170 @@ redirect_from:
 
 <style>
 
-.news-window {
-  max-height: 22rem;
-  overflow-y: auto;
-  padding: 1rem 1.2rem;
-  border: 1px solid #d7dee6;
-  border-radius: 6px;
-  background: #f8fbfd;
-  scroll-behavior: smooth;
+.page__title {
+  display: none;
 }
 
-.news-window ul {
+:root {
+  --about-ink: var(--ink);
+  --about-muted: var(--ink-muted);
+  --about-line: var(--line);
+  --about-soft: var(--surface-soft);
+  --about-accent: var(--accent);
+  --about-shadow: var(--shadow);
+}
+
+.about-hero {
+  margin: 0.6rem 0 1rem;
+  padding: 1rem 1.1rem;
+  color: var(--about-ink);
+  background: var(--about-soft);
+  border: 1px solid var(--about-line);
+  border-radius: 8px;
+  box-shadow: var(--about-shadow);
+}
+
+.about-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.7rem;
+}
+
+.about-tagline {
+  margin: 0 0 0.65rem;
+  color: var(--about-ink);
+  font-size: 1.08em;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.about-hero p {
+  margin: 0.5rem 0 0;
+  line-height: 1.6;
+}
+
+.about-contact {
+  margin-top: 0.8rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--about-line);
+  color: var(--about-muted);
+  font-size: 0.94em;
+}
+
+.about-contact a {
+  font-weight: 600;
+}
+
+.about-contact p {
+  margin: 0.45rem 0 0;
+}
+
+h2.about-section-title {
+  position: relative;
+  margin: 0.85em 0 0.55em;
+  padding: 0.42em 0 0.34em;
+  border-top: 1px solid var(--line-hairline);
+  border-bottom: none;
+  color: var(--hku-green);
+  font-size: 1.62em;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  line-height: 1.3;
+}
+
+h2.about-section-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 62px;
+  height: 4px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--hku-green), var(--hku-green-soft));
+}
+
+h2.about-section-title a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+h2.about-section-title a:hover {
+  color: var(--hku-green-soft);
+}
+
+h3.about-subsection-title {
+  margin: 1.15em 0 0.6em;
+  padding-left: 0.65em;
+  color: var(--ink-strong);
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1.4;
+  border-left: 4px solid;
+  border-image: linear-gradient(180deg, var(--hku-green), var(--hku-green-soft)) 1;
+}
+
+@media (max-width: 768px) {
+  h2.about-section-title {
+    font-size: 1.36em;
+  }
+
+  h3.about-subsection-title {
+    font-size: 1.1em;
+  }
+}
+
+.news-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.news-window li {
+.news-list li {
+  position: relative;
   margin: 0;
-  padding: 0 0 1rem;
+  padding: 0.36rem 0 0.36rem 1.05rem;
+  color: var(--about-muted);
+  line-height: 1.5;
+  border-left: 2px solid var(--about-line);
 }
 
-.news-window li + li {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid #e3e8ee;
+.news-list li::before {
+  content: '';
+  position: absolute;
+  top: 0.78rem;
+  left: -0.34rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border: 2px solid var(--surface);
+  border-radius: 50%;
+  background: var(--hku-green);
+  box-shadow: 0 0 0 3px rgba(0, 111, 98, 0.15);
 }
 
-.news-window p {
-  margin: 0;
-  line-height: 1.7;
+.news-date {
+  color: var(--about-ink);
+  font-family: Consolas, Monaco, monospace;
+  font-weight: 700;
 }
 
-.news-window::-webkit-scrollbar {
-  width: 8px;
+.news-tag {
+  color: var(--hku-green);
+  font-weight: 700;
 }
 
-.news-window::-webkit-scrollbar-thumb {
-  background: #b8c4d1;
-  border-radius: 999px;
+.news-more {
+  margin-top: 0.4rem;
+  color: var(--about-muted);
 }
 
-.news-window::-webkit-scrollbar-track {
-  background: transparent;
+.news-more summary {
+  width: fit-content;
+  cursor: pointer;
+  color: var(--hku-green);
+  font-weight: 700;
 }
 
 .research-intro {
@@ -81,7 +202,7 @@ redirect_from:
   padding: 5.2rem 1.25rem 1.25rem;
   border: none;
   border-radius: 0;
-  background: linear-gradient(180deg, rgba(248, 251, 253, 0) 0%, #f8fbfd 22%, #f8fbfd 100%);
+  background: linear-gradient(180deg, transparent 0%, var(--surface-soft) 22%, var(--surface-soft) 100%);
   overflow: hidden;
 }
 
@@ -94,7 +215,7 @@ redirect_from:
 .research-card:nth-child(2) {
   min-height: 15.8rem;
   margin-top: 0.8rem;
-  background: linear-gradient(180deg, rgba(243, 248, 251, 0) 0%, #f3f8fb 24%, #f3f8fb 100%);
+  background: linear-gradient(180deg, transparent 0%, var(--surface-soft) 24%, var(--surface-soft) 100%);
 }
 
 .research-card__icon {
@@ -122,7 +243,7 @@ redirect_from:
 
 .research-card__tag {
   margin: 0 0 0.7rem;
-  color: #4c6476;
+  color: var(--ink-subtle);
   font-size: 0.82rem;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -132,28 +253,156 @@ redirect_from:
 
 .research-card p {
   margin: 0;
-  line-height: 1.75;
+  line-height: 1.6;
   text-align: left;
   text-wrap: pretty;
 }
 
-.page__content > h2 {
-  margin-top: 2.8rem;
-  margin-bottom: 1rem;
-  font-size: 1.45rem;
-  letter-spacing: -0.02em;
-  border-bottom: none;
-}
-
-.page__content a {
+.archive a {
   text-decoration-thickness: 1px;
   text-underline-offset: 0.15em;
 }
 
+.archive p {
+  margin-bottom: 0.9em;
+}
+
 .section-lead {
-  margin: 0 0 1.1rem;
-  color: #4c6476;
-  line-height: 1.75;
+  margin: 0 0 0.8rem;
+  color: var(--ink-subtle);
+  line-height: 1.6;
+}
+
+.experience-list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.experience-item {
+  display: grid;
+  grid-template-columns: 158px minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  padding: 0.6rem 0.9rem;
+  background: var(--surface-raised);
+  border: 1px solid var(--about-line);
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+}
+
+.experience-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-logo img {
+  max-width: 100%;
+  max-height: 84px;
+  object-fit: contain;
+}
+
+.experience-body {
+  color: var(--about-muted);
+  line-height: 1.45;
+}
+
+.experience-body b {
+  color: var(--about-ink);
+}
+
+.experience-date {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.92em;
+}
+
+.project-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.project-logo > img {
+  max-width: 100%;
+  max-height: 118px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.project-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.28rem;
+  justify-content: center;
+}
+
+.project-stats img {
+  height: 18px;
+  width: auto;
+  border-radius: 0;
+}
+
+.project-title {
+  display: block;
+  color: var(--about-ink);
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 560px) {
+  .about-hero {
+    padding: 1rem;
+  }
+
+  .experience-item {
+    grid-template-columns: 96px minmax(0, 1fr);
+    gap: 0.7rem;
+    padding: 0.55rem 0.7rem;
+  }
+
+  .experience-logo img {
+    max-height: 56px;
+  }
+
+  .project-logo > img {
+    max-height: 78px;
+  }
+}
+
+.venue-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  margin-bottom: 0.4rem;
+  padding: 0.2rem 0.58rem;
+  border-radius: 4px;
+  background: var(--badge-default);
+  color: var(--badge-ink);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.venue-badge--preprint {
+  background: var(--badge-preprint);
+}
+
+.venue-badge--journal {
+  background: var(--badge-journal);
+}
+
+.venue-badge--award {
+  background: var(--badge-award);
+}
+
+.venue-badge__note {
+  font-weight: 600;
+  opacity: 0.88;
 }
 
 .resource-links {
@@ -168,10 +417,10 @@ redirect_from:
   align-items: center;
   gap: 0.42rem;
   padding: 0.28rem 0.62rem;
-  border: 1px solid #d7dee6;
+  border: 1px solid var(--line-strong);
   border-radius: 999px;
-  background: #fbfdff;
-  color: #334a5b;
+  background: var(--surface-sunken);
+  color: var(--pill-ink);
   font-size: 0.84rem;
   line-height: 1.2;
   text-decoration: none !important;
@@ -179,8 +428,8 @@ redirect_from:
 }
 
 .resource-pill:hover {
-  background: #f4f8fb;
-  border-color: #bfd0de;
+  background: var(--pill-hover);
+  border-color: var(--pill-hover-border);
 }
 
 .resource-pill--disabled {
@@ -195,7 +444,7 @@ redirect_from:
   justify-content: center;
   min-width: 1.15rem;
   height: 1.15rem;
-  color: #688093;
+  color: var(--pill-mark);
   font-size: 0.78rem;
   font-weight: 700;
   line-height: 1;
@@ -228,18 +477,16 @@ redirect_from:
   letter-spacing: 0.05em;
 }
 
-.contact-card,
-.review-card {
+.contact-card {
   padding: 1.1rem 1.2rem;
-  border: 1px solid #d7dee6;
+  border: 1px solid var(--line-strong);
   border-radius: 6px;
-  background: #fbfdff;
+  background: var(--surface-sunken);
 }
 
-.contact-card p,
-.review-card p {
+.contact-card p {
   margin: 0;
-  line-height: 1.75;
+  line-height: 1.6;
 }
 
 .contact-card p + p {
@@ -252,7 +499,7 @@ redirect_from:
   justify-content: center;
   width: 1rem;
   margin-right: 0.35rem;
-  color: #5f7687;
+  color: var(--pill-mark);
 }
 
 .contact-inline-icon img {
@@ -267,7 +514,7 @@ redirect_from:
 .stats-table,
 .text-table {
   width: 100% !important;
-  border-spacing: 0 0.95rem !important;
+  border-spacing: 0 0.45rem !important;
   border-collapse: separate !important;
 }
 
@@ -288,24 +535,24 @@ redirect_from:
 .education-table td,
 .publication-table td,
 .text-table td {
-  padding: 1.1rem 1.15rem !important;
-  border-top: 1px solid #d7dee6 !important;
-  border-bottom: 1px solid #d7dee6 !important;
-  background: #fbfdff;
+  padding: 0.62rem 0.9rem !important;
+  border-top: 1px solid var(--line-strong) !important;
+  border-bottom: 1px solid var(--line-strong) !important;
+  background: var(--surface-sunken);
   vertical-align: middle;
 }
 
 .education-table td:first-child,
 .publication-table td:first-child,
 .text-table td:first-child {
-  border-left: 1px solid #d7dee6 !important;
+  border-left: 1px solid var(--line-strong) !important;
   border-radius: 6px 0 0 6px;
 }
 
 .education-table td:last-child,
 .publication-table td:last-child,
 .text-table td:last-child {
-  border-right: 1px solid #d7dee6 !important;
+  border-right: 1px solid var(--line-strong) !important;
   border-radius: 0 6px 6px 0;
 }
 
@@ -317,7 +564,7 @@ redirect_from:
 
 .projects-table,
 .stats-table {
-  border-spacing: 0 0.75rem !important;
+  border-spacing: 0 0.4rem !important;
 }
 
 .stats-table {
@@ -337,20 +584,20 @@ redirect_from:
 }
 
 .projects-table td {
-  padding: 1rem 1.1rem !important;
-  border-top: 1px solid #d7dee6 !important;
-  border-bottom: 1px solid #d7dee6 !important;
-  background: #fbfdff !important;
+  padding: 0.65rem 0.9rem !important;
+  border-top: 1px solid var(--line-strong) !important;
+  border-bottom: 1px solid var(--line-strong) !important;
+  background: var(--surface-sunken) !important;
 }
 
 .projects-table td:first-child {
-  border-left: 1px solid #d7dee6 !important;
-  border-right: 1px solid #d7dee6 !important;
+  border-left: 1px solid var(--line-strong) !important;
+  border-right: 1px solid var(--line-strong) !important;
   border-radius: 6px 0 0 6px !important;
 }
 
 .projects-table td:last-child {
-  border-right: 1px solid #d7dee6 !important;
+  border-right: 1px solid var(--line-strong) !important;
   border-radius: 0 6px 6px 0 !important;
 }
 
@@ -383,15 +630,6 @@ redirect_from:
   border-radius: 0;
 }
 
-.review-card {
-  width: min(100%, 760px);
-  margin: 0 auto;
-  padding: 0;
-  border: none;
-  border-radius: 0;
-  background: transparent;
-}
-
 .facts-list {
   margin: 0;
   padding: 0;
@@ -399,21 +637,21 @@ redirect_from:
 }
 
 .facts-list li {
-  margin: 0 0 0.8rem;
+  margin: 0 0 0.5rem;
   padding: 0.1rem 0 0.1rem 0.9rem;
   border: none;
-  border-left: 2px solid #d7dee6;
+  border-left: 2px solid var(--line-strong);
   border-radius: 0;
   background: transparent;
   font-size: 0.92rem;
-  line-height: 1.6;
-  color: #596d7d;
+  line-height: 1.5;
+  color: var(--ink-muted);
 }
 
 hr.section-divider {
   margin: 2.4rem 0 0;
   border: 0;
-  border-top: 1px solid #e1e7ee;
+  border-top: 1px solid var(--line);
 }
 
 .degree-badges {
@@ -426,9 +664,9 @@ hr.section-divider {
 .degree-badge {
   display: inline-flex;
   align-items: stretch;
-  border: 1px solid #d7dee6;
-  background: #fbfdff;
-  color: #2f4658;
+  border: 1px solid var(--line-strong);
+  background: var(--surface-sunken);
+  color: var(--ink);
   font-size: 0.7rem;
   line-height: 1;
   overflow: hidden;
@@ -438,7 +676,7 @@ hr.section-divider {
   display: inline-flex;
   align-items: center;
   padding: 0.26rem 0.38rem;
-  background: #edf4f8;
+  background: var(--surface-soft);
   font-weight: 700;
   letter-spacing: 0.01em;
 }
@@ -447,7 +685,7 @@ hr.section-divider {
   display: inline-flex;
   align-items: center;
   padding: 0.26rem 0.42rem;
-  color: #5d7282;
+  color: var(--ink-muted);
   font-weight: 500;
 }
 
@@ -462,12 +700,6 @@ hr.section-divider {
 }
 
 @media (max-width: 768px) {
-  .news-window {
-    max-height: 18rem;
-    padding: 0.9rem 1rem;
-    border-radius: 6px;
-  }
-
   .research-intro {
     font-size: 1rem;
   }
@@ -483,7 +715,7 @@ hr.section-divider {
     grid-template-rows: auto auto auto 1fr;
     padding: 0.85rem 1rem 0.85rem 3.4rem;
     border-radius: 6px;
-    background: #f8fbfd;
+    background: var(--surface-soft);
   }
 
   .research-card:nth-child(2) {
@@ -509,21 +741,9 @@ hr.section-divider {
     text-align: left;
   }
 
-  .page__content > h2 {
-    margin-top: 2.2rem;
-    font-size: 1.3rem;
-  }
-
-  .contact-card,
-  .review-card {
+  .contact-card {
     padding: 1rem;
     border-radius: 6px;
-  }
-
-  .review-card {
-    padding: 0;
-    border: none;
-    background: transparent;
   }
 
   .resource-links {
@@ -574,7 +794,7 @@ hr.section-divider {
   .projects-table,
   .stats-table,
   .text-table {
-    border-spacing: 0 0.8rem !important;
+    border-spacing: 0 0.5rem !important;
   }
 
   .education-table td,
@@ -582,22 +802,22 @@ hr.section-divider {
   .projects-table td,
   .stats-table td,
   .text-table td {
-    border: 1px solid #d7dee6 !important;
+    border: 1px solid var(--line-strong) !important;
     border-radius: 6px !important;
-    padding: 0.95rem !important;
+    padding: 0.7rem !important;
   }
 
   .projects-table td,
   .stats-table td {
     border: none !important;
-    padding: 0.8rem 0 !important;
+    padding: 0.55rem 0 !important;
   }
 
   .projects-table td {
-    border: 1px solid #d7dee6 !important;
+    border: 1px solid var(--line-strong) !important;
     border-radius: 6px !important;
-    padding: 0.95rem !important;
-    background: #fbfdff !important;
+    padding: 0.7rem !important;
+    background: var(--surface-sunken) !important;
   }
 
   .stats-table td {
@@ -640,78 +860,105 @@ hr.section-divider {
 }
 </style>
 
-<div class="degree-badges" aria-label="Degrees">
-  <span class="degree-badge degree-badge--whu">
-    <span class="degree-badge__label">B.S.</span>
-    <span class="degree-badge__value">WHU (2020–2024)</span>
-  </span>
-  <span class="degree-badge degree-badge--hku">
-    <span class="degree-badge__label">Ph.D.</span>
-    <span class="degree-badge__value">HKU (2024–Present)</span>
-  </span>
-</div>
-<!-------------------->
+<div class="about-hero">
+  <div class="degree-badges about-badges" aria-label="Degrees">
+    <span class="degree-badge degree-badge--whu">
+      <span class="degree-badge__label">B.S.</span>
+      <span class="degree-badge__value">WHU (2020–2024)</span>
+    </span>
+    <span class="degree-badge degree-badge--hku">
+      <span class="degree-badge__label">Ph.D.</span>
+      <span class="degree-badge__value">HKU (2024–Present)</span>
+    </span>
+  </div>
 
-I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Department of Electrical and Computer Engineering, The University of Hong Kong</a>. I am very fortunate to be advised by Prof. <a href = "https://www.eee.hku.hk/people/h-wang">Han Wang</a> and Prof. <a href = "https://xh-liu.github.io">Xihui Liu</a>.
+  <p class="about-tagline">My research focuses on <strong>computer vision</strong>, <strong>representation learning</strong>, and <strong>generative models</strong>.</p>
 
-Before joining HKU, I obtained my undergraduate degree in Physics from <a href="https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. During my undergraduate years, I spent a wonderful time at <a href="https://genra.ai">Genra.ai</a>, under the supervision of Dr. <a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and the guidance of Prof. <a href="https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href="https://yyuanad.github.io">Yuan Yuan</a>; we have maintained a strong and frequent research collaboration ever since. I also worked on interesting topics in condensed matter physics and AI for science under the guidance of Prof. <a href="http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href="http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>.
+  <p>🧑‍🎓 I’m a second-year Ph.D. student at the <a href="https://www.eee.hku.hk">Department of Electrical and Computer Engineering, The University of Hong Kong</a>. I am very fortunate to be advised by Prof. <a href="https://www.eee.hku.hk/people/h-wang">Han Wang</a> and Prof. <a href="https://xh-liu.github.io">Xihui Liu</a>.</p>
 
-<div class="research-intro">
-  My research focuses on <strong>computer vision</strong>, <strong> representation learning</strong>, and <strong>generative models</strong>.
-</div>
+  <p>🔬 Before joining HKU, I obtained my undergraduate degree in Physics from <a href="https://physics.whu.edu.cn">School of Physics and Technology, Wuhan University</a>. During my undergraduate years, I spent a wonderful time at <a href="https://genra.ai">Genra.ai</a>, under the supervision of Dr. <a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> and the guidance of Prof. <a href="https://www.yingcong.me">Yingcong Chen</a> and Prof. <a href="https://yyuanad.github.io">Yuan Yuan</a>; we have maintained a strong and frequent research collaboration ever since. I also worked on interesting topics in condensed matter physics and AI for science under the guidance of Prof. <a href="http://yuan.whu.edu.cn">Shengjun Yuan</a> and Prof. <a href="http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>.</p>
 
-## Please contact me via:
-
-<div class="contact-card">
-  <p><i class="fa fa-fw fa-envelope"></i> Email: <a href="mailto:tsliang2001@gmail.com">tsliang2001@gmail.com</a> or <a href="mailto:sliang57@connect.hku.hk">sliang57@connect.hku.hk</a> or <a href="mailto:liangshuang@whu.edu.cn">liangshuang@whu.edu.cn</a></p>
-  <p><span class="contact-inline-icon"><img src="/images/wechat.svg" alt="WeChat logo"></span>You may also follow my WeChat Official Account <strong>@Teemo.log</strong>. It is a place where I share daily updates and personal thoughts. Articles from my WeChat Official Account are Chinese only.</p>
+  <div class="about-contact">
+    <i class="fa fa-fw fa-envelope"></i>
+    Email: <a href="mailto:tsliang2001@gmail.com">tsliang2001@gmail.com</a> or <a href="mailto:sliang57@connect.hku.hk">sliang57@connect.hku.hk</a> or <a href="mailto:liangshuang@whu.edu.cn">liangshuang@whu.edu.cn</a>
+    <p><span class="contact-inline-icon"><img src="/images/wechat.svg" alt="WeChat logo"></span> You may also follow my WeChat Official Account <strong>@Teemo.log</strong>. It is a place where I share daily updates and personal thoughts. Articles from my WeChat Official Account are Chinese only.</p>
+  </div>
 </div>
 
-## What's new:
+<h2 class="about-section-title">What's New</h2>
 
-<div class="news-window" aria-label="Latest updates">
-  <ul>
+<div aria-label="Latest updates">
+  <ul class="news-list">
     <li>
-      <p><strong>[May 9th, 2026]</strong> 🎉 <strong>New Work</strong>: Our new paper <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> is now on arXiv.</p>
+      <span class="news-date">[05/2026]</span>
+      <span class="news-tag">🎉 New Work:</span>
+      Our new paper <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> is now on arXiv.
     </li>
     <li>
-      <p><strong>[Apr. 1st, 2026]</strong> 🎉 <strong>SDPose is officially hosted by Comfy Org!</strong>: Our SDPose is now natively supported in ComfyUI. See the <a href="https://docs.comfy.org/tutorials/utility/pose-detection-sdpose">official tutorial</a>, the Comfy-Org <a href="https://huggingface.co/Comfy-Org/SDPose">HF Model</a>, and try the ready-to-run <a href="https://comfy.org/workflows/utility_sdpose_ood_image_to_pose-5489b3cf2ac1/">OOD Image-to-Pose workflow</a>.</p>
+      <span class="news-date">[04/2026]</span>
+      <span class="news-tag">🎉 SDPose is officially hosted by Comfy Org!:</span>
+      Our SDPose is now natively supported in ComfyUI. See the <a href="https://docs.comfy.org/tutorials/utility/pose-detection-sdpose">official tutorial</a>, the Comfy-Org <a href="https://huggingface.co/Comfy-Org/SDPose">HF Model</a>, and try the ready-to-run <a href="https://comfy.org/workflows/utility_sdpose_ood_image_to_pose-5489b3cf2ac1/">OOD Image-to-Pose workflow</a>.
     </li>
     <li>
-      <p><strong>[Oct. 30th, 2025]</strong> 🎉 <strong>Our work SDPose-OOD is getting noticed!</strong>: A big shout-out to the community developers who made a ComfyUI node for SDPose-OOD, making it even easier to integrate into creative workflows. 🙌 Try it out here: <a href="https://github.com/judian17/ComfyUI-SDPose-OOD">ComfyUI Node SDPose-OOD</a>.</p>
+      <span class="news-date">[10/2025]</span>
+      <span class="news-tag">🎉 Our work SDPose-OOD is getting noticed!:</span>
+      A big shout-out to the community developers who made a ComfyUI node for SDPose-OOD, making it even easier to integrate into creative workflows. 🙌 Try it out here: <a href="https://github.com/judian17/ComfyUI-SDPose-OOD">ComfyUI Node SDPose-OOD</a>.
     </li>
     <li>
-      <p><strong>[Oct. 14th, 2025]</strong> 🚀 <strong>Open-source of SDPose</strong>: Major code and model release now available: <a href="https://github.com/T-S-Liang/SDPose-OOD">GitHub Repository</a> | <a href="https://huggingface.co/teemosliang/SDPose-Body">HF Model (Body)</a> | <a href="https://huggingface.co/teemosliang/SDPose-Wholebody">HF Model (WholeBody)</a>.</p>
+      <span class="news-date">[10/2025]</span>
+      <span class="news-tag">🚀 Open-source of SDPose:</span>
+      Major code and model release now available: <a href="https://github.com/T-S-Liang/SDPose-OOD">GitHub Repository</a> | <a href="https://huggingface.co/teemosliang/SDPose-Body">HF Model (Body)</a> | <a href="https://huggingface.co/teemosliang/SDPose-Wholebody">HF Model (WholeBody)</a>.
     </li>
     <li>
-      <p><strong>[Sep. 1st, 2025]</strong> 🍻 <strong>IEDM '25</strong>: One paper accepted by IEDM 2025. Thank Professor Han Wang, Professor Aoyang Zhang, and Professor Zhongrui Wang for their invaluable guidance, and thank Songqi and Jichang for the smooth collaboration.</p>
+      <span class="news-date">[09/2025]</span>
+      <span class="news-tag">🧑‍💻 New paper release:</span>
+      Check out our new work <strong>SDPose</strong> on exploiting the diffusion priors for OOD and robust pose estimation. I'm sooooo excited to share this work. Thank Dr. Guo Zhang, Professor Yingcong Chen, and Professor Yuan Yuan for their invaluable guidance.
     </li>
     <li>
-      <p><strong>[Sep. 24th, 2025]</strong> 🧑‍💻 <strong>New paper release</strong>: Check out our new work <strong>SDPose</strong> on exploiting the diffusion priors for OOD and robust pose estimation. I'm sooooo excited to share this work. Thank Dr. Guo Zhang, Professor Yingcong Chen, and Professor Yuan Yuan for their invaluable guidance.</p>
-    </li>
-    <li>
-      <p><strong>[Jan. 9th, 2025]</strong> 🍻 <strong>Optica Optics Express '25</strong>: One paper for my undergraduate research was accepted by Optics Express. Thank Professor Zhang for his invaluable guidance, and thank Yuze and Haimu for their collaboration and support.</p>
-    </li>
-    <li>
-      <p><strong>[Oct. 2nd, 2024]</strong> ✈️ <strong>Enrollment@HKU</strong>: New journey started. I began my postgraduate research study at the Department of Electrical and Electronic Engineering at the University of Hong Kong.</p>
-    </li>
-    <li>
-      <p><strong>[June 22nd, 2024]</strong> 🎓 <strong>Graduation@WHU</strong>: Received my Bachelor of Science degree in Physics from Wuhan University. I am grateful to have received guidance and enlightenment in computational physics and AI4Sci from Prof. <a href="http://yuan.whu.edu.cn">Shengjun Yuan</a>, and guidance in experimental optoelectronics from Prof. <a href="http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a> during my undergraduate studies.</p>
-    </li>
-    <li>
-      <p><strong>[Feb. 2nd, 2024]</strong> 🧑‍💻 <strong>Internship@Rama Alpaca</strong>: I started as an MLE research intern at Beijing Rama Alpaca Co. Ltd. in the spring semester under the supervision of Dr. <a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> from MIT, collaborating with Prof. <a href="https://www.yingcong.me">Yingcong Chen</a> at HKUST and Prof. <a href="https://yyuanad.github.io">Yuan Yuan</a> at Boston College.</p>
-    </li>
-    <li>
-      <p><strong>[Feb. 9th, 2023]</strong> 🧑‍💻 <strong>Research@CPCS-WHU</strong>: I've joined Prof. <a href="http://yuan.whu.edu.cn">Shengjun Yuan</a>'s group at Wuhan University as a research assistant this semester.</p>
-    </li>
-    <li>
-      <p><strong>[Feb. 14th, 2022]</strong> 🔬 <strong>Research@Xu Lab-WHU</strong>: I've joined Prof. <a href="http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>'s <a href="https://np.whu.edu.cn">lab</a> at Wuhan University for undergraduate research.</p>
+      <span class="news-date">[09/2025]</span>
+      <span class="news-tag">🍻 IEDM '25:</span>
+      One paper accepted by IEDM 2025. Thank Professor Han Wang, Professor Aoyang Zhang, and Professor Zhongrui Wang for their invaluable guidance, and thank Songqi and Jichang for the smooth collaboration.
     </li>
   </ul>
+
+  <details class="news-more">
+    <summary>Earlier news</summary>
+    <ul class="news-list">
+    <li>
+      <span class="news-date">[01/2025]</span>
+      <span class="news-tag">🍻 Optica Optics Express '25:</span>
+      One paper for my undergraduate research was accepted by Optics Express. Thank Professor Zhang for his invaluable guidance, and thank Yuze and Haimu for their collaboration and support.
+    </li>
+    <li>
+      <span class="news-date">[10/2024]</span>
+      <span class="news-tag">✈️ Enrollment@HKU:</span>
+      New journey started. I began my postgraduate research study at the Department of Electrical and Electronic Engineering at the University of Hong Kong.
+    </li>
+    <li>
+      <span class="news-date">[06/2024]</span>
+      <span class="news-tag">🎓 Graduation@WHU:</span>
+      Received my Bachelor of Science degree in Physics from Wuhan University. I am grateful to have received guidance and enlightenment in computational physics and AI4Sci from Prof. <a href="http://yuan.whu.edu.cn">Shengjun Yuan</a>, and guidance in experimental optoelectronics from Prof. <a href="http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a> during my undergraduate studies.
+    </li>
+    <li>
+      <span class="news-date">[02/2024]</span>
+      <span class="news-tag">🧑‍💻 Internship@Rama Alpaca:</span>
+      I started as an MLE research intern at Beijing Rama Alpaca Co. Ltd. in the spring semester under the supervision of Dr. <a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> from MIT, collaborating with Prof. <a href="https://www.yingcong.me">Yingcong Chen</a> at HKUST and Prof. <a href="https://yyuanad.github.io">Yuan Yuan</a> at Boston College.
+    </li>
+    <li>
+      <span class="news-date">[02/2023]</span>
+      <span class="news-tag">🧑‍💻 Research@CPCS-WHU:</span>
+      I've joined Prof. <a href="http://yuan.whu.edu.cn">Shengjun Yuan</a>'s group at Wuhan University as a research assistant this semester.
+    </li>
+    <li>
+      <span class="news-date">[02/2022]</span>
+      <span class="news-tag">🔬 Research@Xu Lab-WHU:</span>
+      I've joined Prof. <a href="http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a>'s <a href="https://np.whu.edu.cn">lab</a> at Wuhan University for undergraduate research.
+    </li>
+    </ul>
+  </details>
 </div>
 
-## Education
-<!-- <h2><b>Experience</b></h2> -->
+<h2 class="about-section-title">Education</h2>
 <style>
 @media (max-width: 768px) {
   .education-table {
@@ -743,81 +990,67 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
 }
 </style>
 
-<table class="education-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+<div class="experience-list">
 
-  <tr>
-    <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
-      <center><img src='images/hkulogo.png' style="max-width:100%;height:auto;width:300px;"></center>
-    </td>
-    <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
-      <b><a href="https://www.eee.hku.hk">Department of Electrical and Computer Engineering</a>, The University of Hong Kong.</b>
-      <br>
-      Ph.D. Student in Electrical and Computer Engineering
-      <br>
-      Research: Computer Vision, Representation Learning, Generative Models.
-      <br>
-      (Oct. 2024 - Present)
-    </td>
-  </tr>
+  <div class="experience-item">
+    <div class="experience-logo">
+      <img src='images/hkulogo.png' alt="HKU logo">
+    </div>
+    <div class="experience-body">
+      <b><a href="https://www.eee.hku.hk">Department of Electrical and Computer Engineering</a>, The University of Hong Kong</b>
+      <span class="experience-date">Ph.D. Student in Electrical and Computer Engineering</span>
+      <span class="experience-date">Research: Computer Vision, Representation Learning, Generative Models</span>
+      <span class="experience-date">Oct. 2024 - Present</span>
+    </div>
+  </div>
 
-  <tr>
-    <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
-      <center><img src='images/WHU.png' style="max-width:100%;height:auto;width:200px;"></center>
-    </td>
-    <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
-      <b><a href="http://physics.whu.edu.cn/">School of Physics and Technology</a>, Wuhan University.</b>
-      <br>
-      B.S. in Physics
-      <br>
-      Research: Condensed Matter Physics Experiment, AI for Computational Physics.
-      <br>
-      Dissertation: Constructing Tight-binding Model Based on Deep Learning
-      <br>
-      (Sept. 2020 - Jun. 2024)
-    </td>
-  </tr>
-  
-</table>
+  <div class="experience-item">
+    <div class="experience-logo">
+      <img src='images/WHU.png' alt="Wuhan University logo">
+    </div>
+    <div class="experience-body">
+      <b><a href="http://physics.whu.edu.cn/">School of Physics and Technology</a>, Wuhan University</b>
+      <span class="experience-date">B.S. in Physics</span>
+      <span class="experience-date">Research: Condensed Matter Physics Experiment, AI for Computational Physics</span>
+      <span class="experience-date">Dissertation: Constructing Tight-binding Model Based on Deep Learning</span>
+      <span class="experience-date">Sept. 2020 - Jun. 2024</span>
+    </div>
+  </div>
 
-## Industrial Experience
+</div>
 
-<table class="education-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+<h2 class="about-section-title">Industrial Experience</h2>
 
-  <tr>
-    <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
-      <center><img src='images/tencent-games-logo.png' alt="Tencent Games logo" style="max-width:100%;height:auto;width:180px;"></center>
-    </td>
-    <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
-      <b><a href="https://visvise.com/">VISVISE</a> (<a href="https://www.tencentgames.com/">Tencent Games</a>).</b>
-      <br>
-      Student Research Intern
-      <br>
-      Topic: Motion Capture and Generation
-      <br>
-      (Aug. 2026 - Present)
-    </td>
-  </tr>
+<div class="experience-list">
 
-  <tr>
-    <td style="padding:8px;width:30%;vertical-align:middle;border:none;">
-      <center><img src='images/genra-logo.png' alt="Genra.ai logo" style="max-width:100%;height:auto;width:180px;"></center>
-    </td>
-    <td style="padding:20px;width:70%;vertical-align:middle;border-right:none;border:none;">
-      <b>Rama Alpaca (<a href="https://genra.ai">Genra.ai</a>).</b>
-      <br>
-      Student Research Intern
-      <br>
-      Topic: Pose Estimation on Animated Characters
-      <br>
-      Mentor: Dr. <a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a>. Advisors: Prof. <a href="https://yyuanad.github.io">Yuan Yuan</a> and Prof. <a href="https://www.yingcong.me">Yingcong Chen</a>.
-      <br>
-      (Feb. 2024 - Aug. 2024)
-    </td>
-  </tr>
+  <div class="experience-item">
+    <div class="experience-logo">
+      <img src='images/tencent-games-logo.png' alt="Tencent Games logo">
+    </div>
+    <div class="experience-body">
+      <b><a href="https://visvise.com/">VISVISE</a> (<a href="https://www.tencentgames.com/">Tencent Games</a>)</b>
+      <span class="experience-date">Student Research Intern</span>
+      <span class="experience-date">Topic: Motion Capture and Generation</span>
+      <span class="experience-date">Aug. 2026 - Present</span>
+    </div>
+  </div>
 
-</table>
+  <div class="experience-item">
+    <div class="experience-logo">
+      <img src='images/genra-logo.png' alt="Genra.ai logo">
+    </div>
+    <div class="experience-body">
+      <b>Rama Alpaca (<a href="https://genra.ai">Genra.ai</a>)</b>
+      <span class="experience-date">Student Research Intern</span>
+      <span class="experience-date">Topic: Pose Estimation on Animated Characters</span>
+      <span class="experience-date">Mentor: Dr. <a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a>. Advisors: Prof. <a href="https://yyuanad.github.io">Yuan Yuan</a> and Prof. <a href="https://www.yingcong.me">Yingcong Chen</a>.</span>
+      <span class="experience-date">Feb. 2024 - Aug. 2024</span>
+    </div>
+  </div>
 
-## Featured Publications
+</div>
+
+<h2 class="about-section-title">Featured Publications</h2>
 <!-- <h2><b>Publications</b></h2> -->
 <p class="section-lead">First-author and co-first-author works are highlighted below. For the full list, please refer to the <a href="/publications">Publication</a> section or my <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=L236mPUAAAAJ">Google Scholar</a>.<br>†These authors contributed equally. *Corresponding author.</p>
 
@@ -906,11 +1139,11 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
 
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <span class="venue-badge venue-badge--preprint">Preprint 2026</span>
+      <br>
       <b>4. "From Pixels to Concepts: Do Segmentation Models Understand What They Segment?"</b>,
       <br>
       <u>Shuang Liang</u>†, Zeqing Wang†, Yuxian Li†, Xihui Liu and Han Wang*.
-      <br>
-      <i>Preprint.</i>
       <div class="resource-links">
         <a class="resource-pill" href="/files/CAFE.pdf">
           <span class="resource-pill__mark resource-pill__mark--pdf">PDF</span>
@@ -943,11 +1176,11 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
 
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <span class="venue-badge">IEDM 2025</span>
+      <br>
       <b>3. "A Monolithic Reconfigurable RRAM CIM Array Integrating PUF, TRNG, and a Lightweight Block Cipher for Secure Edge AI"</b>, 
       <br>
       Songqi Wang†, <u>Shuang Liang†</u>, Shaonan Wu†, Zhiqi Yang, Jichang Yang, Xinyuan Zhang, Yi Li, Yuhao Zhang*, Zhongrui Wang*, Aoyang Zhang* and Han Wang*.
-      <br>
-      <i>International Electron Devices Meeting (IEDM) 2025.</i>
       <div class="resource-links">
         <a class="resource-pill" href="https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=L236mPUAAAAJ&citation_for_view=L236mPUAAAAJ:9yKSN-GCB0IC" target="_blank">
           <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/googlescholar" alt="Google Scholar logo"></span>
@@ -965,11 +1198,11 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
   
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <span class="venue-badge venue-badge--preprint">Preprint 2025</span>
+      <br>
       <b>2. "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"</b>, 
       <br>
       <u>Shuang Liang</u>, Jing He, Chuanmeizhi Wang, Lejun Liao, Guo Zhang, Yingcong Chen and Yuan Yuan*.
-      <br>
-      <i>Preprint.</i>
       <div class="resource-links">
         <a class="resource-pill" href="/files/SDPose.pdf">
           <span class="resource-pill__mark resource-pill__mark--pdf">PDF</span>
@@ -1025,11 +1258,11 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
 
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <span class="venue-badge venue-badge--journal">Opt. Express 2025 <span class="venue-badge__note">JCR Q1, CAS Q2</span></span>
+      <br>
       <b>1. "Saturable Absorption of Few-layer $\mathrm{WS_{2}}$ and $\mathrm{WSe_{2}}$ at Exciton Resonance"</b>, 
       <br>
       <u>Shuang Liang</u>, Yuze Lu, Haimu Liu, Xiaohe Shang, Jiamin Ji, Rongguang Du, Yiling Yu and Shunping Zhang*.
-      <br>
-      <i>Optica Optics Express, 2025.</i>
       <div class="resource-links">
         <a class="resource-pill" href="/files/OE25.pdf">
           <span class="resource-pill__mark resource-pill__mark--pdf">PDF</span>
@@ -1049,7 +1282,7 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
   </tr>
 </table>
 
-## Featured Open-source Projects ([Github](https://github.com/t-s-liang))
+<h2 class="about-section-title">Featured Open-source Projects (<a href="https://github.com/t-s-liang">Github</a>)</h2>
 
 <style>
 @media (max-width: 768px) {
@@ -1080,25 +1313,25 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
 }
 </style>
 
-<table class="projects-table" style="font-size:0.95em;">
-  <tr>
-    <td align="center">
-      <img src='/images/SDPose_logo.png' style="max-width:100%;height:auto;width:300px;">
-      <br>
-      <a href="https://github.com/t-s-liang/SDPose-OOD/stargazers">
-      <img alt="GitHub stars" src="https://img.shields.io/github/stars/t-s-liang/SDPose-OOD?style=social">
-      </a>
-      <a href="https://github.com/t-s-liang/SDPose-OOD/network/members">
-      <img alt="GitHub forks" src="https://img.shields.io/github/forks/t-s-liang/SDPose-OOD?style=social">
-      </a>
-    </td>
-    <td align="center">
-      <strong>
-        <a href="https://github.com/t-s-liang/SDPose-OOD">
-        SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation
-        </a> <br> 
-      </strong>
-      <div class="resource-links" style="justify-content:center;">
+<div class="experience-list">
+  <div class="experience-item">
+    <div class="project-logo">
+      <img src='/images/SDPose_logo.png' alt="SDPose logo">
+      <div class="project-stats">
+        <a href="https://github.com/t-s-liang/SDPose-OOD/stargazers">
+        <img alt="Stars of the SDPose-OOD repository" src="https://img.shields.io/github/stars/t-s-liang/SDPose-OOD?style=social&amp;label=Repo">
+        </a>
+        <a href="https://github.com/t-s-liang/SDPose-OOD/network/members">
+        <img alt="Forks of the SDPose-OOD repository" src="https://img.shields.io/github/forks/t-s-liang/SDPose-OOD?style=social&amp;label=Fork">
+        </a>
+        <a href="https://github.com/judian17/ComfyUI-SDPose-OOD/stargazers">
+        <img alt="Stars of the ComfyUI-SDPose-OOD community node" src="https://img.shields.io/github/stars/judian17/ComfyUI-SDPose-OOD?style=social&amp;label=ComfyUI%20Node">
+        </a>
+      </div>
+    </div>
+    <div class="experience-body">
+      <a class="project-title" href="https://github.com/t-s-liang/SDPose-OOD">SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation</a>
+      <div class="resource-links">
         <a class="resource-pill" href="https://github.com/T-S-Liang/SDPose-OOD">
           <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/github" alt="GitHub logo"></span>
           <span>Code</span>
@@ -1124,26 +1357,24 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
           <span>ComfyUI</span>
         </a>
       </div>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="/images/cafe_logo_2.png" alt="CAFE logo" style="max-width:100%;height:auto;width:300px;">
-      <br>
-      <a href="https://github.com/T-S-Liang/CAFE/stargazers">
-      <img alt="GitHub stars" src="https://img.shields.io/github/stars/T-S-Liang/CAFE?style=social">
-      </a>
-      <a href="https://github.com/T-S-Liang/CAFE/network/members">
-      <img alt="GitHub forks" src="https://img.shields.io/github/forks/T-S-Liang/CAFE?style=social">
-      </a>
-    </td>
-    <td align="center">
-      <strong>
-        <a href="https://github.com/T-S-Liang/CAFE">
-        CAFE: Counterfactual Attribute Factuality Evaluation
-        </a> <br>
-      </strong>
-      <div class="resource-links" style="justify-content:center;">
+    </div>
+  </div>
+
+  <div class="experience-item">
+    <div class="project-logo">
+      <img src="/images/cafe_logo_2.png" alt="CAFE logo">
+      <div class="project-stats">
+        <a href="https://github.com/T-S-Liang/CAFE/stargazers">
+        <img alt="Stars of the CAFE repository" src="https://img.shields.io/github/stars/T-S-Liang/CAFE?style=social&amp;label=Repo">
+        </a>
+        <a href="https://github.com/T-S-Liang/CAFE/network/members">
+        <img alt="Forks of the CAFE repository" src="https://img.shields.io/github/forks/T-S-Liang/CAFE?style=social&amp;label=Fork">
+        </a>
+      </div>
+    </div>
+    <div class="experience-body">
+      <a class="project-title" href="https://github.com/T-S-Liang/CAFE">CAFE: Counterfactual Attribute Factuality Evaluation</a>
+      <div class="resource-links">
         <a class="resource-pill" href="/files/CAFE.pdf">
           <span class="resource-pill__mark resource-pill__mark--pdf">PDF</span>
           <span>PDF</span>
@@ -1165,12 +1396,11 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
           <span>arXiv</span>
         </a>
       </div>
-    </td>
-  </tr>
-</table>
+    </div>
+  </div>
+</div>
 
-
-## Github Stats
+<h3 class="about-subsection-title">Github Stats</h3>
 
 <table class="stats-table" style="font-size:0.92em;">
   <tr>
@@ -1183,7 +1413,7 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
   </tr>
 </table>
 
-## Selected Honors
+<h2 class="about-section-title">Selected Honors</h2>
 <!-- <h2><b>Selected Honors</b></h2> -->
 <style>
 @media (max-width: 768px) {
@@ -1199,7 +1429,7 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
   .text-table tr {
     display: block !important;
     margin-bottom: 15px !important;
-    border-bottom: 1px solid #e0e0e0 !important;
+    border-bottom: 1px solid var(--line) !important;
     padding-bottom: 10px !important;
     width: 100% !important;
     box-sizing: border-box !important;
@@ -1213,7 +1443,7 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
   }
   .text-table td:last-child {
     font-weight: bold !important;
-    color: #666 !important;
+    color: var(--ink-muted) !important;
   }
 }
 </style>
@@ -1234,7 +1464,7 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
   </tr>
 </table>
 
-## Teaching and Review Services
+<h2 class="about-section-title">Teaching and Review Services</h2>
 <table class="text-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
   <tr>
     <td style="padding:8px;width:70%;vertical-align:middle;border:none;"><b>Teaching Assistant</b>, ENGG1330 Computer Programming I, HKU
@@ -1252,29 +1482,13 @@ Before joining HKU, I obtained my undergraduate degree in Physics from <a href="
   
   </table>
   
-## Review
-<style>
-@media (max-width: 768px) {
-  .review-container {
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box !important;
-    padding: 0 10px !important;
-  }
-}
-</style>
-<div class="review-card">
-<div class="review-container" style="width: 60%; margin: 0 auto; position: relative; z-index: 1000;">
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=tt&d=k7gt1qlb_lyshkDh7qppLdft9pS_Vjj_fgeQYAUGSBs&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
-</div>
-</div>
-
-## Interesting Facts About Myself
+<h2 class="about-section-title">Interesting Facts About Myself</h2>
 
 <ul class="facts-list">
   <li>In Chinese context, my name has the same meaning as the word "cool", referring to the pleasant weather of the season I was born. It is also a somewhat girly name, so people often mistake me as a girl before meeting me. My preferred name is Tim, which is my English name but not part of my legal name.</li>
   <li>I spent my childhood and adolescence along the majestic Yellow River, where the waters whispered tales of ancient civilizations. My college years unfolded beside the mighty Yangtze River, a flowing testament to China's enduring spirit and progress. Now, I find myself working beside the vibrant Pearl River, where the currents echo the pulse of modernity and innovation.</li>
   <li>Music takes up most of my free time. I listen to a wide range of styles, including country, J-rock, and Chinese folk, almost anything centered on guitar. I also enjoy pop, hip-hop, and EDM. I am a big fan of Taylor Swift, Adele, Billie Eilish, and Beyonce, and I am always happy to talk about music across different genres.</li>
+  <li>Naturally, I am also an anime fan at heart, and my favorite titles give away the same bias as my playlists: BanG Dream!, Bocchi the Rock!, and Sound! Euphonium are all stories about people who can only say the difficult things through an instrument.</li>
   <li>During my undergraduate years at WHU, I also cultivated a deep passion for Chinese debate. I served as the captain of the School of Physics debate team (Class of 2020) and took the lead in organizing the "Xunli Debate" (寻理杯) competition during my time on campus.</li>
 </ul>
 

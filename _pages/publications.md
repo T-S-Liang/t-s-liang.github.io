@@ -7,9 +7,42 @@ author_profile: false
 
 <style>
 .section-lead {
-  margin: 0 0 1.1rem;
-  color: #4c6476;
-  line-height: 1.75;
+  margin: 0 0 0.8rem;
+  color: var(--ink-subtle);
+  line-height: 1.6;
+}
+
+.venue-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  margin-bottom: 0.4rem;
+  padding: 0.2rem 0.58rem;
+  border-radius: 4px;
+  background: var(--badge-default);
+  color: var(--badge-ink);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.venue-badge--preprint {
+  background: var(--badge-preprint);
+}
+
+.venue-badge--journal {
+  background: var(--badge-journal);
+}
+
+.venue-badge--award {
+  background: var(--badge-award);
+}
+
+.venue-badge__note {
+  font-weight: 600;
+  opacity: 0.88;
 }
 
 .resource-links {
@@ -24,10 +57,10 @@ author_profile: false
   align-items: center;
   gap: 0.42rem;
   padding: 0.28rem 0.62rem;
-  border: 1px solid #d7dee6;
+  border: 1px solid var(--line-strong);
   border-radius: 999px;
-  background: #fbfdff;
-  color: #334a5b;
+  background: var(--surface-sunken);
+  color: var(--pill-ink);
   font-size: 0.84rem;
   line-height: 1.2;
   text-decoration: none !important;
@@ -35,8 +68,8 @@ author_profile: false
 }
 
 .resource-pill:hover {
-  background: #f4f8fb;
-  border-color: #bfd0de;
+  background: var(--pill-hover);
+  border-color: var(--pill-hover-border);
 }
 
 .resource-pill--disabled {
@@ -51,7 +84,7 @@ author_profile: false
   justify-content: center;
   min-width: 1.15rem;
   height: 1.15rem;
-  color: #688093;
+  color: var(--pill-mark);
   font-size: 0.78rem;
   font-weight: 700;
   line-height: 1;
@@ -77,25 +110,25 @@ author_profile: false
 
 .publication-table {
   width: 100% !important;
-  border-spacing: 0 0.95rem !important;
+  border-spacing: 0 0.45rem !important;
   border-collapse: separate !important;
 }
 
 .publication-table td {
-  padding: 1.1rem 1.15rem !important;
-  border-top: 1px solid #d7dee6 !important;
-  border-bottom: 1px solid #d7dee6 !important;
-  background: #fbfdff;
+  padding: 0.62rem 0.9rem !important;
+  border-top: 1px solid var(--line-strong) !important;
+  border-bottom: 1px solid var(--line-strong) !important;
+  background: var(--surface-sunken);
   vertical-align: middle;
 }
 
 .publication-table td:first-child {
-  border-left: 1px solid #d7dee6 !important;
+  border-left: 1px solid var(--line-strong) !important;
   border-radius: 6px 0 0 6px;
 }
 
 .publication-table td:last-child {
-  border-right: 1px solid #d7dee6 !important;
+  border-right: 1px solid var(--line-strong) !important;
   border-radius: 0 6px 6px 0;
 }
 
@@ -158,7 +191,7 @@ author_profile: false
     padding: 0.95rem !important;
     margin: 0 !important;
     box-sizing: border-box !important;
-    border: 1px solid #d7dee6 !important;
+    border: 1px solid var(--line-strong) !important;
     border-radius: 6px !important;
     word-wrap: break-word !important;
     word-break: break-word !important;
@@ -226,11 +259,11 @@ author_profile: false
 
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <span class="venue-badge venue-badge--preprint">Preprint 2026</span>
+      <br>
       <b>4. "From Pixels to Concepts: Do Segmentation Models Understand What They Segment?"</b>,
       <br>
       <u>Shuang Liang</u>†, Zeqing Wang†, Yuxian Li†, Xihui Liu and Han Wang*.
-      <br>
-      <i>$Preprint$.</i>
       <div class="resource-links">
         <a class="resource-pill" href="/files/CAFE.pdf">
           <span class="resource-pill__mark resource-pill__mark--pdf">PDF</span>
@@ -256,18 +289,18 @@ author_profile: false
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <a href="https://tsliang.top/CAFE/">
-      <img src="https://tsliang.top/CAFE/static/images/more_cases.jpg" alt="Diverse CAFE test cases across SM, CC, and OC" width="300">
+      <img src="https://tsliang.top/CAFE/static/images/more_cases.jpg" alt="Diverse CAFE test cases across SM, CC, and OC" style="max-width:100%;height:auto;width:300px;">
       </a>
     </td>
   </tr>
 
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <span class="venue-badge">IEDM 2025</span>
+      <br>
       <b>3. "A Monolithic Reconfigurable RRAM CIM Array Integrating PUF, TRNG, and a Lightweight Block Cipher for Secure Edge AI"</b>, 
       <br>
       Songqi Wang†, <u>Shuang Liang†</u>, Shaonan Wu†, Zhiqi Yang, Jichang Yang, Xinyuan Zhang, Yi Li, Yuhao Zhang*, Zhongrui Wang*, Aoyang Zhang* and Han Wang*.
-      <br>
-      <i>$International\ Electron\ Devices\ Meeting\ (IEDM)\ 2025$.</i>
       <div class="resource-links">
         <a class="resource-pill" href="https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=L236mPUAAAAJ&citation_for_view=L236mPUAAAAJ:9yKSN-GCB0IC" target="_blank">
           <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/googlescholar" alt="Google Scholar logo"></span>
@@ -277,18 +310,18 @@ author_profile: false
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <a href="/images/IEDM_SCIM.jpg">
-      <img src='/images/IEDM_SCIM.jpg' width="300">
+      <img src='/images/IEDM_SCIM.jpg' style="max-width:100%;height:auto;width:300px;">
       </a>
     </td>
   </tr>
   
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <span class="venue-badge venue-badge--preprint">Preprint 2025</span>
+      <br>
       <b>2. "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"</b>, 
       <br>
       <u>Shuang Liang</u>, Jing He, Chuanmeizhi Wang, Lejun Liao, Guo Zhang, Yingcong Chen and Yuan Yuan*.
-      <br>
-      <i>$Preprint$.</i>
       <div class="resource-links">
         <a class="resource-pill" href="/files/SDPose.pdf">
           <span class="resource-pill__mark resource-pill__mark--pdf">PDF</span>
@@ -317,24 +350,24 @@ author_profile: false
       </div>
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <div style="display:flex;flex-wrap:wrap;gap:6px;width:100%;box-sizing:border-box;">
+      <div style="display:flex;flex-wrap:wrap;gap:2px;width:100%;box-sizing:border-box;">
         <a href="/images/SDPose_1.gif"
-           style="position:relative;width:calc(50% - 3px);padding-top:50%;display:block;overflow:hidden;border-radius:6px;">
+           style="position:relative;width:calc(50% - 1px);padding-top:calc(50% - 1px);display:block;overflow:hidden;border-radius:4px;box-sizing:border-box;">
           <img src="/images/SDPose_1.gif" alt="SDPose gif 1"
                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
         <a href="/images/SDPose_2.gif"
-           style="position:relative;width:calc(50% - 3px);padding-top:50%;display:block;overflow:hidden;border-radius:6px;">
+           style="position:relative;width:calc(50% - 1px);padding-top:calc(50% - 1px);display:block;overflow:hidden;border-radius:4px;box-sizing:border-box;">
           <img src="/images/SDPose_2.gif" alt="SDPose gif 2"
                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
         <a href="/images/SDPose_3.gif"
-           style="position:relative;width:calc(50% - 3px);padding-top:50%;display:block;overflow:hidden;border-radius:6px;">
+           style="position:relative;width:calc(50% - 1px);padding-top:calc(50% - 1px);display:block;overflow:hidden;border-radius:4px;box-sizing:border-box;">
           <img src="/images/SDPose_3.gif" alt="SDPose gif 3"
                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
         <a href="/images/SDPose_4.gif"
-           style="position:relative;width:calc(50% - 3px);padding-top:50%;display:block;overflow:hidden;border-radius:6px;">
+           style="position:relative;width:calc(50% - 1px);padding-top:calc(50% - 1px);display:block;overflow:hidden;border-radius:4px;box-sizing:border-box;">
           <img src="/images/SDPose_4.gif" alt="SDPose gif 4"
                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
         </a>
@@ -344,11 +377,11 @@ author_profile: false
   
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <span class="venue-badge venue-badge--journal">Opt. Express 2025 <span class="venue-badge__note">JCR Q1, CAS Q2</span></span>
+      <br>
       <b>1. "Saturable Absorption of Few-layer $\mathrm{WS_{2}}$ and $\mathrm{WSe_{2}}$ at Exciton Resonance"</b>, 
       <br>
-      <u>Shuang Liang</u>, Yuze Lu, Haimu Liu, Xiaohe Shang, Jiamin Ji, Rongguang Du Yiling Yu and Shunping Zhang*.
-      <br>
-      <i>$Optica\ Optics\ Express$ (JCR Q1, CAS Q2).</i>
+      <u>Shuang Liang</u>, Yuze Lu, Haimu Liu, Xiaohe Shang, Jiamin Ji, Rongguang Du, Yiling Yu and Shunping Zhang*.
       <div class="resource-links">
         <a class="resource-pill" href="/files/OE25.pdf">
           <span class="resource-pill__mark resource-pill__mark--pdf">PDF</span>
@@ -362,7 +395,7 @@ author_profile: false
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
       <a href="/images/SA.png">
-      <img src='/images/SA.png' width="300">
+      <img src='/images/SA.png' style="max-width:100%;height:auto;width:300px;">
       </a>
     </td>
   </tr>

@@ -1,4 +1,33 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+  (function () {
+    var root = document.documentElement;
+    var button = document.getElementById('theme-toggle');
+    if (!button) return;
+
+    function label() {
+      var dark = root.getAttribute('data-theme') === 'dark';
+      button.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+      button.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    }
+
+    label();
+
+    button.addEventListener('click', function () {
+      var dark = root.getAttribute('data-theme') === 'dark';
+      if (dark) {
+        root.removeAttribute('data-theme');
+      } else {
+        root.setAttribute('data-theme', 'dark');
+      }
+      try {
+        localStorage.setItem('theme', dark ? 'light' : 'dark');
+      } catch (e) {}
+      label();
+    });
+  })();
+</script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

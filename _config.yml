@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tim Liang（梁爽）"
+title                    : "Shuang Liang"
 title_separator          : "-"
-name                     : &name "Tim Liang"
+name                     : &name "Shuang Liang"
 description              : &description "This is my homepage, welcome!"
 url                      : "https://t-s-liang.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,12 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Shuang Liang"
+  name             : "Shuang LIANG"
+  name_alt         : "(梁爽/Tim)"
   avatar           : "profile.jpg"
   bio              : "Everything you lose is a step you take."
   location         : "Pok Fu Lam, Hong Kong SAR, China"
   employer         : "The University of H. K."
-  employer_site    : "https://en.whu.edu.cn"
+  employer_site    : "https://www.hku.hk"
   cv               : "files/Resume_Shuang Liang_v2025.pdf"
   pubmed           :
   googlescholar    : "https://scholar.google.com.hk/citations?hl=zh-CN&user=L236mPUAAAAJ"
@@ -104,7 +105,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "shuang-liang-3b138a25a"
+  linkedin         : "shuang-liang-789395309"
   orcid            :
   pinterest        :
   soundcloud       :

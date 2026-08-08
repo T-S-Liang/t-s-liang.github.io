@@ -1,0 +1,356 @@
+/* ==========================================================================
+   PALETTE
+   Runtime colour tokens. The theme's own SCSS variables stay light-only
+   because 33 call sites pass them through mix()/darken(), which cannot take
+   var(). Everything themable therefore lives here instead.
+   ========================================================================== */
+
+:root {
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+  --surface-soft: #f5f8fb;
+  --surface-sunken: #fbfdff;
+
+  --ink: #22303d;
+  --ink-strong: #101a24;
+  --ink-muted: #66737f;
+  --ink-subtle: #4c6476;
+
+  --line: #d8e1e9;
+  --line-strong: #d7dee6;
+  --line-hairline: rgba(20, 40, 70, 0.09);
+
+  --accent: #2f74a0;
+  --accent-hover: #1f5679;
+  --hku-green: #006f62;
+  --hku-green-soft: #3d9c8c;
+
+  --badge-ink: #ffffff;
+  --badge-default: #3f5a73;
+  --badge-preprint: #8a97a4;
+  --badge-journal: #2f7d64;
+  --badge-award: #b9762c;
+
+  --shadow: 0 12px 30px rgba(31, 45, 60, 0.10);
+  --shadow-card: 0 8px 22px rgba(31, 45, 60, 0.07);
+
+  --pill-surface: #fbfdff;
+  --pill-border: #d7dee6;
+  --pill-ink: #334a5b;
+  --pill-hover: #f4f8fb;
+  --pill-hover-border: #bfd0de;
+  --pill-mark: #688093;
+
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --surface: #14181d;
+  --surface-raised: #1b2129;
+  --surface-soft: #1e252d;
+  --surface-sunken: #191f26;
+
+  --ink: #dde5ec;
+  --ink-strong: #f2f6f9;
+  --ink-muted: #9aa8b5;
+  --ink-subtle: #a9b8c4;
+
+  --line: #2c353f;
+  --line-strong: #333d48;
+  --line-hairline: rgba(160, 190, 215, 0.14);
+
+  --accent: #6fb4dd;
+  --accent-hover: #9bcdea;
+  --hku-green: #5cc7b6;
+  --hku-green-soft: #37a394;
+
+  --badge-ink: #0f1418;
+  --badge-default: #7f9ab4;
+  --badge-preprint: #6b7885;
+  --badge-journal: #4fae91;
+  --badge-award: #d0994f;
+
+  --shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+  --shadow-card: 0 8px 22px rgba(0, 0, 0, 0.35);
+
+  --pill-surface: #202832;
+  --pill-border: #364150;
+  --pill-ink: #c6d3de;
+  --pill-hover: #27313c;
+  --pill-hover-border: #4a5867;
+  --pill-mark: #93a6b6;
+
+  color-scheme: dark;
+}
+
+/* --------------------------------------------------------------------------
+   Theme chrome overrides
+   The theme hardcodes light surfaces in its own partials, so the dark state
+   is repainted here rather than by editing every partial.
+   -------------------------------------------------------------------------- */
+
+html,
+body {
+  background-color: var(--surface);
+  color: var(--ink);
+}
+
+[data-theme="dark"] {
+  html,
+  body,
+  .masthead,
+  .page__footer,
+  .greedy-nav,
+  .greedy-nav .hidden-links,
+  .author__urls,
+  .sidebar {
+    background-color: var(--surface);
+    color: var(--ink);
+  }
+
+  .masthead {
+    border-bottom-color: var(--line);
+  }
+
+  .page__footer {
+    border-top: 1px solid var(--line);
+    color: var(--ink-muted);
+  }
+
+  .page__footer a,
+  .page__footer-copyright a {
+    color: var(--accent);
+  }
+
+  .greedy-nav a,
+  .greedy-nav .visible-links a,
+  .greedy-nav .hidden-links a {
+    color: var(--ink);
+  }
+
+  .greedy-nav a:hover,
+  .greedy-nav .hidden-links a:hover {
+    color: var(--accent);
+  }
+
+  .greedy-nav button {
+    background-color: var(--surface-raised);
+  }
+
+  .greedy-nav .hidden-links {
+    border-color: var(--line);
+    box-shadow: var(--shadow);
+  }
+
+  .greedy-nav .hidden-links::before {
+    border-bottom-color: var(--line);
+  }
+
+  .greedy-nav .hidden-links::after {
+    border-bottom-color: var(--surface-raised);
+  }
+
+  .author__name,
+  .author__bio,
+  .author__urls a {
+    color: var(--ink);
+  }
+
+  .author__name-alt {
+    color: var(--ink-muted);
+  }
+
+  .author__urls li {
+    border-bottom-color: var(--line);
+  }
+
+  .btn,
+  .btn--inverse {
+    background-color: var(--surface-raised);
+    border-color: var(--line-strong);
+    color: var(--ink);
+  }
+
+  .btn:hover,
+  .btn--inverse:hover {
+    background-color: var(--surface-soft);
+    color: var(--ink-strong);
+  }
+
+  a {
+    color: var(--accent);
+  }
+
+  a:hover {
+    color: var(--accent-hover);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--ink-strong);
+  }
+
+  hr {
+    border-color: var(--line);
+  }
+
+  blockquote {
+    border-left-color: var(--line-strong);
+    color: var(--ink-muted);
+  }
+
+  table, th, td {
+    border-color: var(--line);
+    color: var(--ink);
+  }
+
+  th {
+    background-color: var(--surface-soft);
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: var(--surface-sunken);
+  }
+
+  code,
+  pre,
+  .highlight,
+  .highlight pre {
+    background-color: var(--surface-soft);
+    color: var(--ink);
+  }
+
+  .page__title,
+  .archive__item-title {
+    color: var(--ink-strong);
+  }
+
+  .notice,
+  .notice--info,
+  .notice--warning,
+  .notice--success,
+  .notice--danger {
+    background-color: var(--surface-soft);
+    color: var(--ink);
+  }
+
+  .gallery-item,
+  .toc,
+  .modal {
+    background: var(--surface-raised);
+    color: var(--ink);
+  }
+
+  .toc__menu a {
+    color: var(--ink);
+  }
+
+  .toc .nav__title {
+    background: var(--surface-soft);
+    color: var(--ink-strong);
+  }
+
+  .toc__menu a:hover {
+    background: var(--surface-soft);
+    color: var(--accent);
+  }
+
+  input,
+  textarea,
+  select {
+    background-color: var(--surface-soft);
+    border-color: var(--line);
+    color: var(--ink);
+  }
+
+  label,
+  form legend {
+    color: var(--ink);
+  }
+
+  /* Monochrome glyphs only. Shields badges carry text and would flatten
+     into blocks under the same filter, so they are left untouched. */
+  .resource-pill__mark img,
+  .contact-inline-icon img {
+    filter: brightness(0) invert(0.82);
+  }
+
+  /* Institution marks are dark line art and shields badges are baked white,
+     so both sit on a light plaque rather than being filtered. */
+  .experience-logo,
+  .project-logo {
+    padding: 0.45rem 0.28rem;
+    border-radius: 6px;
+    background: #eef3f7;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Theme switch control
+   -------------------------------------------------------------------------- */
+
+/* The masthead is a legacy float/clearfix row, so it is switched to flex here
+   to seat the controls beside the nav without absolute positioning. */
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.masthead__inner-wrap::after {
+  display: none;
+}
+
+.masthead__menu {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.nav-actions {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 0.35rem;
+  padding-left: 0.6rem;
+}
+
+.nav-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  min-width: 2rem;
+  height: 2rem;
+  padding: 0 0.55rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--surface-raised);
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.nav-toggle:hover {
+  background: var(--surface-soft);
+  border-color: var(--pill-hover-border);
+  color: var(--hku-green);
+}
+
+.nav-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.nav-toggle__icon--sun {
+  display: none;
+}
+
+[data-theme="dark"] .nav-toggle__icon--sun {
+  display: inline;
+}
+
+[data-theme="dark"] .nav-toggle__icon--moon {
+  display: none;
+}

@@ -1,0 +1,58 @@
+# Gallery entries for /Moments/.
+# thumb: square 600x600 crop used in the grid; full: 1800px version shown in the lightbox.
+# Both are generated from the originals that stay in images/Moments/.
+- title: "The Pearl of Orient 東方之珠"
+  city: "Hong Kong"
+  region: "Hong Kong SAR, China"
+  year: 2023
+  full: /images/Moments/large/HK.jpg
+  thumb: /images/Moments/thumbs/HK.jpg
+
+- title: "Fisherman's Wharf"
+  city: "San Francisco"
+  region: "United States"
+  year: 2023
+  full: /images/Moments/large/IMG_3652.jpg
+  thumb: /images/Moments/thumbs/IMG_3652.jpg
+
+- title: "The Sky Tree 東京スカイツリー"
+  city: "Tokyo"
+  region: "Japan"
+  year: 2023
+  full: /images/Moments/large/IMG_1063.jpg
+  thumb: /images/Moments/thumbs/IMG_1063.jpg
+
+- title: "Cherry Blossom in WHU 武漢大学"
+  city: "Wuhan"
+  region: "China"
+  year: 2023
+  full: /images/Moments/large/IMG_6638.jpg
+  thumb: /images/Moments/thumbs/IMG_6638.jpg
+
+- title: "Qingming Shanghe Park 清明上河园"
+  city: "Kaifeng"
+  region: "China"
+  year: 2023
+  full: /images/Moments/large/IMG_5494.jpg
+  thumb: /images/Moments/thumbs/IMG_5494.jpg
+
+- title: "Highland"
+  city: "Ganzi 甘孜藏族自治州"
+  region: "China"
+  year: 2020
+  full: /images/Moments/large/Ganzi2020.jpg
+  thumb: /images/Moments/thumbs/Ganzi2020.jpg
+
+- title: "With my best friends"
+  city: "Shangri-La 香格里拉"
+  region: "China"
+  year: 2020
+  full: /images/Moments/large/IMG_6639.jpg
+  thumb: /images/Moments/thumbs/IMG_6639.jpg
+
+- title: "Windowpane in Zhengzhou No.7"
+  city: "Zhengzhou"
+  region: "China"
+  year: 2019
+  full: /images/Moments/large/SunsetZZ7Z2019.jpg
+  thumb: /images/Moments/thumbs/SunsetZZ7Z2019.jpg

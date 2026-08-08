@@ -1,0 +1,6 @@
+# Local preview overrides. Layer on top of _config.yml:
+#   jekyll build --safe --config _config.yml,_config.dev.yml
+# Without this, base_path resolves to the production site.url and the preview
+# silently loads the deployed CSS instead of the one just built.
+url: ""
+baseurl: ""
