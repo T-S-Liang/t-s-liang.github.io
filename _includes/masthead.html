@@ -6,7 +6,11 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          {% for link in site.data.navigation.main %}
+          {%- comment -%}A lang gets its own nav list when one exists, e.g. main_zh.{%- endcomment -%}
+          {% assign nav_links = site.data.navigation.main %}
+          {% assign nav_key = "main_" | append: page.lang %}
+          {% if site.data.navigation[nav_key] %}{% assign nav_links = site.data.navigation[nav_key] %}{% endif %}
+          {% for link in nav_links %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
@@ -23,6 +27,10 @@
       $('#site-nav button') and would hide this control on wide screens.
     {%- endcomment -%}
     <div class="nav-actions">
+      {%- comment -%}Only shown on pages that have a translation, and only while site.lang_switch is on.{%- endcomment -%}
+      {% if page.lang_alt and site.lang_switch %}
+      <a class="nav-toggle nav-toggle--lang" href="{{ page.lang_alt }}" hreflang="{% if page.lang == 'zh' %}en{% else %}zh{% endif %}" title="{% if page.lang == 'zh' %}Read this page in English{% else %}切换到中文版{% endif %}">{% if page.lang == 'zh' %}EN{% else %}中文{% endif %}</a>
+      {% endif %}
       <button type="button" class="nav-toggle" id="theme-toggle" title="Switch between light and dark">
         <span class="nav-toggle__icon nav-toggle__icon--moon" aria-hidden="true">&#9789;</span>
         <span class="nav-toggle__icon nav-toggle__icon--sun" aria-hidden="true">&#9788;</span>

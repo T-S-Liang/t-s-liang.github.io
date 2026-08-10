@@ -1,0 +1,7 @@
+# Local preview build (jekyll build --config _config.yml,_config.dev.yml -d _site_dev).
+# Kept out of the repo so the committed _site/ always matches the production config.
+_site_dev/
+.DS_Store
+
+.jekyll-cache/
+.sass-cache/

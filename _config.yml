@@ -7,6 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
+# Shows the language switch in the masthead and the hreflang pairs in <head>.
+# The /zh/ page is still built either way, just unlinked while this is false.
+lang_switch              : false
 title                    : "Shuang Liang"
 title_separator          : "-"
 name                     : &name "Shuang Liang"

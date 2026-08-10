@@ -1,0 +1,152 @@
+# 中文首页文案，键结构与 en.yml 完全一致。
+# 论文、开源项目、GitHub 卡片等与语言无关的内容在 common.yml，改一处两边同时生效。
+# 人名一律保留英文原名：中文写法拿不准，写错比不写更失礼，需要时自行替换。
+
+# 侧栏文案。只在 lang: zh 的页面生效，未填的字段沿用 _config.yml 里的 author。
+profile:
+  name: "梁爽"
+  name_alt: "(Shuang Liang / Tim)"
+  bio: "你失去的每一样东西，都是你走过的一步。"
+  location: "中国香港特别行政区薄扶林"
+  employer: "香港大学"
+  labels:
+    find_me: "联系方式"
+    email: "邮箱"
+    googlescholar: "谷歌学术"
+    researchgate: "ResearchGate"
+    linkedin: "领英"
+    github: "Github"
+    cv: "简历"
+
+hero:
+  badges:
+    - { kind: whu, label: "本科", value: "武汉大学（2020–2024）" }
+    - { kind: hku, label: "博士", value: "香港大学（2024 至今）" }
+  badges_label: "学位"
+  tagline: '我的研究方向是<strong>计算机视觉</strong>、<strong>表征学习</strong>与<strong>生成模型</strong>。'
+  paragraphs:
+    - '🧑‍🎓 我是<a href="https://www.eee.hku.hk">香港大学电机电子工程系</a>博士二年级学生，非常幸运能由 <a href="https://www.eee.hku.hk/people/h-wang">Han Wang</a> 教授与 <a href="https://xh-liu.github.io">Xihui Liu</a> 教授共同指导。'
+    - '🔬 来港大之前，我在<a href="https://physics.whu.edu.cn">武汉大学物理科学与技术学院</a>取得物理学学士学位。本科期间我在 <a href="https://genra.ai">Genra.ai</a> 度过了一段很愉快的时光，由 <a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> 博士带教，并得到 <a href="https://www.yingcong.me">Yingcong Chen</a> 教授和 <a href="https://yyuanad.github.io">Yuan Yuan</a> 教授的指导，此后我们一直保持着紧密的科研合作。我也曾在 <a href="http://yuan.whu.edu.cn">Shengjun Yuan</a> 教授和 <a href="http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a> 教授的指导下，接触过凝聚态物理与 AI for Science 方向的一些有意思的课题。'
+  contact:
+    email_label: "邮箱："
+    emails:
+      - tsliang2001@gmail.com
+      - sliang57@connect.hku.hk
+      - liangshuang@whu.edu.cn
+    email_separator: " 或 "
+    wechat: '也欢迎关注我的微信公众号 <strong>@Teemo.log</strong>，我在那里写一些日常记录和个人思考，内容均为中文。'
+
+news:
+  title: "最新动态"
+  aria_label: "最新动态"
+  more_label: "更早的动态"
+  items:
+    - date: "[05/2026]"
+      tag: "🎉 新工作："
+      body: '新论文 <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> 已挂上 arXiv。'
+    - date: "[04/2026]"
+      tag: "🎉 SDPose 被 Comfy Org 官方收录："
+      body: 'SDPose 现已被 ComfyUI 原生支持。可以看<a href="https://docs.comfy.org/tutorials/utility/pose-detection-sdpose">官方教程</a>、Comfy-Org 的 <a href="https://huggingface.co/Comfy-Org/SDPose">HF 模型</a>，也可以直接跑<a href="https://comfy.org/workflows/utility_sdpose_ood_image_to_pose-5489b3cf2ac1/">开箱即用的 OOD Image-to-Pose 工作流</a>。'
+    - date: "[10/2025]"
+      tag: "🎉 SDPose-OOD 被社区注意到了："
+      body: '感谢社区开发者为 SDPose-OOD 做了 ComfyUI 节点，让它更容易接入创作流程。🙌 传送门：<a href="https://github.com/judian17/ComfyUI-SDPose-OOD">ComfyUI Node SDPose-OOD</a>。'
+    - date: "[10/2025]"
+      tag: "🚀 SDPose 开源："
+      body: '代码与模型均已发布：<a href="https://github.com/T-S-Liang/SDPose-OOD">GitHub 仓库</a> | <a href="https://huggingface.co/teemosliang/SDPose-Body">HF 模型（Body）</a> | <a href="https://huggingface.co/teemosliang/SDPose-Wholebody">HF 模型（WholeBody）</a>。'
+    - date: "[09/2025]"
+      tag: "🧑‍💻 新论文："
+      body: "新工作 <strong>SDPose</strong> 探索如何利用扩散先验做域外与鲁棒的姿态估计。非常兴奋能把这份工作分享出来，感谢 Guo Zhang 博士、Yingcong Chen 教授和 Yuan Yuan 教授的悉心指导。"
+    - date: "[09/2025]"
+      tag: "🍻 IEDM '25："
+      body: "一篇论文被 IEDM 2025 接收。感谢 Han Wang 教授、Aoyang Zhang 教授和 Zhongrui Wang 教授的指导，也感谢松琦和继昌一路顺畅的合作。"
+  earlier:
+    - date: "[01/2025]"
+      tag: "🍻 Optics Express '25："
+      body: "本科阶段的一篇工作被 Optics Express 接收。感谢张老师的悉心指导，也感谢雨泽和海牧的合作与支持。"
+    - date: "[10/2024]"
+      tag: "✈️ 入学香港大学："
+      body: "新的旅程开始了，我在香港大学电机电子工程系开始了研究型研究生阶段的学习。"
+    - date: "[06/2024]"
+      tag: "🎓 武汉大学毕业："
+      body: '获得武汉大学物理学理学学士学位。感谢本科期间 <a href="http://yuan.whu.edu.cn">Shengjun Yuan</a> 教授在计算物理与 AI4Sci 上的启蒙，以及 <a href="http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a> 教授在实验光电子方向上的指导。'
+    - date: "[02/2024]"
+      tag: "🧑‍💻 实习@Rama Alpaca："
+      body: '春季学期开始在北京羊驼科技做 MLE 研究实习，由 MIT 的 <a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> 博士带教，并与香港科技大学的 <a href="https://www.yingcong.me">Yingcong Chen</a> 教授、波士顿学院的 <a href="https://yyuanad.github.io">Yuan Yuan</a> 教授合作。'
+    - date: "[02/2023]"
+      tag: "🧑‍💻 科研@武汉大学 CPCS："
+      body: '这学期加入武汉大学 <a href="http://yuan.whu.edu.cn">Shengjun Yuan</a> 教授课题组担任研究助理。'
+    - date: "[02/2022]"
+      tag: "🔬 科研@武汉大学："
+      body: '加入武汉大学 <a href="http://jszy.whu.edu.cn/zhangshunping/en/index.htm#">Shunping Zhang</a> 教授的<a href="https://np.whu.edu.cn">课题组</a>，开始本科阶段的科研训练。'
+
+education:
+  title: "教育经历"
+  items:
+    - logo: "/images/hkulogo.png"
+      logo_alt: "香港大学校徽"
+      heading: '香港大学<a href="https://www.eee.hku.hk">电机电子工程系</a>'
+      lines:
+        - "电机电子工程博士研究生"
+        - "研究方向：计算机视觉、表征学习、生成模型"
+        - "2024 年 10 月 至今"
+    - logo: "/images/WHU.png"
+      logo_alt: "武汉大学校徽"
+      heading: '武汉大学<a href="http://physics.whu.edu.cn/">物理科学与技术学院</a>'
+      lines:
+        - "物理学理学学士"
+        - "研究方向：凝聚态物理实验、面向计算物理的人工智能"
+        - "毕业论文：基于深度学习构建紧束缚模型"
+        - "2020 年 9 月 - 2024 年 6 月"
+
+industry:
+  title: "工业界经历"
+  items:
+    - logo: "/images/tencent-games-logo.png"
+      logo_alt: "腾讯游戏 logo"
+      heading: '<a href="https://visvise.com/">Motus AI</a>（<a href="https://www.tencentgames.com/">腾讯游戏</a>）'
+      lines:
+        - "研究实习生"
+        - "课题：动作捕捉与动作生成"
+        - "2026 年 8 月 至今"
+    - logo: "/images/genra-logo.png"
+      logo_alt: "Genra.ai logo"
+      heading: 'Rama Alpaca（<a href="https://genra.ai">Genra.ai</a>）'
+      lines:
+        - "研究实习生"
+        - "课题：动画角色的姿态估计"
+        - '带教：<a href="https://guozhang.mit.edu/guos-personal-home">Guo Zhang</a> 博士。指导：<a href="https://yyuanad.github.io">Yuan Yuan</a> 教授与 <a href="https://www.yingcong.me">Yingcong Chen</a> 教授。'
+        - "2024 年 2 月 - 2024 年 8 月"
+
+publications:
+  title: "代表性论文"
+  lead: '这里列出第一作者与共同第一作者的工作。完整列表见<a href="/publications">论文</a>页面或我的 <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=L236mPUAAAAJ">Google Scholar</a>。<br>† 表示同等贡献，* 表示通讯作者。'
+
+projects:
+  title: "代表性开源项目"
+  github_label: "Github"
+  stats_title: "Github 统计"
+
+honors:
+  title: "获奖与荣誉"
+  items:
+    - text: "<i>武汉大学优秀本科毕业论文</i>（物理科学与技术学院前 5%）。"
+      year: "2024"
+    - text: "<i>武汉大学甲等奖学金</i>（学业成绩前 5%）。"
+      year: "2021"
+
+teaching:
+  title: "教学与评审"
+  items:
+    - text: "<b>助教</b>，ENGG1330 Computer Programming I，香港大学"
+      when: "2025 春"
+    - text: "<b>助教</b>，ELEC3644 Advanced Mobile Apps Development，香港大学"
+      when: "2025 秋"
+
+facts:
+  title: "关于我的一些小事"
+  items:
+    - "我叫梁爽，「爽」取的是我出生那个季节的天气，凉爽舒服。这个名字听上去偏女生，所以没见面之前常常有人以为我是女孩子。我更常用的名字是 Tim，是英文名，不在身份证上。"
+    - "童年和少年时代在黄河边度过，大学四年在长江边，现在则在珠江边工作。三条河，三段人生，某种意义上也算顺流而下。"
+    - "音乐占据了我大部分空闲时间。乡村、日摇、华语民谣，基本上以吉他为核心的都听，流行、嘻哈和电子也来者不拒。我是 Taylor Swift、Adele、Billie Eilish 和 Beyoncé 的粉丝，随时可以聊音乐。"
+    - "顺理成章地，我也是个动画爱好者，而且口味和歌单如出一辙：《BanG Dream!》《孤独摇滚！》《吹响吧！上低音号》，讲的都是那些只有靠乐器才说得出口的人。"
+    - "本科在武大时我很喜欢中文辩论，做过物理学院辩论队（2020 级）队长，也牵头办过院里的「寻理杯」辩论赛。"

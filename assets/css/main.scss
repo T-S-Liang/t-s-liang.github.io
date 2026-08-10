@@ -33,6 +33,7 @@
 @import "page";
 @import "archive";
 @import "sidebar";
+@import "home"; // before palette, so the dark-theme overrides still win ties
 @import "palette";
 
 @import "vendor/font-awesome/fontawesome";

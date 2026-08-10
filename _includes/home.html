@@ -1,0 +1,189 @@
+{%- comment -%}
+Homepage body, shared by the English (/) and Chinese (/zh/) versions.
+Copy comes from _data/home/<page.lang>.yml, papers and projects from
+_data/home/common.yml. Styling lives in _sass/_home.scss and only applies
+where the page sets body_class: home-page.
+{%- endcomment -%}
+{% assign t = site.data.home[page.lang] %}
+{% assign c = site.data.home.common %}
+
+<div class="about-hero">
+  <div class="degree-badges about-badges" aria-label="{{ t.hero.badges_label }}">
+{% for badge in t.hero.badges %}
+    <span class="degree-badge degree-badge--{{ badge.kind }}">
+      <span class="degree-badge__label">{{ badge.label }}</span>
+      <span class="degree-badge__value">{{ badge.value }}</span>
+    </span>
+{% endfor %}
+  </div>
+
+  <p class="about-tagline">{{ t.hero.tagline }}</p>
+
+{% for paragraph in t.hero.paragraphs %}
+  <p>{{ paragraph }}</p>
+{% endfor %}
+
+  <div class="about-contact">
+    <i class="fa fa-fw fa-envelope"></i>
+    {{ t.hero.contact.email_label }} {% for address in t.hero.contact.emails %}<a href="mailto:{{ address }}">{{ address }}</a>{% unless forloop.last %}{{ t.hero.contact.email_separator }}{% endunless %}{% endfor %}
+    <p><span class="contact-inline-icon"><img src="/images/wechat.svg" alt="WeChat logo"></span> {{ t.hero.contact.wechat }}</p>
+  </div>
+</div>
+
+<h2 class="about-section-title">{{ t.news.title }}</h2>
+
+<div aria-label="{{ t.news.aria_label }}">
+  <ul class="news-list">
+{% for item in t.news.items %}
+    <li>
+      <span class="news-date">{{ item.date }}</span>
+      <span class="news-tag">{{ item.tag }}</span>
+      {{ item.body }}
+    </li>
+{% endfor %}
+  </ul>
+
+  <details class="news-more">
+    <summary>{{ t.news.more_label }}</summary>
+    <ul class="news-list">
+{% for item in t.news.earlier %}
+    <li>
+      <span class="news-date">{{ item.date }}</span>
+      <span class="news-tag">{{ item.tag }}</span>
+      {{ item.body }}
+    </li>
+{% endfor %}
+    </ul>
+  </details>
+</div>
+
+{% assign cv_sections = "education,industry" | split: "," %}
+{% for key in cv_sections %}
+{% assign section = t[key] %}
+<h2 class="about-section-title">{{ section.title }}</h2>
+
+<div class="experience-list">
+{% for item in section.items %}
+
+  <div class="experience-item">
+    <div class="experience-logo">
+      <img src='{{ item.logo }}' alt="{{ item.logo_alt }}">
+    </div>
+    <div class="experience-body">
+      <b>{{ item.heading }}</b>
+{% for line in item.lines %}
+      <span class="experience-date">{{ line }}</span>
+{% endfor %}
+    </div>
+  </div>
+{% endfor %}
+
+</div>
+{% endfor %}
+
+<h2 class="about-section-title">{{ t.publications.title }}</h2>
+<p class="section-lead">{{ t.publications.lead }}</p>
+
+<table class="publication-table" style="width:100%;border:None;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+{% assign paper_count = c.publications.items | size %}
+{% for paper in c.publications.items %}
+
+  <tr>
+    <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+      <span class="venue-badge{% if paper.badge.kind %} venue-badge--{{ paper.badge.kind }}{% endif %}">{{ paper.badge.text }}{% if paper.badge.note %} <span class="venue-badge__note">{{ paper.badge.note }}</span>{% endif %}</span>
+      <br>
+      <b>{{ paper_count | minus: forloop.index0 }}. "{{ paper.title }}"</b>,
+      <br>
+      {{ paper.authors }}
+{% include home/pills.html links=paper.links %}
+    </td>
+    <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
+{% if paper.media.kind == 'grid' %}
+      <div style="display:flex;flex-wrap:wrap;gap:2px;width:100%;box-sizing:border-box;">
+{% for shot in paper.media.items %}
+        <a href="{{ shot.src }}"
+           style="position:relative;width:calc(50% - 1px);padding-top:calc(50% - 1px);display:block;overflow:hidden;border-radius:4px;box-sizing:border-box;">
+          <img src="{{ shot.src }}" alt="{{ shot.alt }}"
+               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
+        </a>
+{% endfor %}
+      </div>
+{% else %}
+      <a href="{{ paper.media.href }}">
+      <img src="{{ paper.media.src }}"{% if paper.media.alt %} alt="{{ paper.media.alt }}"{% endif %} style="max-width:100%;height:auto;width:300px;">
+      </a>
+{% endif %}
+    </td>
+  </tr>
+{% endfor %}
+</table>
+
+<h2 class="about-section-title">{{ t.projects.title }} (<a href="{{ c.projects.github_url }}">{{ t.projects.github_label }}</a>)</h2>
+
+<div class="experience-list">
+{% for project in c.projects.items %}
+  <div class="experience-item">
+    <div class="project-logo">
+      <img src='{{ project.logo }}' alt="{{ project.logo_alt }}">
+      <div class="project-stats">
+{% for stat in project.stats %}
+        <a href="{{ stat.href }}">
+        <img alt="{{ stat.alt }}" src="{{ stat.src }}">
+        </a>
+{% endfor %}
+      </div>
+    </div>
+    <div class="experience-body">
+      <a class="project-title" href="{{ project.url }}">{{ project.title }}</a>
+{% include home/pills.html links=project.links %}
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+<h3 class="about-subsection-title">{{ t.projects.stats_title }}</h3>
+
+<table class="stats-table" style="font-size:0.92em;">
+  <tr>
+{% for card in c.github_stats %}
+    <td align="center">
+ <img src="{{ card }}" style="max-width:100%;height:auto;">
+    </td>
+{% endfor %}
+  </tr>
+</table>
+
+<h2 class="about-section-title">{{ t.honors.title }}</h2>
+
+<table class="text-table" style="border:none;font-size:0.95em;">
+{% for honor in t.honors.items %}
+  <tr>
+    <td style="border:none;">{{ honor.text }}
+    </td>
+    <td style="border:none;text-align:center;">{{ honor.year }}
+    </td>
+  </tr>
+{% endfor %}
+</table>
+
+<h2 class="about-section-title">{{ t.teaching.title }}</h2>
+<table class="text-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
+{% for course in t.teaching.items %}
+  <tr>
+    <td style="padding:8px;width:70%;vertical-align:middle;border:none;">{{ course.text }}
+    </td>
+    <td style="padding:8px;width:30%;vertical-align:right;border:none;"> {{ course.when }}
+    </td>
+  </tr>
+{% endfor %}
+</table>
+
+<h2 class="about-section-title">{{ t.facts.title }}</h2>
+
+<ul class="facts-list">
+{% for fact in t.facts.items %}
+  <li>{{ fact }}</li>
+{% endfor %}
+</ul>
+
+<hr class="section-divider">

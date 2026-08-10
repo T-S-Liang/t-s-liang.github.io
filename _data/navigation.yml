@@ -11,3 +11,18 @@ main:
 
   - title: "Moments"
     url: /Moments/
+
+# Used on pages with lang: zh. Only the homepage has a translation, so the
+# other entries still point at their English pages.
+main_zh:
+  - title: "关于我"
+    url: /zh/
+
+  - title: "论文"
+    url: /publications/
+
+  - title: "博客"
+    url: /year-archive/
+
+  - title: "瞬间"
+    url: /Moments/

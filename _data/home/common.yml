@@ -1,0 +1,124 @@
+# Language-neutral homepage content: paper entries, open-source projects and
+# GitHub cards. Prose that needs translating lives in en.yml / zh.yml instead,
+# so adding a paper here updates both language versions at once.
+#
+# Resource pill icons:
+#   pdf              -> the red PDF mark
+#   window           -> Font Awesome window glyph (project pages)
+#   /images/foo.svg  -> a local icon file
+#   anything else    -> a Simple Icons slug, fetched from cdn.simpleicons.org
+
+publications:
+  items:
+    - badge:
+        text: "Preprint 2026"
+        kind: preprint
+      title: "From Pixels to Concepts: Do Segmentation Models Understand What They Segment?"
+      authors: '<u>Shuang Liang</u>†, Zeqing Wang†, Yuxian Li†, Xihui Liu and Han Wang*.'
+      links:
+        - { label: "PDF", url: "/files/CAFE.pdf", icon: pdf }
+        - { label: "Project Page", url: "https://tsliang.top/CAFE/", icon: window }
+        - { label: "Code", url: "https://github.com/T-S-Liang/CAFE", icon: github, icon_alt: "GitHub logo" }
+        - { label: "Dataset", url: "https://huggingface.co/datasets/teemosliang/CAFE", icon: huggingface, icon_alt: "Hugging Face logo" }
+        - { label: "arXiv", url: "https://arxiv.org/abs/2605.09591", icon: arxiv, icon_alt: "arXiv logo" }
+      media:
+        kind: image
+        href: "https://tsliang.top/CAFE/"
+        src: "https://tsliang.top/CAFE/static/images/more_cases.jpg"
+        alt: "Diverse CAFE test cases across SM, CC, and OC"
+
+    - badge:
+        text: "IEDM 2025"
+      title: "A Monolithic Reconfigurable RRAM CIM Array Integrating PUF, TRNG, and a Lightweight Block Cipher for Secure Edge AI"
+      authors: 'Songqi Wang†, <u>Shuang Liang†</u>, Shaonan Wu†, Zhiqi Yang, Jichang Yang, Xinyuan Zhang, Yi Li, Yuhao Zhang*, Zhongrui Wang*, Aoyang Zhang* and Han Wang*.'
+      links:
+        - label: "Google Scholar"
+          url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=L236mPUAAAAJ&citation_for_view=L236mPUAAAAJ:9yKSN-GCB0IC"
+          icon: googlescholar
+          icon_alt: "Google Scholar logo"
+          blank: true
+      media:
+        kind: image
+        href: "/images/IEDM_SCIM.jpg"
+        src: "/images/IEDM_SCIM.jpg"
+
+    - badge:
+        text: "Preprint 2025"
+        kind: preprint
+      title: "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"
+      authors: '<u>Shuang Liang</u>, Jing He, Chuanmeizhi Wang, Lejun Liao, Guo Zhang, Yingcong Chen and Yuan Yuan*.'
+      links:
+        - { label: "PDF", url: "/files/SDPose.pdf", icon: pdf }
+        - { label: "Code", url: "https://github.com/T-S-Liang/SDPose-OOD", icon: github, icon_alt: "GitHub logo" }
+        - { label: "arXiv", url: "https://arxiv.org/abs/2509.24980", icon: arxiv, icon_alt: "arXiv logo" }
+        - { label: "Project Page", url: "https://t-s-liang.github.io/SDPose", icon: window }
+        - { label: "Demo", url: "https://huggingface.co/spaces/teemosliang/SDPose", icon: huggingface, icon_alt: "Hugging Face logo" }
+        - { label: "ComfyUI", url: "https://docs.comfy.org/tutorials/utility/pose-detection-sdpose", icon: "/images/comfy-symbol.svg", icon_alt: "ComfyUI icon" }
+      media:
+        kind: grid
+        items:
+          - { src: "/images/SDPose_1.gif", alt: "SDPose gif 1" }
+          - { src: "/images/SDPose_2.gif", alt: "SDPose gif 2" }
+          - { src: "/images/SDPose_3.gif", alt: "SDPose gif 3" }
+          - { src: "/images/SDPose_4.gif", alt: "SDPose gif 4" }
+
+    - badge:
+        text: "Opt. Express 2025"
+        note: "JCR Q1, CAS Q2"
+        kind: journal
+      title: 'Saturable Absorption of Few-layer $\mathrm{WS_{2}}$ and $\mathrm{WSe_{2}}$ at Exciton Resonance'
+      authors: '<u>Shuang Liang</u>, Yuze Lu, Haimu Liu, Xiaohe Shang, Jiamin Ji, Rongguang Du, Yiling Yu and Shunping Zhang*.'
+      links:
+        - { label: "PDF", url: "/files/OE25.pdf", icon: pdf }
+        - { label: "Optica", url: "https://doi.org/10.1364/OE.539834", icon: "/images/optica-symbol.svg", icon_alt: "Optica icon" }
+      media:
+        kind: image
+        href: "/images/SA.png"
+        src: "/images/SA.png"
+
+projects:
+  github_url: "https://github.com/t-s-liang"
+  items:
+    - logo: "/images/SDPose_logo.png"
+      logo_alt: "SDPose logo"
+      title: "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"
+      url: "https://github.com/t-s-liang/SDPose-OOD"
+      stats:
+        - href: "https://github.com/t-s-liang/SDPose-OOD/stargazers"
+          src: "https://img.shields.io/github/stars/t-s-liang/SDPose-OOD?style=social&label=Repo"
+          alt: "Stars of the SDPose-OOD repository"
+        - href: "https://github.com/t-s-liang/SDPose-OOD/network/members"
+          src: "https://img.shields.io/github/forks/t-s-liang/SDPose-OOD?style=social&label=Fork"
+          alt: "Forks of the SDPose-OOD repository"
+        - href: "https://github.com/judian17/ComfyUI-SDPose-OOD/stargazers"
+          src: "https://img.shields.io/github/stars/judian17/ComfyUI-SDPose-OOD?style=social&label=ComfyUI%20Node"
+          alt: "Stars of the ComfyUI-SDPose-OOD community node"
+      links:
+        - { label: "Code", url: "https://github.com/T-S-Liang/SDPose-OOD", icon: github, icon_alt: "GitHub logo" }
+        - { label: "PDF", url: "/files/SDPose.pdf", icon: pdf }
+        - { label: "arXiv", url: "https://arxiv.org/abs/2509.24980", icon: arxiv, icon_alt: "arXiv logo" }
+        - { label: "Project Page", url: "https://t-s-liang.github.io/SDPose", icon: window }
+        - { label: "Demo", url: "https://huggingface.co/spaces/teemosliang/SDPose", icon: huggingface, icon_alt: "Hugging Face logo" }
+        - { label: "ComfyUI", url: "https://docs.comfy.org/tutorials/utility/pose-detection-sdpose", icon: "/images/comfy-symbol.svg", icon_alt: "ComfyUI icon" }
+
+    - logo: "/images/cafe_logo_2.png"
+      logo_alt: "CAFE logo"
+      title: "CAFE: Counterfactual Attribute Factuality Evaluation"
+      url: "https://github.com/T-S-Liang/CAFE"
+      stats:
+        - href: "https://github.com/T-S-Liang/CAFE/stargazers"
+          src: "https://img.shields.io/github/stars/T-S-Liang/CAFE?style=social&label=Repo"
+          alt: "Stars of the CAFE repository"
+        - href: "https://github.com/T-S-Liang/CAFE/network/members"
+          src: "https://img.shields.io/github/forks/T-S-Liang/CAFE?style=social&label=Fork"
+          alt: "Forks of the CAFE repository"
+      links:
+        - { label: "PDF", url: "/files/CAFE.pdf", icon: pdf }
+        - { label: "Project Page", url: "https://tsliang.top/CAFE/", icon: window }
+        - { label: "Code", url: "https://github.com/T-S-Liang/CAFE", icon: github, icon_alt: "GitHub logo" }
+        - { label: "Dataset", url: "https://huggingface.co/datasets/teemosliang/CAFE", icon: huggingface, icon_alt: "Hugging Face logo" }
+        - { label: "arXiv", url: "https://arxiv.org/abs/2605.09591", icon: arxiv, icon_alt: "arXiv logo" }
+
+github_stats:
+  - "https://raw.githubusercontent.com/T-S-Liang/github-stats/master/generated/overview.svg"
+  - "https://raw.githubusercontent.com/T-S-Liang/github-stats/master/generated/languages.svg"
