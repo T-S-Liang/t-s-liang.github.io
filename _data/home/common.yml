@@ -5,6 +5,7 @@
 # Resource pill icons:
 #   pdf              -> the red PDF mark
 #   window           -> Font Awesome window glyph (project pages)
+#   fa-users, ...    -> any other Font Awesome glyph, by its icon name
 #   /images/foo.svg  -> a local icon file
 #   anything else    -> a Simple Icons slug, fetched from cdn.simpleicons.org
 
@@ -56,6 +57,7 @@ publications:
         - { label: "Project Page", url: "https://t-s-liang.github.io/SDPose", icon: window }
         - { label: "Demo", url: "https://huggingface.co/spaces/teemosliang/SDPose", icon: huggingface, icon_alt: "Hugging Face logo" }
         - { label: "ComfyUI", url: "https://docs.comfy.org/tutorials/utility/pose-detection-sdpose", icon: "/images/comfy-symbol.svg", icon_alt: "ComfyUI icon" }
+        - { label: "ECCV 2026 HuMoWM Workshop", url: "https://human-motion-world-model.github.io/", icon: fa-users }
       media:
         kind: grid
         items:
