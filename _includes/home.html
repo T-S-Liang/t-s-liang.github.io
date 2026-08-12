@@ -90,7 +90,7 @@ where the page sets body_class: home-page.
 
   <tr>
     <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <span class="venue-badge{% if paper.badge.kind %} venue-badge--{{ paper.badge.kind }}{% endif %}">{{ paper.badge.text }}{% if paper.badge.note %} <span class="venue-badge__note">{{ paper.badge.note }}</span>{% endif %}</span>
+      {% for badge in paper.badges %}<span class="venue-badge{% if badge.kind %} venue-badge--{{ badge.kind }}{% endif %}">{{ badge.text }}{% if badge.note %} <span class="venue-badge__note">{{ badge.note }}</span>{% endif %}</span>{% endfor %}
       <br>
       <b>{{ paper_count | minus: forloop.index0 }}. "{{ paper.title }}"</b>,
       <br>

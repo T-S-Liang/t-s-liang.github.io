@@ -396,6 +396,14 @@
     background: var(--badge-award);
   }
 
+  .venue-badge--workshop {
+    background: var(--badge-workshop);
+  }
+
+  .venue-badge + .venue-badge {
+    margin-left: 0.35rem;
+  }
+
   .venue-badge__note {
     font-weight: 600;
     opacity: 0.88;

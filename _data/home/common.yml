@@ -10,9 +10,9 @@
 
 publications:
   items:
-    - badge:
-        text: "Preprint 2026"
-        kind: preprint
+    - badges:
+        - text: "Preprint 2026"
+          kind: preprint
       title: "From Pixels to Concepts: Do Segmentation Models Understand What They Segment?"
       authors: '<u>Shuang Liang</u>†, Zeqing Wang†, Yuxian Li†, Xihui Liu and Han Wang*.'
       links:
@@ -27,8 +27,8 @@ publications:
         src: "https://tsliang.top/CAFE/static/images/more_cases.jpg"
         alt: "Diverse CAFE test cases across SM, CC, and OC"
 
-    - badge:
-        text: "IEDM 2025"
+    - badges:
+        - text: "IEDM 2025"
       title: "A Monolithic Reconfigurable RRAM CIM Array Integrating PUF, TRNG, and a Lightweight Block Cipher for Secure Edge AI"
       authors: 'Songqi Wang†, <u>Shuang Liang†</u>, Shaonan Wu†, Zhiqi Yang, Jichang Yang, Xinyuan Zhang, Yi Li, Yuhao Zhang*, Zhongrui Wang*, Aoyang Zhang* and Han Wang*.'
       links:
@@ -42,9 +42,11 @@ publications:
         href: "/images/IEDM_SCIM.jpg"
         src: "/images/IEDM_SCIM.jpg"
 
-    - badge:
-        text: "Preprint 2025"
-        kind: preprint
+    - badges:
+        - text: "Preprint 2025"
+          kind: preprint
+        - text: "ECCV Workshop 2026"
+          kind: workshop
       title: "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"
       authors: '<u>Shuang Liang</u>, Jing He, Chuanmeizhi Wang, Lejun Liao, Guo Zhang, Yingcong Chen and Yuan Yuan*.'
       links:
@@ -62,10 +64,10 @@ publications:
           - { src: "/images/SDPose_3.gif", alt: "SDPose gif 3" }
           - { src: "/images/SDPose_4.gif", alt: "SDPose gif 4" }
 
-    - badge:
-        text: "Opt. Express 2025"
-        note: "JCR Q1, CAS Q2"
-        kind: journal
+    - badges:
+        - text: "Opt. Express 2025"
+          note: "JCR Q1, CAS Q2"
+          kind: journal
       title: 'Saturable Absorption of Few-layer $\mathrm{WS_{2}}$ and $\mathrm{WSe_{2}}$ at Exciton Resonance'
       authors: '<u>Shuang Liang</u>, Yuze Lu, Haimu Liu, Xiaohe Shang, Jiamin Ji, Rongguang Du, Yiling Yu and Shunping Zhang*.'
       links:
