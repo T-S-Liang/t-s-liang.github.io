@@ -41,6 +41,9 @@ news:
   aria_label: "最新动态"
   more_label: "更早的动态"
   items:
+    - date: "[08/2026]"
+      tag: "🎉 SDPose 亮相 ECCV 2026 Workshop："
+      body: '我们将在 ECCV 2026 <a href="https://human-motion-world-model.github.io/">Human Motion-Informed World Models and Socially Intelligent Action (HuMoWM)</a> workshop 上展示 SDPose（瑞典马尔默，non-archival）。如果你也在现场，欢迎来聊。'
     - date: "[05/2026]"
       tag: "🎉 新工作："
       body: '新论文 <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> 已挂上 arXiv。'
@@ -56,10 +59,10 @@ news:
     - date: "[09/2025]"
       tag: "🧑‍💻 新论文："
       body: "新工作 <strong>SDPose</strong> 探索如何利用扩散先验做域外与鲁棒的姿态估计。非常兴奋能把这份工作分享出来，感谢 Guo Zhang 博士、Yingcong Chen 教授和 Yuan Yuan 教授的悉心指导。"
+  earlier:
     - date: "[09/2025]"
       tag: "🍻 IEDM '25："
       body: "一篇论文被 IEDM 2025 接收。感谢 Han Wang 教授、Aoyang Zhang 教授和 Zhongrui Wang 教授的指导，也感谢松琦和继昌一路顺畅的合作。"
-  earlier:
     - date: "[01/2025]"
       tag: "🍻 Optics Express '25："
       body: "本科阶段的一篇工作被 Optics Express 接收。感谢张老师的悉心指导，也感谢雨泽和海牧的合作与支持。"

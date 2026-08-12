@@ -347,6 +347,10 @@ author_profile: false
           <span class="resource-pill__mark"><img src="/images/comfy-symbol.svg" alt="ComfyUI icon"></span>
           <span>ComfyUI</span>
         </a>
+        <a class="resource-pill" href="https://human-motion-world-model.github.io/">
+          <span class="resource-pill__mark"><i class="fa fa-users" aria-hidden="true"></i></span>
+          <span>ECCV 2026 HuMoWM Workshop</span>
+        </a>
       </div>
     </td>
     <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
