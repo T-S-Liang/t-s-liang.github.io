@@ -271,7 +271,7 @@ author_profile: false
       <br>
       <b>4. "From Pixels to Concepts: Do Segmentation Models Understand What They Segment?"</b>,
       <br>
-      <u>Shuang Liang</u>†, Zeqing Wang†, Yuxian Li†, Xihui Liu and Han Wang*.
+      <u>Shuang Liang</u>†, Zeqing Wang†, Yuxian Li†, Xihui Liu* and Han Wang*.
       <div class="resource-links">
         <a class="resource-pill" href="/files/CAFE.pdf">
           <span class="resource-pill__mark resource-pill__mark--pdf">PDF</span>
