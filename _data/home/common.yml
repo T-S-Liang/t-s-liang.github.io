@@ -15,7 +15,7 @@ publications:
         - text: "Preprint 2026"
           kind: preprint
       title: "From Pixels to Concepts: Do Segmentation Models Understand What They Segment?"
-      authors: '<u>Shuang Liang</u>†, Zeqing Wang†, Yuxian Li†, Xihui Liu* and Han Wang*.'
+      authors: '<u>Shuang Liang</u>†, Zeqing Wang†, Yuxian Li†, Xihui Liu and Han Wang*.'
       links:
         - { label: "PDF", url: "/files/CAFE.pdf", icon: pdf }
         - { label: "Project Page", url: "https://tsliang.top/CAFE/", icon: window }
