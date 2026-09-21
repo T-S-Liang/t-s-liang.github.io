@@ -91,7 +91,8 @@ industry:
       logo_alt: "Tencent logo"
       heading: "Tencent, AI Game Engine Department"
       lines:
-        - "Intern"
+        - "Student Research Intern"
+        - "Topic: 3D motion and video generation"
         - "Aug. 2026 - Present"
     - logo: "/images/genra-logo.png"
       logo_alt: "Genra.ai logo"

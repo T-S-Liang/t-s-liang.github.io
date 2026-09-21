@@ -108,7 +108,8 @@ industry:
       logo_alt: "腾讯 logo"
       heading: "腾讯，AI 游戏引擎部"
       lines:
-        - "实习生"
+        - "研究实习生"
+        - "课题：三维动作与视频生成"
         - "2026 年 8 月 至今"
     - logo: "/images/genra-logo.png"
       logo_alt: "Genra.ai logo"
