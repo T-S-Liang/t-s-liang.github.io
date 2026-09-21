@@ -104,7 +104,7 @@ education:
 industry:
   title: "工业界经历"
   items:
-    - logo: "/images/tencent-games-logo.png"
+    - logo: "/images/tencent-logo.png"
       logo_alt: "腾讯 logo"
       heading: "腾讯，AI 游戏引擎部"
       lines:

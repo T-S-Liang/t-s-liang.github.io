@@ -87,7 +87,7 @@ education:
 industry:
   title: "Industrial Experience"
   items:
-    - logo: "/images/tencent-games-logo.png"
+    - logo: "/images/tencent-logo.png"
       logo_alt: "Tencent logo"
       heading: "Tencent, AI Game Engine Department"
       lines:
