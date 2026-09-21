@@ -87,6 +87,12 @@ education:
 industry:
   title: "Industrial Experience"
   items:
+    - logo: "/images/tencent-games-logo.png"
+      logo_alt: "Tencent logo"
+      heading: "Tencent, AI Game Engine Department"
+      lines:
+        - "Intern"
+        - "Aug. 2026 - Present"
     - logo: "/images/genra-logo.png"
       logo_alt: "Genra.ai logo"
       heading: 'Rama Alpaca (<a href="https://genra.ai">Genra.ai</a>)'
