@@ -373,7 +373,7 @@ author_profile: false
           <span>ECCV 2026 HuMoWM Workshop</span>
         </a>
         <a class="resource-pill" href="https://huggingface.co/Comfy-Org/SDPose" target="_blank" rel="noopener" title="Comfy-Org/SDPose downloads last month on Hugging Face">
-          <span class="resource-pill__mark resource-pill__mark--downloads">77.3k</span>
+          <span class="resource-pill__mark resource-pill__mark--downloads" data-hf-downloads="Comfy-Org/SDPose">81.8k</span>
           <span>↓ / mo</span>
         </a>
       </div>
