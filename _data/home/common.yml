@@ -59,12 +59,12 @@ publications:
         - { label: "ComfyUI", url: "https://docs.comfy.org/tutorials/utility/pose-detection-sdpose", icon: "/images/comfy-symbol.svg", icon_alt: "ComfyUI icon" }
         - { label: "ECCV 2026 HuMoWM Workshop", url: "https://human-motion-world-model.github.io/", icon: fa-users }
         - {
-            label: "↓ / mo",
+            label: "HF downloads / mo",
             url: "https://huggingface.co/Comfy-Org/SDPose",
             mark_text: "81.8k",
             mark_kind: downloads,
             hf_model: "Comfy-Org/SDPose",
-            title: "Comfy-Org/SDPose downloads last month on Hugging Face",
+            title: "Comfy-Org/SDPose · downloads last month on Hugging Face",
             blank: true
           }
       media:

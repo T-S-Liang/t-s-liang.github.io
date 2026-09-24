@@ -372,9 +372,9 @@ author_profile: false
           <span class="resource-pill__mark"><i class="fa fa-users" aria-hidden="true"></i></span>
           <span>ECCV 2026 HuMoWM Workshop</span>
         </a>
-        <a class="resource-pill" href="https://huggingface.co/Comfy-Org/SDPose" target="_blank" rel="noopener" title="Comfy-Org/SDPose downloads last month on Hugging Face">
+        <a class="resource-pill" href="https://huggingface.co/Comfy-Org/SDPose" target="_blank" rel="noopener" title="Comfy-Org/SDPose · downloads last month on Hugging Face">
           <span class="resource-pill__mark resource-pill__mark--downloads" data-hf-downloads="Comfy-Org/SDPose">81.8k</span>
-          <span>↓ / mo</span>
+          <span>HF downloads / mo</span>
         </a>
       </div>
     </td>
