@@ -116,6 +116,19 @@ author_profile: false
   letter-spacing: 0.05em;
 }
 
+.resource-pill__mark--downloads {
+  min-width: 2.1rem;
+  height: 1rem;
+  padding: 0 0.28rem;
+  border-radius: 3px;
+  background: #ffd21e;
+  color: #121212;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  font-variant-numeric: tabular-nums;
+}
+
 .publication-table {
   width: 100% !important;
   border-spacing: 0 0.45rem !important;
@@ -358,6 +371,10 @@ author_profile: false
         <a class="resource-pill" href="https://human-motion-world-model.github.io/">
           <span class="resource-pill__mark"><i class="fa fa-users" aria-hidden="true"></i></span>
           <span>ECCV 2026 HuMoWM Workshop</span>
+        </a>
+        <a class="resource-pill" href="https://huggingface.co/Comfy-Org/SDPose" target="_blank" rel="noopener" title="Comfy-Org/SDPose downloads last month on Hugging Face">
+          <span class="resource-pill__mark resource-pill__mark--downloads">77.3k</span>
+          <span>↓ / mo</span>
         </a>
       </div>
     </td>

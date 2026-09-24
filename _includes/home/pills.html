@@ -1,11 +1,16 @@
 {%- comment -%}
 Row of resource pills. Pass a list of links: {% include home/pills.html links=item.links %}
+
+Optional link fields:
+  mark_text   -> replaces the icon with a text mark (e.g. a download count)
+  mark_kind   -> pdf | downloads  (styles the text mark)
+  title       -> native tooltip on the anchor
 {%- endcomment -%}
 {% if include.links %}
       <div class="resource-links">
 {% for link in include.links %}
-        <a class="resource-pill" href="{{ link.url }}"{% if link.blank %} target="_blank"{% endif %}>
-          <span class="resource-pill__mark{% if link.icon == 'pdf' %} resource-pill__mark--pdf{% endif %}">{% if link.icon == 'pdf' %}PDF{% elsif link.icon == 'window' %}<i class="fa fa-window-maximize" aria-hidden="true"></i>{% elsif link.icon contains 'fa-' %}<i class="fa {{ link.icon }}" aria-hidden="true"></i>{% elsif link.icon contains '/' %}<img src="{{ link.icon }}" alt="{{ link.icon_alt }}">{% else %}<img src="https://cdn.simpleicons.org/{{ link.icon }}" alt="{{ link.icon_alt }}">{% endif %}</span>
+        <a class="resource-pill" href="{{ link.url }}"{% if link.blank %} target="_blank" rel="noopener"{% endif %}{% if link.title %} title="{{ link.title }}"{% endif %}>
+          <span class="resource-pill__mark{% if link.mark_kind %} resource-pill__mark--{{ link.mark_kind }}{% elsif link.icon == 'pdf' %} resource-pill__mark--pdf{% endif %}">{% if link.mark_text %}{{ link.mark_text }}{% elsif link.icon == 'pdf' %}PDF{% elsif link.icon == 'window' %}<i class="fa fa-window-maximize" aria-hidden="true"></i>{% elsif link.icon contains 'fa-' %}<i class="fa {{ link.icon }}" aria-hidden="true"></i>{% elsif link.icon contains '/' %}<img src="{{ link.icon }}" alt="{{ link.icon_alt }}">{% else %}<img src="https://cdn.simpleicons.org/{{ link.icon }}" alt="{{ link.icon_alt }}">{% endif %}</span>
           <span>{{ link.label }}</span>
         </a>
 {% endfor %}
