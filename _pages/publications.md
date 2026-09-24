@@ -137,25 +137,10 @@ author_profile: false
 
 .publication-table td {
   padding: 0.62rem 0.9rem !important;
-  border-top: 1px solid var(--line-strong) !important;
-  border-bottom: 1px solid var(--line-strong) !important;
+  border: 1px solid var(--line-strong) !important;
+  border-radius: 6px;
   background: var(--surface-sunken);
   vertical-align: middle;
-}
-
-.publication-table td:first-child {
-  border-left: 1px solid var(--line-strong) !important;
-  border-radius: 6px 0 0 6px;
-}
-
-.publication-table td:last-child {
-  border-right: 1px solid var(--line-strong) !important;
-  border-radius: 0 6px 6px 0;
-}
-
-.publication-table td > a > img {
-  border-radius: 4px;
-  display: block;
 }
 
 @media (max-width: 768px) {
@@ -212,8 +197,6 @@ author_profile: false
     padding: 0.95rem !important;
     margin: 0 !important;
     box-sizing: border-box !important;
-    border: 1px solid var(--line-strong) !important;
-    border-radius: 6px !important;
     word-wrap: break-word !important;
     word-break: break-word !important;
     overflow-wrap: break-word !important;
@@ -224,42 +207,6 @@ author_profile: false
     word-wrap: break-word !important;
     word-break: break-word !important;
     overflow-wrap: break-word !important;
-  }
-
-  .publication-table td > a > img {
-    max-width: 100% !important;
-    width: 100% !important;
-    height: auto !important;
-    display: block !important;
-  }
-
-  .publication-table td > div:not(.resource-links) {
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box !important;
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: 2px !important;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-
-  .publication-table td > div:not(.resource-links) > a {
-    width: calc(50% - 1px) !important;
-    padding-top: calc(50% - 1px) !important;
-    max-width: calc(50% - 1px) !important;
-    box-sizing: border-box !important;
-    flex-shrink: 0 !important;
-    margin: 0 !important;
-    position: relative !important;
-  }
-
-  .publication-table td > div:not(.resource-links) > a > img {
-    position: absolute !important;
-    inset: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
   }
 }
 </style>
@@ -279,7 +226,17 @@ author_profile: false
 <table class="publication-table" style="width:100%;border:None;border-spacing:0px;border-collapse:separate;margin-right:0;margin-left:0;font-size:0.95em;">
 
   <tr>
-    <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+    <td style="padding:5px;vertical-align:middle;border-right:none;border-bottom:none;">
+      <span class="venue-badge">IEDM 2026</span>
+      <br>
+      <b>5. "All-PWM RRAM Compute-in-Memory with In-Loop State Memory for Energy-Efficient Closed-Loop State Evolution"</b>,
+      <br>
+      Jichang Yang†, Xinyuan Zhang†, Songqi Wang†, Hegan Chen, Z. Li, <u>Shuang Liang</u>, Hangming Zhang, Ning Lin, Yi Li, Zhongrui Wang* and Han Wang*.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:5px;vertical-align:middle;border-right:none;border-bottom:none;">
       <span class="venue-badge venue-badge--preprint">Preprint 2026</span>
       <br>
       <b>4. "From Pixels to Concepts: Do Segmentation Models Understand What They Segment?"</b>,
@@ -308,18 +265,13 @@ author_profile: false
         </a>
       </div>
     </td>
-    <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <a href="https://tsliang.top/CAFE/">
-      <img src="https://tsliang.top/CAFE/static/images/more_cases.jpg" alt="Diverse CAFE test cases across SM, CC, and OC" style="max-width:100%;height:auto;width:300px;">
-      </a>
-    </td>
   </tr>
 
   <tr>
-    <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+    <td style="padding:5px;vertical-align:middle;border-right:none;border-bottom:none;">
       <span class="venue-badge">IEDM 2025</span>
       <br>
-      <b>3. "A Monolithic Reconfigurable RRAM CIM Array Integrating PUF, TRNG, and a Lightweight Block Cipher for Secure Edge AI"</b>, 
+      <b>3. "A Monolithic Reconfigurable RRAM CIM Array Integrating PUF, TRNG, and a Lightweight Block Cipher for Secure Edge AI"</b>,
       <br>
       Songqi Wang†, <u>Shuang Liang†</u>, Shaonan Wu†, Zhiqi Yang, Jichang Yang, Xinyuan Zhang, Yi Li, Yuhao Zhang*, Zhongrui Wang*, Aoyang Zhang* and Han Wang*.
       <div class="resource-links">
@@ -329,18 +281,13 @@ author_profile: false
         </a>
       </div>
     </td>
-    <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <a href="/images/IEDM_SCIM.jpg">
-      <img src='/images/IEDM_SCIM.jpg' style="max-width:100%;height:auto;width:300px;">
-      </a>
-    </td>
   </tr>
-  
+
   <tr>
-    <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+    <td style="padding:5px;vertical-align:middle;border-right:none;border-bottom:none;">
       <span class="venue-badge venue-badge--preprint">Preprint 2025</span><span class="venue-badge venue-badge--workshop">ECCV Workshop 2026</span>
       <br>
-      <b>2. "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"</b>, 
+      <b>2. "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"</b>,
       <br>
       <u>Shuang Liang</u>, Jing He, Chuanmeizhi Wang, Lejun Liao, Guo Zhang, Yingcong Chen and Yuan Yuan*.
       <div class="resource-links">
@@ -378,37 +325,13 @@ author_profile: false
         </a>
       </div>
     </td>
-    <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <div style="display:flex;flex-wrap:wrap;gap:2px;width:100%;box-sizing:border-box;">
-        <a href="/images/SDPose_1.gif"
-           style="position:relative;width:calc(50% - 1px);padding-top:calc(50% - 1px);display:block;overflow:hidden;border-radius:4px;box-sizing:border-box;">
-          <img src="/images/SDPose_1.gif" alt="SDPose gif 1"
-               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
-        </a>
-        <a href="/images/SDPose_2.gif"
-           style="position:relative;width:calc(50% - 1px);padding-top:calc(50% - 1px);display:block;overflow:hidden;border-radius:4px;box-sizing:border-box;">
-          <img src="/images/SDPose_2.gif" alt="SDPose gif 2"
-               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
-        </a>
-        <a href="/images/SDPose_3.gif"
-           style="position:relative;width:calc(50% - 1px);padding-top:calc(50% - 1px);display:block;overflow:hidden;border-radius:4px;box-sizing:border-box;">
-          <img src="/images/SDPose_3.gif" alt="SDPose gif 3"
-               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
-        </a>
-        <a href="/images/SDPose_4.gif"
-           style="position:relative;width:calc(50% - 1px);padding-top:calc(50% - 1px);display:block;overflow:hidden;border-radius:4px;box-sizing:border-box;">
-          <img src="/images/SDPose_4.gif" alt="SDPose gif 4"
-               style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;">
-        </a>
-      </div>
-    </td>
   </tr>
-  
+
   <tr>
-    <td style="padding:5px;width:70%;vertical-align:middle;border-right:none;border-bottom:none;">
+    <td style="padding:5px;vertical-align:middle;border-right:none;border-bottom:none;">
       <span class="venue-badge venue-badge--journal">Opt. Express 2025 <span class="venue-badge__note">JCR Q1, CAS Q2</span></span>
       <br>
-      <b>1. "Saturable Absorption of Few-layer $\mathrm{WS_{2}}$ and $\mathrm{WSe_{2}}$ at Exciton Resonance"</b>, 
+      <b>1. "Saturable Absorption of Few-layer $\mathrm{WS_{2}}$ and $\mathrm{WSe_{2}}$ at Exciton Resonance"</b>,
       <br>
       <u>Shuang Liang</u>, Yuze Lu, Haimu Liu, Xiaohe Shang, Jiamin Ji, Rongguang Du, Yiling Yu and Shunping Zhang*.
       <div class="resource-links">
@@ -421,11 +344,6 @@ author_profile: false
           <span>Optica</span>
         </a>
       </div>
-    </td>
-    <td style="padding:10px;width:30%;vertical-align:middle;border-right:none;border-bottom:none;">
-      <a href="/images/SA.png">
-      <img src='/images/SA.png' style="max-width:100%;height:auto;width:300px;">
-      </a>
     </td>
   </tr>
 </table>
