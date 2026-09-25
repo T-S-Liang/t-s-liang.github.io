@@ -27,6 +27,9 @@ news:
     - date: "[09/2026]"
       tag: "🎉 CAFE @ NeurIPS 2026 E&D:"
       body: 'Our paper <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> has been accepted to the <a href="https://neurips.cc/Conferences/2026/CallForEvaluationsDatasets">NeurIPS 2026 Evaluations &amp; Datasets (E&amp;D)</a> Track.'
+    - date: "[09/2026]"
+      tag: "🍻 IEDM '26:"
+      body: "One paper accepted by IEDM 2026. Congrats to Jichang, Xinyuan, and Songqi!"
     - date: "[08/2026]"
       tag: "🎉 SDPose @ ECCV 2026 Workshop:"
       body: 'We will present <strong>SDPose</strong> at the ECCV 2026 Workshop on <a href="https://human-motion-world-model.github.io/">Human Motion-Informed World Models and Socially Intelligent Action (HuMoWM)</a> in Malmö, Sweden (non-archival). Come say hi if you are around!'

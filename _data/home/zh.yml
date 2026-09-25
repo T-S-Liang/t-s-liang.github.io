@@ -44,6 +44,9 @@ news:
     - date: "[09/2026]"
       tag: "🎉 CAFE 入选 NeurIPS 2026 E&D："
       body: '论文 <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> 被 <a href="https://neurips.cc/Conferences/2026/CallForEvaluationsDatasets">NeurIPS 2026 Evaluations &amp; Datasets (E&amp;D)</a> Track 接收。'
+    - date: "[09/2026]"
+      tag: "🍻 IEDM '26："
+      body: "一篇论文被 IEDM 2026 接收。恭喜继昌、Xinyuan 和松琦！"
     - date: "[08/2026]"
       tag: "🎉 SDPose 亮相 ECCV 2026 Workshop："
       body: '我们将在 ECCV 2026 <a href="https://human-motion-world-model.github.io/">Human Motion-Informed World Models and Socially Intelligent Action (HuMoWM)</a> workshop 上展示 SDPose（瑞典马尔默，non-archival）。如果你也在现场，欢迎来聊。'
