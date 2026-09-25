@@ -41,12 +41,12 @@ news:
   aria_label: "最新动态"
   more_label: "更早的动态"
   items:
+    - date: "[09/2026]"
+      tag: "🎉 CAFE 入选 NeurIPS 2026 E&D："
+      body: '论文 <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> 被 <a href="https://neurips.cc/Conferences/2026/CallForEvaluationsDatasets">NeurIPS 2026 Evaluations &amp; Datasets (E&amp;D)</a> Track 接收。'
     - date: "[08/2026]"
       tag: "🎉 SDPose 亮相 ECCV 2026 Workshop："
       body: '我们将在 ECCV 2026 <a href="https://human-motion-world-model.github.io/">Human Motion-Informed World Models and Socially Intelligent Action (HuMoWM)</a> workshop 上展示 SDPose（瑞典马尔默，non-archival）。如果你也在现场，欢迎来聊。'
-    - date: "[05/2026]"
-      tag: "🎉 新工作："
-      body: '新论文 <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> 已挂上 arXiv。'
     - date: "[04/2026]"
       tag: "🎉 SDPose 被 Comfy Org 官方收录："
       body: 'SDPose 现已被 ComfyUI 原生支持。可以看<a href="https://docs.comfy.org/tutorials/utility/pose-detection-sdpose">官方教程</a>、Comfy-Org 的 <a href="https://huggingface.co/Comfy-Org/SDPose">HF 模型</a>，也可以直接跑<a href="https://comfy.org/workflows/utility_sdpose_ood_image_to_pose-5489b3cf2ac1/">开箱即用的 OOD Image-to-Pose 工作流</a>。'
@@ -60,6 +60,9 @@ news:
       tag: "🍻 IEDM '25："
       body: "一篇论文被 IEDM 2025 接收。感谢 Han Wang 教授、Aoyang Zhang 教授和 Zhongrui Wang 教授的指导，也感谢松琦和继昌一路顺畅的合作。"
   earlier:
+    - date: "[05/2026]"
+      tag: "🎉 新工作："
+      body: '新论文 <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> 已挂上 arXiv。'
     - date: "[09/2025]"
       tag: "🧑‍💻 新论文："
       body: "新工作 <strong>SDPose</strong> 探索如何利用扩散先验做域外与鲁棒的姿态估计。非常兴奋能把这份工作分享出来，感谢 Guo Zhang 博士、Yingcong Chen 教授和 Yuan Yuan 教授的悉心指导。"

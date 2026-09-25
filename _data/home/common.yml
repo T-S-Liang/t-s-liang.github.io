@@ -12,8 +12,7 @@
 publications:
   items:
     - badges:
-        - text: "Preprint 2026"
-          kind: preprint
+        - text: "NeurIPS 2026 E&D"
       title: "From Pixels to Concepts: Do Segmentation Models Understand What They Segment?"
       authors: '<u>Shuang Liang</u>†, Zeqing Wang†, Yuxian Li†, Xihui Liu and Han Wang*.'
       links:

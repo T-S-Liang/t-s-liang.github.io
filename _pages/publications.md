@@ -237,7 +237,7 @@ author_profile: false
 
   <tr>
     <td style="padding:5px;vertical-align:middle;border-right:none;border-bottom:none;">
-      <span class="venue-badge venue-badge--preprint">Preprint 2026</span>
+      <span class="venue-badge">NeurIPS 2026 E&D</span>
       <br>
       <b>4. "From Pixels to Concepts: Do Segmentation Models Understand What They Segment?"</b>,
       <br>
