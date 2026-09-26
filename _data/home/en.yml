@@ -36,10 +36,10 @@ news:
       tag: "🎉 SDPose @ ECCV 2026 Workshop:"
       body: 'We will present <strong>SDPose</strong> at the ECCV 2026 Workshop on <a href="https://human-motion-world-model.github.io/">Human Motion-Informed World Models and Socially Intelligent Action (HuMoWM)</a> in Malmö, Sweden (non-archival). Come say hi if you are around!'
     - date: "[05/2026]"
-      tag: "🎉 New Work:"
+      tag: "📃 New Work:"
       body: 'Our new paper <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> is now on arXiv.'
     - date: "[04/2026]"
-      tag: "🎉 SDPose is officially hosted by Comfy Org!:"
+      tag: "🚀 SDPose is officially hosted by Comfy Org!:"
       body: 'Our SDPose is now natively supported in ComfyUI. See the <a href="https://docs.comfy.org/tutorials/utility/pose-detection-sdpose">official tutorial</a>, the Comfy-Org <a href="https://huggingface.co/Comfy-Org/SDPose">HF Model</a>, and try the ready-to-run <a href="https://comfy.org/workflows/utility_sdpose_ood_image_to_pose-5489b3cf2ac1/">OOD Image-to-Pose workflow</a>.'
     - date: "[10/2025]"
       tag: "🎉 Our work SDPose-OOD is getting noticed!:"
@@ -52,7 +52,7 @@ news:
       tag: "🍻 IEDM '25:"
       body: "One paper accepted by IEDM 2025. Thank Professor Han Wang, Professor Aoyang Zhang, and Professor Zhongrui Wang for their invaluable guidance, and thank Songqi and Jichang for the smooth collaboration."
     - date: "[09/2025]"
-      tag: "🧑‍💻 New paper release:"
+      tag: "📃 New paper release:"
       body: "Check out our new work <strong>SDPose</strong> on exploiting the diffusion priors for OOD and robust pose estimation. I'm sooooo excited to share this work. Thank Dr. Guo Zhang, Professor Yingcong Chen, and Professor Yuan Yuan for their invaluable guidance."
     - date: "[01/2025]"
       tag: "🍻 Optica Optics Express '25:"
