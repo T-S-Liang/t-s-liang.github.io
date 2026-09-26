@@ -48,7 +48,7 @@ publications:
         - text: "ECCV Workshop 2026"
           kind: workshop
       title: "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"
-      authors: '<u>Shuang Liang</u>, Jing He, Chuanmeizhi Wang, Lejun Liao, Guo Zhang, Yingcong Chen and Yuan Yuan*.'
+      authors: '<u>Shuang Liang</u>, Jing He, Lejun Liao, Chuanmeizhi Wang, Guo Zhang, Yingcong Chen and Yuan Yuan*.'
       links:
         - { label: "PDF", url: "/files/SDPose.pdf", icon: pdf }
         - { label: "Code", url: "https://github.com/T-S-Liang/SDPose-OOD", icon: github, icon_alt: "GitHub logo" }
