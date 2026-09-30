@@ -124,7 +124,7 @@ where the page sets body_class: home-page.
 {% for project in c.projects.items %}
   <div class="experience-item">
     <div class="project-logo">
-      <img src='{{ project.logo }}' alt="{{ project.logo_alt }}">
+      <img src='{{ project.logo }}' alt="{{ project.logo_alt }}" decoding="async">
       <div class="project-stats">
 {% for stat in project.stats %}
         <a href="{{ stat.href }}">

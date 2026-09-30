@@ -4,6 +4,12 @@
 
 {% include seo.html %}
 
+{% assign avatar_author = site.author %}
+{% if page.author and site.data.authors[page.author] %}{% assign avatar_author = site.data.authors[page.author] %}{% endif %}
+{% if page.author_profile and avatar_author.avatar == 'profile-600.webp' %}
+<link rel="preload" as="image" href="{{ '/images/profile-400.webp' | relative_url }}" imagesrcset="{{ '/images/profile-400.webp' | relative_url }} 400w, {{ '/images/profile-600.webp' | relative_url }} 600w" imagesizes="300px" fetchpriority="high">
+{% endif %}
+
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
 {% if page.lang_alt and site.lang_switch %}
@@ -32,6 +38,6 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
 <meta http-equiv="cleartype" content="on">

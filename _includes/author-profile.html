@@ -13,10 +13,12 @@
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
-    {% if author.avatar contains "://" %}
+    {% if author.avatar == "profile-600.webp" %}
+      <img src="{{ '/images/profile-400.webp' | relative_url }}" srcset="{{ '/images/profile-400.webp' | relative_url }} 400w, {{ '/images/profile-600.webp' | relative_url }} 600w" sizes="300px" class="author__avatar" alt="{{ author.name }}" width="600" height="600" loading="eager" fetchpriority="high" decoding="async">
+    {% elsif author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-    <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" loading="eager" fetchpriority="high" decoding="async"{% if author.avatar == "profile-600.webp" %} width="600" height="600"{% endif %}>
+    <img src="{{ author.avatar | prepend: "/images/" | relative_url }}" class="author__avatar" alt="{{ author.name }}" loading="eager" fetchpriority="high" decoding="async">
     {% endif %}
   </div>
 

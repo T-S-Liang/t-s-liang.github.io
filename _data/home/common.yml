@@ -109,7 +109,7 @@ publications:
 projects:
   github_url: "https://github.com/t-s-liang"
   items:
-    - logo: "/images/SDPose_logo.png"
+    - logo: "/images/SDPose-logo-300.webp"
       logo_alt: "SDPose logo"
       title: "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"
       url: "https://github.com/t-s-liang/SDPose-OOD"
@@ -131,7 +131,7 @@ projects:
         - { label: "Demo", url: "https://huggingface.co/spaces/teemosliang/SDPose", icon: huggingface, icon_alt: "Hugging Face logo" }
         - { label: "ComfyUI", url: "https://docs.comfy.org/tutorials/utility/pose-detection-sdpose", icon: "/images/comfy-symbol.svg", icon_alt: "ComfyUI icon" }
 
-    - logo: "/images/cafe_logo_2.png"
+    - logo: "/images/CAFE-logo-300.webp"
       logo_alt: "CAFE logo"
       title: "CAFE: Counterfactual Attribute Factuality Evaluation"
       url: "https://github.com/T-S-Liang/CAFE"
