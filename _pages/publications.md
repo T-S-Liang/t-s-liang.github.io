@@ -227,6 +227,21 @@ author_profile: false
 
   <tr>
     <td style="padding:5px;vertical-align:middle;border-right:none;border-bottom:none;">
+      <span class="venue-badge venue-badge--preprint">Preprint 2026</span>
+      <br>
+      <b>6. "SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations"</b>,
+      <br>
+      <u>Shuang Liang</u>†, Lejun Liao†, Shiyuan Zhang†, Max C. Zhang, Xiaolong Luo, Han Wang, Stefano Anzellotti and Yuan Yuan*.
+{% assign sage = site.data.home.common.publications.items | where: "title", "SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations" | first %}
+{% include home/pills.html links=sage.links %}
+      <a href="/images/SAGE-overview.png" style="display:block;margin-top:1rem;">
+        <img src="/images/SAGE-overview.png" alt="SAGE overview: common and salient factor decomposition, high-fidelity reconstruction, subtype discovery, and salient-conditioned generation" width="2200" height="496" style="display:block;width:100%;height:auto;" loading="lazy">
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:5px;vertical-align:middle;border-right:none;border-bottom:none;">
       <span class="venue-badge">IEDM 2026</span>
       <br>
       <b>5. "All-PWM RRAM Compute-in-Memory with In-Loop State Memory for Energy-Efficient Closed-Loop State Evolution"</b>,

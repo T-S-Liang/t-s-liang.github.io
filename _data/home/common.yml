@@ -12,6 +12,21 @@
 publications:
   items:
     - badges:
+        - text: "Preprint 2026"
+          kind: preprint
+      title: "SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations"
+      authors: '<u>Shuang Liang</u>†, Lejun Liao†, Shiyuan Zhang†, Max C. Zhang, Xiaolong Luo, Han Wang, Stefano Anzellotti and Yuan Yuan*.'
+      links:
+        - { label: "PDF · Coming Soon", disabled: true, icon: pdf }
+        - { label: "GitHub Repo", url: "https://github.com/T-S-Liang/SAGE", icon: github, icon_alt: "GitHub logo" }
+        - { label: "arXiv · Coming Soon", disabled: true, icon: arxiv, icon_alt: "arXiv logo" }
+      media:
+        kind: image
+        href: "/images/SAGE-overview.png"
+        src: "/images/SAGE-overview.png"
+        alt: "SAGE overview: common and salient factor decomposition, high-fidelity reconstruction, subtype discovery, and salient-conditioned generation"
+
+    - badges:
         - text: "NeurIPS 2026 E&D"
       title: "From Pixels to Concepts: Do Segmentation Models Understand What They Segment?"
       authors: '<u>Shuang Liang</u>†, Zeqing Wang†, Yuxian Li†, Xihui Liu and Han Wang*.'
