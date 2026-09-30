@@ -110,7 +110,7 @@ where the page sets body_class: home-page.
       </div>
 {% else %}
       <a href="{{ paper.media.href }}">
-      <img src="{{ paper.media.src }}"{% if paper.media.alt %} alt="{{ paper.media.alt }}"{% endif %} style="max-width:100%;height:auto;width:300px;">
+      <img src="{{ paper.media.src }}"{% if paper.media.alt %} alt="{{ paper.media.alt }}"{% endif %}{% if paper.media.width %} width="{{ paper.media.width }}" height="{{ paper.media.height }}"{% endif %}{% if paper.media.loading %} loading="{{ paper.media.loading }}" decoding="async"{% endif %} style="max-width:100%;height:auto;width:300px;">
       </a>
 {% endif %}
     </td>

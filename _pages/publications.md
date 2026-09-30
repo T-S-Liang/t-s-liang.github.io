@@ -235,7 +235,7 @@ author_profile: false
 {% assign sage = site.data.home.common.publications.items | where: "title", "SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations" | first %}
 {% include home/pills.html links=sage.links %}
       <a href="/images/SAGE-overview.png" style="display:block;margin-top:1rem;">
-        <img src="/images/SAGE-overview.png" alt="SAGE overview: common and salient factor decomposition, high-fidelity reconstruction, subtype discovery, and salient-conditioned generation" width="1380" height="496" style="display:block;width:100%;height:auto;" loading="lazy">
+        <img src="/images/SAGE-overview.webp" srcset="/images/SAGE-overview-690.webp 690w, /images/SAGE-overview.webp 1380w" sizes="(max-width: 768px) 90vw, (max-width: 1200px) 75vw, 1000px" alt="SAGE overview: common and salient factor decomposition, high-fidelity reconstruction, subtype discovery, and salient-conditioned generation" width="1380" height="496" style="display:block;width:100%;height:auto;" loading="lazy" decoding="async">
       </a>
     </td>
   </tr>

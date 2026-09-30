@@ -16,7 +16,7 @@
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+    <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" loading="eager" fetchpriority="high" decoding="async"{% if author.avatar == "profile-600.webp" %} width="600" height="600"{% endif %}>
     {% endif %}
   </div>
 

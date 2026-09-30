@@ -23,7 +23,10 @@ publications:
       media:
         kind: image
         href: "/images/SAGE-overview.png"
-        src: "/images/SAGE-overview.png"
+        src: "/images/SAGE-overview-690.webp"
+        width: 690
+        height: 248
+        loading: lazy
         alt: "SAGE overview: common and salient factor decomposition, high-fidelity reconstruction, subtype discovery, and salient-conditioned generation"
 
     - badges:
