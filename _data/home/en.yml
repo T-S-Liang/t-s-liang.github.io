@@ -27,6 +27,9 @@ news:
   # Newest first. items renders directly, earlier sits behind the fold, so every
   # date in items has to be newer than every date in earlier.
   items:
+    - date: "[10/2026]"
+      tag: "📃 New Work:"
+      body: 'Check out <a href="https://arxiv.org/pdf/2609.39635">SAGE</a>, our new work on discovering salient factors and using them to generate diverse samples that preserve target-specific attributes. Now on arXiv!'
     - date: "[09/2026]"
       tag: "🎉 CAFE @ NeurIPS 2026 E&D:"
       body: 'Our paper <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> has been accepted to the <a href="https://neurips.cc/Conferences/2026/CallForEvaluationsDatasets">NeurIPS 2026 Evaluations &amp; Datasets (E&amp;D)</a> Track.'

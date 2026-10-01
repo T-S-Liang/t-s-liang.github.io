@@ -44,6 +44,9 @@ news:
   # 从新到旧。items 直接显示，earlier 折叠在「更早的动态」里，
   # 所以 items 里的日期必须都比 earlier 里的新。
   items:
+    - date: "[10/2026]"
+      tag: "📃 新工作："
+      body: '我们的新工作 <a href="https://arxiv.org/pdf/2609.39635">SAGE</a> 已上线 arXiv！SAGE 发现目标数据特有的显著因子，并以此为条件，在保留目标特征的同时生成多样化样本。欢迎阅读！'
     - date: "[09/2026]"
       tag: "🎉 CAFE 入选 NeurIPS 2026 E&D："
       body: '论文 <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> 被 <a href="https://neurips.cc/Conferences/2026/CallForEvaluationsDatasets">NeurIPS 2026 Evaluations &amp; Datasets (E&amp;D)</a> Track 接收。'
