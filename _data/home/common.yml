@@ -17,9 +17,9 @@ publications:
       title: "SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations"
       authors: '<u>Shuang Liang</u>†, Lejun Liao†, Shiyuan Zhang†, Max C. Zhang, Xiaolong Luo, Han Wang, Stefano Anzellotti and Yuan Yuan*.'
       links:
-        - { label: "PDF · Coming Soon", disabled: true, icon: pdf }
-        - { label: "GitHub Repo", url: "https://github.com/T-S-Liang/SAGE", icon: github, icon_alt: "GitHub logo" }
-        - { label: "arXiv · Coming Soon", disabled: true, icon: arxiv, icon_alt: "arXiv logo" }
+        - { label: "PDF", url: "/files/SAGE.pdf", icon: pdf }
+        - { label: "Code", url: "https://github.com/T-S-Liang/SAGE", icon: github, icon_alt: "GitHub logo" }
+        - { label: "arXiv", url: "https://arxiv.org/pdf/2609.39635", icon: arxiv, icon_alt: "arXiv logo" }
       media:
         kind: image
         href: "/images/SAGE-overview.png"
