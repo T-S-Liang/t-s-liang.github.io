@@ -229,6 +229,30 @@ author_profile: false
     <td style="padding:5px;vertical-align:middle;border-right:none;border-bottom:none;">
       <span class="venue-badge venue-badge--preprint">Preprint 2026</span>
       <br>
+      <b>7. "Association profile conditioning in a set-temporal transformer for cross-session intracortical motor decoding"</b>,
+      <br>
+      Xinyuan Zhang†, Handong Mo†, Pengfei Wen†, <u>Shuang Liang</u>, Jichang Yang, Yan Zeng, Zhongrui Wang* and Han Wang*.
+      <div class="resource-links">
+        <a class="resource-pill" href="https://arxiv.org/pdf/2609.39080">
+          <span class="resource-pill__mark resource-pill__mark--pdf">PDF</span>
+          <span>PDF</span>
+        </a>
+        <a class="resource-pill" href="https://github.com/HsinyuanZhang/APST">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/github" alt="GitHub logo"></span>
+          <span>Code</span>
+        </a>
+        <a class="resource-pill" href="https://arxiv.org/abs/2609.39080">
+          <span class="resource-pill__mark"><img src="https://cdn.simpleicons.org/arxiv" alt="arXiv logo"></span>
+          <span>arXiv</span>
+        </a>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:5px;vertical-align:middle;border-right:none;border-bottom:none;">
+      <span class="venue-badge venue-badge--preprint">Preprint 2026</span>
+      <br>
       <b>6. "SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations"</b>,
       <br>
       <u>Shuang Liang</u>†, Lejun Liao†, Shiyuan Zhang†, Max C. Zhang, Xiaolong Luo, Han Wang, Stefano Anzellotti and Yuan Yuan*.
