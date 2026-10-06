@@ -84,6 +84,16 @@ publications:
             title: "Comfy-Org/SDPose · downloads last month on Hugging Face",
             blank: true
           }
+        - {
+            label: "Aggregated downloads",
+            url: "https://modelpulse.ifsp.dev/model/teemosliang/SDPose-Wholebody",
+            mark_text: "295.8k",
+            mark_kind: downloads,
+            pulse_model: "teemosliang/SDPose-Wholebody",
+            pulse_field: "fam_all",
+            title: "SDPose family · aggregated downloads all time via Model Pulse",
+            blank: true
+          }
       media:
         kind: grid
         items:

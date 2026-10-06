@@ -5,6 +5,8 @@ Optional link fields:
   mark_text   -> replaces the icon with a text mark (e.g. a download count)
   mark_kind   -> pdf | downloads  (styles the text mark)
   hf_model    -> owner/name; live-refreshes mark_text from HF downloads/mo
+  pulse_model -> owner/name; live-refreshes mark_text from Model Pulse
+  pulse_field -> Model Pulse field to display (for example fam_all)
   title       -> native tooltip on the anchor
   disabled    -> renders a non-clickable placeholder instead of an anchor
 {%- endcomment -%}
@@ -16,7 +18,7 @@ Optional link fields:
 {% else %}
         <a class="resource-pill" href="{{ link.url }}"{% if link.blank %} target="_blank" rel="noopener"{% endif %}{% if link.title %} title="{{ link.title }}"{% endif %}>
 {% endif %}
-          <span class="resource-pill__mark{% if link.mark_kind %} resource-pill__mark--{{ link.mark_kind }}{% elsif link.icon == 'pdf' %} resource-pill__mark--pdf{% endif %}"{% if link.hf_model %} data-hf-downloads="{{ link.hf_model }}"{% endif %}>{% if link.mark_text %}{{ link.mark_text }}{% elsif link.icon == 'pdf' %}PDF{% elsif link.icon == 'window' %}<i class="fa fa-window-maximize" aria-hidden="true"></i>{% elsif link.icon contains 'fa-' %}<i class="fa {{ link.icon }}" aria-hidden="true"></i>{% elsif link.icon contains '/' %}<img src="{{ link.icon }}" alt="{{ link.icon_alt }}">{% else %}<img src="https://cdn.simpleicons.org/{{ link.icon }}" alt="{{ link.icon_alt }}">{% endif %}</span>
+          <span class="resource-pill__mark{% if link.mark_kind %} resource-pill__mark--{{ link.mark_kind }}{% elsif link.icon == 'pdf' %} resource-pill__mark--pdf{% endif %}"{% if link.hf_model %} data-hf-downloads="{{ link.hf_model }}"{% endif %}{% if link.pulse_model %} data-model-pulse="{{ link.pulse_model }}" data-model-pulse-field="{{ link.pulse_field | default: 'fam_all' }}"{% endif %}>{% if link.mark_text %}{{ link.mark_text }}{% elsif link.icon == 'pdf' %}PDF{% elsif link.icon == 'window' %}<i class="fa fa-window-maximize" aria-hidden="true"></i>{% elsif link.icon contains 'fa-' %}<i class="fa {{ link.icon }}" aria-hidden="true"></i>{% elsif link.icon contains '/' %}<img src="{{ link.icon }}" alt="{{ link.icon_alt }}">{% else %}<img src="https://cdn.simpleicons.org/{{ link.icon }}" alt="{{ link.icon_alt }}">{% endif %}</span>
           <span>{{ link.label }}</span>
 {% if link.disabled %}
         </span>

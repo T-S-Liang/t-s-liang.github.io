@@ -1,9 +1,11 @@
-/*! Live Hugging Face "downloads last month" for resource pills.
- *  HF's own API blocks cross-origin reads, so we pull a shields.io
- *  dynamic badge (CORS-open) and parse the count from its SVG label.
+/*! Live download counts for resource pills.
+ *  The source APIs block cross-origin reads, so we pull shields.io dynamic
+ *  badges (CORS-open) and parse the counts from their SVG labels.
  */
 (function () {
-  var nodes = document.querySelectorAll("[data-hf-downloads]");
+  var nodes = document.querySelectorAll(
+    "[data-hf-downloads], [data-model-pulse]"
+  );
   if (!nodes.length) return;
 
   function formatCount(n) {
@@ -27,23 +29,43 @@
     );
   }
 
+  function pulseBadgeUrl(modelId, field) {
+    var api = "https://modelpulse.ifsp.dev/api/model/" + modelId;
+    return (
+      "https://img.shields.io/badge/dynamic/json?url=" +
+      encodeURIComponent(api) +
+      "&query=" +
+      encodeURIComponent("$.model." + field) +
+      "&label=d"
+    );
+  }
+
   function apply(node, count) {
     node.textContent = formatCount(count);
     var anchor = node.closest("a");
     if (anchor) {
-      var model = node.getAttribute("data-hf-downloads");
-      anchor.title =
-        (model ? model + " · " : "") +
-        count.toLocaleString("en-US") +
-        " downloads last month on Hugging Face";
+      var pulseModel = node.getAttribute("data-model-pulse");
+      var model = pulseModel || node.getAttribute("data-hf-downloads");
+      anchor.title = (model ? model + " · " : "") + count.toLocaleString("en-US") +
+        (pulseModel
+          ? " aggregated family downloads all time (Model Pulse)"
+          : " downloads last month on Hugging Face");
     }
   }
 
   function refresh(node) {
-    var model = node.getAttribute("data-hf-downloads");
+    var pulseModel = node.getAttribute("data-model-pulse");
+    var model = pulseModel || node.getAttribute("data-hf-downloads");
     if (!model) return;
 
-    fetch(badgeUrl(model), { credentials: "omit" })
+    var url = pulseModel
+      ? pulseBadgeUrl(
+          pulseModel,
+          node.getAttribute("data-model-pulse-field") || "fam_all"
+        )
+      : badgeUrl(model);
+
+    fetch(url, { credentials: "omit" })
       .then(function (res) {
         if (!res.ok) throw new Error("badge " + res.status);
         return res.text();
