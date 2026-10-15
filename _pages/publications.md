@@ -40,6 +40,10 @@ author_profile: false
   background: var(--badge-award);
 }
 
+.venue-badge--conference {
+  background: var(--badge-conference);
+}
+
 .venue-badge--workshop {
   background: var(--badge-workshop);
 }
@@ -273,7 +277,7 @@ author_profile: false
 
   <tr>
     <td style="padding:5px;vertical-align:middle;border-right:none;border-bottom:none;">
-      <span class="venue-badge">NeurIPS 2026 E&D</span>
+      <span class="venue-badge venue-badge--conference">NeurIPS 2026 E&D</span>
       <br>
       <b>4. "From Pixels to Concepts: Do Segmentation Models Understand What They Segment?"</b>,
       <br>
@@ -321,7 +325,7 @@ author_profile: false
 
   <tr>
     <td style="padding:5px;vertical-align:middle;border-right:none;border-bottom:none;">
-      <span class="venue-badge">WACV 2027</span><span class="venue-badge venue-badge--workshop">ECCV Workshop 2026</span>
+      <span class="venue-badge venue-badge--conference">WACV 2027</span><span class="venue-badge venue-badge--workshop">ECCV Workshop 2026</span>
       <br>
       <b>2. "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"</b>,
       <br>
