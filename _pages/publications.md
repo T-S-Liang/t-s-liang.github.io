@@ -321,7 +321,7 @@ author_profile: false
 
   <tr>
     <td style="padding:5px;vertical-align:middle;border-right:none;border-bottom:none;">
-      <span class="venue-badge venue-badge--preprint">Preprint 2025</span><span class="venue-badge venue-badge--workshop">ECCV Workshop 2026</span>
+      <span class="venue-badge">WACV 2027</span><span class="venue-badge venue-badge--workshop">ECCV Workshop 2026</span>
       <br>
       <b>2. "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"</b>,
       <br>

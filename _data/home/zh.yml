@@ -47,6 +47,9 @@ news:
     - date: "[10/2026]"
       tag: "📃 新工作："
       body: '我们的新工作 <a href="https://arxiv.org/pdf/2609.39635">SAGE</a> 已上线 arXiv！SAGE 发现目标数据特有的显著因子，并以此为条件，在保留目标特征的同时生成多样化样本。欢迎阅读！'
+    - date: "[10/2026]"
+      tag: "🎉 SDPose 入选 WACV 2027："
+      body: '论文 <a href="https://arxiv.org/abs/2509.24980">SDPose</a> 被 <a href="https://wacv.thecvf.com/">WACV 2027</a> 接收。'
     - date: "[09/2026]"
       tag: "🎉 CAFE 入选 NeurIPS 2026 E&D："
       body: '论文 <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> 被 <a href="https://neurips.cc/Conferences/2026/CallForEvaluationsDatasets">NeurIPS 2026 Evaluations &amp; Datasets (E&amp;D)</a> Track 接收。'

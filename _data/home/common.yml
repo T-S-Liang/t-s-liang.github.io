@@ -61,8 +61,7 @@ publications:
         src: "/images/IEDM_SCIM.jpg"
 
     - badges:
-        - text: "Preprint 2025"
-          kind: preprint
+        - text: "WACV 2027"
         - text: "ECCV Workshop 2026"
           kind: workshop
       title: "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation"

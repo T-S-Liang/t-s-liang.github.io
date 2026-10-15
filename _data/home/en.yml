@@ -30,6 +30,9 @@ news:
     - date: "[10/2026]"
       tag: "📃 New Work:"
       body: 'Check out <a href="https://arxiv.org/pdf/2609.39635">SAGE</a>, our new work on discovering salient factors and using them to generate diverse samples that preserve target-specific attributes. Now on arXiv!'
+    - date: "[10/2026]"
+      tag: "🎉 SDPose @ WACV 2027:"
+      body: 'Our paper <a href="https://arxiv.org/abs/2509.24980">SDPose</a> has been accepted to <a href="https://wacv.thecvf.com/">WACV 2027</a>.'
     - date: "[09/2026]"
       tag: "🎉 CAFE @ NeurIPS 2026 E&D:"
       body: 'Our paper <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> has been accepted to the <a href="https://neurips.cc/Conferences/2026/CallForEvaluationsDatasets">NeurIPS 2026 Evaluations &amp; Datasets (E&amp;D)</a> Track.'
