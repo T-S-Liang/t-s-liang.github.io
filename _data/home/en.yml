@@ -41,6 +41,7 @@ news:
     - date: "[08/2026]"
       tag: "🎉 SDPose @ ECCV 2026 Workshop:"
       body: 'We will present <strong>SDPose</strong> at the ECCV 2026 Workshop on <a href="https://human-motion-world-model.github.io/">Human Motion-Informed World Models and Socially Intelligent Action (HuMoWM)</a> in Malmö, Sweden (non-archival). Come say hi if you are around!'
+  earlier:
     - date: "[05/2026]"
       tag: "📃 New Work:"
       body: 'Our new paper <a href="https://arxiv.org/abs/2605.09591">From Pixels to Concepts (CAFE)</a> is now on arXiv.'
@@ -53,7 +54,6 @@ news:
     - date: "[10/2025]"
       tag: "🚀 Open-source of SDPose:"
       body: 'Major code and model release now available: <a href="https://github.com/T-S-Liang/SDPose-OOD">GitHub Repository</a> | <a href="https://huggingface.co/teemosliang/SDPose-Body">HF Model (Body)</a> | <a href="https://huggingface.co/teemosliang/SDPose-Wholebody">HF Model (WholeBody)</a>.'
-  earlier:
     - date: "[09/2025]"
       tag: "🍻 IEDM '25:"
       body: "One paper accepted by IEDM 2025. Thank Professor Han Wang, Professor Aoyang Zhang, and Professor Zhongrui Wang for their invaluable guidance, and thank Songqi and Jichang for the smooth collaboration."
