@@ -287,6 +287,10 @@ author_profile: false
           <span class="resource-pill__mark resource-pill__mark--pdf">PDF</span>
           <span>PDF</span>
         </a>
+        <a class="resource-pill" href="/files/CAFE_NeurIPS_Poster.png">
+          <span class="resource-pill__mark"><i class="fa fa-image" aria-hidden="true"></i></span>
+          <span>Poster</span>
+        </a>
         <a class="resource-pill" href="https://tsliang.top/CAFE/">
           <span class="resource-pill__mark"><i class="fa fa-window-maximize" aria-hidden="true"></i></span>
           <span>Project Page</span>

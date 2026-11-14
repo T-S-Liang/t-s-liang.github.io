@@ -36,6 +36,7 @@ publications:
       authors: '<u>Shuang Liang</u>†, Zeqing Wang†, Yuxian Li†, Xihui Liu and Han Wang*.'
       links:
         - { label: "PDF", url: "/files/CAFE.pdf", icon: pdf }
+        - { label: "Poster", url: "/files/CAFE_NeurIPS_Poster.png", icon: fa-image }
         - { label: "Project Page", url: "https://tsliang.top/CAFE/", icon: window }
         - { label: "Code", url: "https://github.com/T-S-Liang/CAFE", icon: github, icon_alt: "GitHub logo" }
         - { label: "Dataset", url: "https://huggingface.co/datasets/teemosliang/CAFE", icon: huggingface, icon_alt: "Hugging Face logo" }
